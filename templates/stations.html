@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heading Out on the Town? Make Your First Stop a Station</title>
+    <!-- Link to your custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <!-- FontAwesome CSS for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Load Leaflet JS only if map exists -->
+    <script>
+        // Check if the map container exists and load map.js only if it does
+        window.addEventListener('load', function() {
+            const mapContainer = document.getElementById('map');
+            if (mapContainer) {
+                const script = document.createElement('script');
+                script.src = "{{ url_for('static', filename='js/map.js') }}";
+                document.head.appendChild(script);
+                console.log('map.js loaded successfully for map page.');
+            }
+        });
+    </script>
+    <!-- Inline CSS Styles for Additional Styling -->
+    <style>
+        /* Navigation Bar Styles */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar a {
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover, .navbar a.active {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Search Container Styles */
+        .search-container {
+            max-width: 800px;
+            margin: 80px auto 20px auto; /* Adjust top margin to account for navbar */
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search-container input,
+        .search-container select,
+        .search-container button {
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        #clear-search {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #clear-search:hover {
+            background-color: #d32f2f;
+        }
+
+        /* Line Circle Styles */
+        .line-circle {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 2px;
+            border: 1px solid #000; /* Optional border for better visibility */
+        }
+
+        /* Station Header Styles */
+        .station-header {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .station-header:hover {
+            background-color: #f1f1f1;
+        }
+
+        .station-header span.line-circle {
+            margin-right: 10px;
+        }
+
+        /* Station List Styles */
+        .station-list {
+            list-style-type: none;
+            padding: 0;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .station-item {
+            margin-bottom: 15px;
+        }
+
+        /* Amenities List Styles */
+        .amenities-list {
+            list-style-type: none;
+            padding-left: 30px;
+            margin-top: 10px;
+            display: none; /* Hidden by default */
+        }
+
+        .amenities-list li {
+            margin-bottom: 8px;
+        }
+
+        /* Loading and Error Messages */
+        .loading, .error {
+            font-style: italic;
+            color: #555;
+        }
+
+        /* Highlight Matching Stations */
+        .station-item.match {
+            background-color: #e0f7fa; /* Light cyan background */
+            transition: background-color 0.3s;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .search-container {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .station-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .station-header span.line-circle {
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">
+            <i class="fas fa-map-marker-alt"></i> Home (Map)
+        </a>
+        <a href="{{ url_for('stations_page') }}" class="{% if request.endpoint == 'stations_page' %}active{% endif %}">
+            <i class="fas fa-list"></i> Stations List
+        </a>
+        <a href="{{ url_for('itineraries_page') }}" class="{% if request.endpoint == 'itineraries_page' %}active{% endif %}">
+            <i class="fas fa-route"></i> Itineraries
+        </a>
+  <a href="{{ url_for('about_page') }}" class="{% if request.endpoint == 'about_page' %}active{% endif %}">
+            <i class="fas fa-info-circle"></i> About
+<a/>
+     </div>
+
+    <h1 style="text-align: center; margin-top: 80px;">Heading Out on the Town? Make Your First Stop a Transit Station</h1>
+
+<img src="{{ url_for('static', filename='images/sign.jpg') }}" alt="Exit Sign" style="display: block; margin: 20px auto; width: 60%; max-width: 450px; height: auto;">
+
+
+<div class="text-container">
+        <p>
+        What if there were the equivalent of highway exit signs that direct you to places to stay, eat, drink, and shop near transit stations? Now there are! Use this page to explore neighborhoods near transit, plan your outing, and find places to meet up with friends. Click a station to see what's nearby or enter a station or line in the filter and head over to the map page for a visual.
+    </p>
+<div>
+    <!-- Search Container -->
+    <div class="search-container">
+        <input type="text" id="station-search" placeholder="Search for a station..." aria-label="Search for a station" />
+        <select id="line-search" aria-label="Filter by transit line">
+            <option value="">All Lines</option>
+            {% for line in line_colors.keys() %}
+                <option value="{{ line }}">{{ line }}</option>
+            {% endfor %}
+        </select>
+        <button id="clear-search" aria-label="Clear search filters">Clear Search</button>
+    </div>
+
+    <ul class="station-list">
+        {% for station in stations %}
+            <li class="station-item">
+                <div class="station-header" onclick="toggleAmenities('{{ station.station_id }}')">
+                    <!-- Display circles for each metro line -->
+                    {% for line in station.station_line.split(',') %}
+                        {% set line_color = line_colors.get(line.strip(), '#808080') %}
+                        <span class="line-circle" style="background-color: {{ line_color }};" title="{{ line.strip().upper() }}"></span>
+                    {% endfor %}
+                    <strong>{{ station.station_name }}</strong>
+                </div>
+                <ul class="amenities-list" id="amenities-{{ station.station_id }}">
+                    <!-- Amenities will be dynamically loaded here -->
+                    <li class="loading">Loading amenities...</li>
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <!-- Footer -->
+    <footer class="stations-footer">
+        <p>&copy; 2024 Transit Inauguration. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to Handle Search, Fetching Amenities, and Filtering Transit Routes -->
+    <script>
+        // Debounce function to limit the rate of function execution
+        function debounce(func, delay) {
+            let debounceTimer;
+            return function() {
+                const context = this;
+                const args = arguments;
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => func.apply(context, args), delay);
+            }
+        }
+
+        /**
+         * Retrieves search parameters from localStorage.
+         * @returns {Object} - An object containing stationQuery and lineQuery.
+         */
+        function getSearchParams() {
+            const stationQuery = localStorage.getItem('stationQuery') || '';
+            const lineQuery = localStorage.getItem('lineQuery') || '';
+            console.log('Search Parameters:', { stationQuery, lineQuery }); // Debugging log
+            return { stationQuery, lineQuery: lineQuery.toUpperCase() }; // Convert lineQuery to uppercase
+        }
+
+        /**
+         * Stores search parameters in localStorage.
+         * @param {string} stationQuery - The station name query.
+         * @param {string} lineQuery - The transit line query.
+         */
+        function setSearchParams(stationQuery, lineQuery) {
+            console.log('Setting Search Params:', { stationQuery, lineQuery }); // Debugging log
+            localStorage.setItem('stationQuery', stationQuery);
+            localStorage.setItem('lineQuery', lineQuery);
+        }
+
+        /**
+         * Clears search parameters from localStorage.
+         */
+        function clearSearchParams() {
+            console.log('Clearing search parameters.'); // Debugging log
+            localStorage.removeItem('stationQuery');
+            localStorage.removeItem('lineQuery');
+        }
+
+        /**
+         * Initializes search inputs based on localStorage values.
+         */
+        function initializeSearchInputs() {
+            const { stationQuery, lineQuery } = getSearchParams();
+            document.getElementById('station-search').value = stationQuery;
+            document.getElementById('line-search').value = lineQuery.toLowerCase(); // Display line query in lowercase in UI
+        }
+
+        /**
+         * Handles changes in search inputs.
+         */
+        function handleSearchChange() {
+            const stationQuery = document.getElementById('station-search').value.trim();
+            const lineQuery = document.getElementById('line-search').value;
+
+            console.log('Search changed. Station Query:', stationQuery, 'Line Query:', lineQuery); // Debugging log
+
+            setSearchParams(stationQuery, lineQuery);
+
+            // Dispatch a custom event to notify other scripts/pages
+            window.dispatchEvent(new Event('searchUpdated'));
+        }
+
+        /**
+         * Handles the clear search button click.
+         */
+        function handleClearSearch() {
+            console.log('Clear search clicked.'); // Debugging log
+            document.getElementById('station-search').value = '';
+            document.getElementById('line-search').value = '';
+            clearSearchParams();
+
+            // Dispatch a custom event to notify other scripts/pages
+            window.dispatchEvent(new Event('searchUpdated'));
+        }
+
+        // Event Listeners for Search Inputs
+        document.getElementById('station-search').addEventListener('input', debounce(handleSearchChange, 300));
+        document.getElementById('line-search').addEventListener('change', handleSearchChange);
+        document.getElementById('clear-search').addEventListener('click', handleClearSearch);
+
+        // Listen for storage events to synchronize search across pages
+        window.addEventListener('storage', (event) => {
+            if (event.key === 'stationQuery' || event.key === 'lineQuery') {
+                initializeSearchInputs();
+                console.log('Storage event triggered.'); // Debugging log
+                // Dispatch a custom event to notify other scripts/pages
+                window.dispatchEvent(new Event('searchUpdated'));
+            }
+        });
+
+        // Initialize search inputs on page load
+        window.addEventListener('load', () => {
+            initializeSearchInputs();
+            filterStations();
+        });
+
+        /**
+         * Filters the station list based on search parameters.
+         */
+        function filterStations() {
+            const { stationQuery, lineQuery } = getSearchParams();
+
+            console.log('Filtering stations. Line Query:', lineQuery); // Debugging log
+
+            const stationItems = document.querySelectorAll('.station-item');
+
+            stationItems.forEach(item => {
+                const stationHeader = item.querySelector('.station-header');
+                const stationName = stationHeader.querySelector('strong').innerText.toLowerCase();
+                const stationLines = Array.from(stationHeader.querySelectorAll('.line-circle')).map(span => span.title.toUpperCase());
+
+                const matchesStation = stationName.includes(stationQuery.toLowerCase());
+                const matchesLine = lineQuery === '' || stationLines.includes(lineQuery);
+
+                console.log('Checking station:', stationName, 'Matches:', matchesStation, matchesLine); // Debugging log
+
+                if (matchesStation && matchesLine) {
+                    item.style.display = 'block';
+                    item.classList.add('match');
+                } else {
+                    item.style.display = 'none';
+                    item.classList.remove('match');
+                }
+            });
+
+            // If amenities are open for hidden stations, hide them
+            stationItems.forEach(item => {
+                if (item.style.display === 'none') {
+                    const amenitiesList = item.querySelector('.amenities-list');
+                    if (amenitiesList) {
+                        amenitiesList.style.display = 'none';
+                    }
+                }
+            });
+        }
+
+        // Listen for custom 'searchUpdated' event to filter stations and transit routes
+        window.addEventListener('searchUpdated', () => {
+            console.log('searchUpdated event triggered.'); // Debugging log
+            filterStations();
+            const { lineQuery } = getSearchParams();
+            console.log(`Line Query after searchUpdated: ${lineQuery}`);  // Log line query value
+            filterTransitRoutes(lineQuery); // Add transit route filtering based on the selected line
+        });
+
+        /**
+         * Toggles the display of amenities for a given station.
+         * @param {string} stationId - The unique ID of the station.
+         */
+        async function toggleAmenities(stationId) {
+            const amenitiesList = document.getElementById('amenities-' + stationId);
+            if (amenitiesList.style.display === 'none' || amenitiesList.style.display === '') {
+                amenitiesList.style.display = 'block';
+                // Check if amenities are already loaded to prevent redundant fetches
+                if (!amenitiesList.dataset.loaded) {
+                    try {
+                        // Display loading message
+                        amenitiesList.innerHTML = '<li class="loading">Loading amenities...</li>';
+
+                        console.log('Fetching amenities for station:', stationId); // Debugging log
+
+                        // Fetch hotels, coffee shops, bars, pharmacies, and restaurants concurrently
+                        const [hotelsResponse, coffeeResponse, barsResponse, pharmaciesResponse, restaurantsResponse] = await Promise.all([
+                            fetch(`/api/stations/${stationId}/hotels`),
+                            fetch(`/api/stations/${stationId}/coffee`),
+                            fetch(`/api/stations/${stationId}/bars`),
+                            fetch(`/api/stations/${stationId}/pharmacies`),
+                            fetch(`/api/stations/${stationId}/restaurants`) // New fetch for restaurants
+                        ]);
+
+                        // Check if all fetches were successful
+                        if (!hotelsResponse.ok || !coffeeResponse.ok || !barsResponse.ok || !pharmaciesResponse.ok || !restaurantsResponse.ok) {
+                            throw new Error('Failed to fetch amenities data.');
+                        }
+
+                        // Parse JSON responses
+                        const hotels = await hotelsResponse.json();
+                        const coffeeShops = await coffeeResponse.json();
+                        const bars = await barsResponse.json();
+                        const pharmacies = await pharmaciesResponse.json();
+                        const restaurants = await restaurantsResponse.json(); // Parse restaurants data
+
+                        // Clear the amenities list
+                        amenitiesList.innerHTML = '';
+
+                        // Populate Hotels
+                        if (hotels.length > 0) {
+                            amenitiesList.innerHTML += '<li><strong>Hotels:</strong></li>';
+                            hotels.forEach(hotel => {
+                                amenitiesList.innerHTML += `
+                                    <li>
+                                        <i class="fas fa-bed" style="color: black;"></i>
+                                        <a href="${hotel.hotel_website}" target="_blank">${hotel.hotel_name}</a>
+                                        - ${hotel.hotel_distance_miles} miles
+                                    </li>
+                                `;
+                            });
+                        } else {
+                            amenitiesList.innerHTML += '<li>No hotels found nearby.</li>';
+                        }
+
+                        // Populate Coffee Shops
+                        if (coffeeShops.length > 0) {
+                            amenitiesList.innerHTML += '<li><strong>Coffee Shops:</strong></li>';
+                            coffeeShops.forEach(shop => {
+                                amenitiesList.innerHTML += `
+                                    <li>
+                                        <i class="fas fa-coffee" style="color: black;"></i>
+                                        <a href="${shop.coffee_website}" target="_blank">${shop.coffee_name}</a>
+                                        - ${shop.coffee_distance_miles} miles
+                                    </li>
+                                `;
+                            });
+                        } else {
+                            amenitiesList.innerHTML += '<li>No coffee shops found nearby.</li>';
+                        }
+
+                        // Populate Bars
+                        if (bars.length > 0) {
+                            amenitiesList.innerHTML += '<li><strong>Bars:</strong></li>';
+                            bars.forEach(bar => {
+                                amenitiesList.innerHTML += `
+                                    <li>
+                                        <i class="fas fa-beer" style="color: black;"></i>
+                                        <a href="${bar.bar_website}" target="_blank">${bar.bar_name}</a>
+                                        - ${bar.bar_distance_miles} miles
+                                    </li>
+                                `;
+                            });
+                        } else {
+                            amenitiesList.innerHTML += '<li>No bars found nearby.</li>';
+                        }
+
+                        // Populate Pharmacies
+                        if (pharmacies.length > 0) {
+                            amenitiesList.innerHTML += '<li><strong>Pharmacies:</strong></li>';
+                            pharmacies.forEach(pharmacy => {
+                                amenitiesList.innerHTML += `
+                                    <li>
+                                        <i class="fas fa-pills" style="color: black;"></i>
+                                        <a href="${pharmacy.pharmacy_website}" target="_blank">${pharmacy.pharmacy_name}</a>
+                                        - ${pharmacy.pharmacy_distance_miles} miles
+                                    </li>
+                                `;
+                            });
+                        } else {
+                            amenitiesList.innerHTML += '<li>No pharmacies found nearby.</li>';
+                        }
+
+                        // Populate Restaurants
+                        if (restaurants.length > 0) {
+                            amenitiesList.innerHTML += '<li><strong>Restaurants:</strong></li>';
+                            restaurants.forEach(restaurant => {
+                                amenitiesList.innerHTML += `
+                                    <li>
+                                        <i class="fas fa-utensils" style="color: black;"></i>
+                                        <a href="${restaurant.restaurant_website}" target="_blank">${restaurant.restaurant_name}</a>
+                                        - ${restaurant.restaurant_distance_miles} miles
+                                        <br>
+                                        <span style="margin-left: 24px;">Cuisine: ${restaurant.restaurant_cuisine_type}</span>
+                                        <br>
+                                        <span style="margin-left: 24px;">Price: ${restaurant.restaurant_price}</span>
+                                    </li>
+                                `;
+                            });
+                        } else {
+                            amenitiesList.innerHTML += '<li>No restaurants found nearby.</li>';
+                        }
+
+                        // Mark as loaded to prevent future fetches
+                        amenitiesList.dataset.loaded = 'true';
+                    } catch (error) {
+                        console.error(error);
+                        amenitiesList.innerHTML = '<li class="error">Error loading amenities. Please try again later.</li>';
+                        alert("Sorry, we couldn't load the amenities at this time. Please try again later.");
+                    }
+                }
+            } else {
+                amenitiesList.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
