@@ -1,0 +1,2242 @@
+[
+    {
+        "pharmacy_id": "1",
+        "station_name": "ALLSTON ST STATION",
+        "station_id": "2",
+        "pharmacy_name": "Mayfair Food",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3531517,
+        "pharmacy_lon": -71.1379485,
+        "pharmacy_distance_miles": 0.31
+    },
+    {
+        "pharmacy_id": "2",
+        "station_name": "ALLSTON ST STATION",
+        "station_id": "2",
+        "pharmacy_name": "Lee's 2 Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3487231,
+        "pharmacy_lon": -71.1374272,
+        "pharmacy_distance_miles": 0.03
+    },
+    {
+        "pharmacy_id": "3",
+        "station_name": "ALLSTON ST STATION",
+        "station_id": "2",
+        "pharmacy_name": "Allston Convenience Store",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3479559,
+        "pharmacy_lon": -71.138184,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "4",
+        "station_name": "AMORY STREET STATION",
+        "station_id": "3",
+        "pharmacy_name": "Buick Street Market ",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3522328,
+        "pharmacy_lon": -71.1156835,
+        "pharmacy_distance_miles": 0.14
+    },
+    {
+        "pharmacy_id": "5",
+        "station_name": "ANDREW SQ STATION",
+        "station_id": "4",
+        "pharmacy_name": "Tedeschi food shops",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3302863,
+        "pharmacy_lon": -71.056568,
+        "pharmacy_distance_miles": 0.04
+    },
+    {
+        "pharmacy_id": "6",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "pharmacy_name": "Quincy Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3602163,
+        "pharmacy_lon": -71.0547993,
+        "pharmacy_distance_miles": 0.16
+    },
+    {
+        "pharmacy_id": "7",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "pharmacy_name": "Golden Goose Market",
+        "pharmacy_website": "https://www.goldengoosemarket.com/",
+        "pharmacy_lat": 42.3625673,
+        "pharmacy_lon": -71.0518833,
+        "pharmacy_distance_miles": 0.19
+    },
+    {
+        "pharmacy_id": "8",
+        "station_name": "ARLINGTON STATION",
+        "station_id": "5",
+        "pharmacy_name": "Capsule",
+        "pharmacy_website": "https://www.capsule.com/",
+        "pharmacy_lat": 42.351256,
+        "pharmacy_lon": -71.072408,
+        "pharmacy_distance_miles": 0.09
+    },
+    {
+        "pharmacy_id": "9",
+        "station_name": "ASHMONT STATION--RED LINE",
+        "station_id": "6",
+        "pharmacy_name": "Tedeschi Food Shops",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.286335,
+        "pharmacy_lon": -71.0638462,
+        "pharmacy_distance_miles": 0.19
+    },
+    {
+        "pharmacy_id": "10",
+        "station_name": "ASSEMBLY STATION",
+        "station_id": "7",
+        "pharmacy_name": "A Row Express",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3920283,
+        "pharmacy_lon": -71.0778328,
+        "pharmacy_distance_miles": 0.06
+    },
+    {
+        "pharmacy_id": "11",
+        "station_name": "AYER STATION",
+        "station_id": "117",
+        "pharmacy_name": "Gulf Express",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.5623552,
+        "pharmacy_lon": -71.5911276,
+        "pharmacy_distance_miles": 0.25
+    },
+    {
+        "pharmacy_id": "12",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "pharmacy_name": "Villa Victoria's Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3423482,
+        "pharmacy_lon": -71.0730863,
+        "pharmacy_distance_miles": 0.37
+    },
+    {
+        "pharmacy_id": "13",
+        "station_name": "BOSTON UNIV CENTRAL STATION",
+        "station_id": "14",
+        "pharmacy_name": "Loose Leafs",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3507931,
+        "pharmacy_lon": -71.1091116,
+        "pharmacy_distance_miles": 0.13
+    },
+    {
+        "pharmacy_id": "14",
+        "station_name": "BOSTON UNIV CENTRAL STATION",
+        "station_id": "14",
+        "pharmacy_name": "BU Farmer's Market - Thursdays",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3505004,
+        "pharmacy_lon": -71.1082649,
+        "pharmacy_distance_miles": 0.08
+    },
+    {
+        "pharmacy_id": "15",
+        "station_name": "BOSTON UNIV EAST STATION",
+        "station_id": "15",
+        "pharmacy_name": "City Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3494665,
+        "pharmacy_lon": -71.1045874,
+        "pharmacy_distance_miles": 0.04
+    },
+    {
+        "pharmacy_id": "16",
+        "station_name": "BOSTON UNIV EAST STATION",
+        "station_id": "15",
+        "pharmacy_name": "Terrier Bytes",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3499852,
+        "pharmacy_lon": -71.1028812,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "17",
+        "station_name": "BOWDOIN STATION BLUE LINE",
+        "station_id": "108",
+        "pharmacy_name": "Beacon Capitol Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3592653,
+        "pharmacy_lon": -71.0657434,
+        "pharmacy_distance_miles": 0.24
+    },
+    {
+        "pharmacy_id": "18",
+        "station_name": "BOWDOIN STATION BLUE LINE",
+        "station_id": "108",
+        "pharmacy_name": "Rite Aid",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.360981,
+        "pharmacy_lon": -71.0626238,
+        "pharmacy_distance_miles": 0.04
+    },
+    {
+        "pharmacy_id": "19",
+        "station_name": "BRAINTREE STATION--RED LINE ",
+        "station_id": "17",
+        "pharmacy_name": "Shaw's",
+        "pharmacy_website": "https://local.shaws.com/ma/braintree/125-pearl-st.html",
+        "pharmacy_lat": 42.2011085,
+        "pharmacy_lon": -71.0003255,
+        "pharmacy_distance_miles": 0.45
+    },
+    {
+        "pharmacy_id": "20",
+        "station_name": "BROADWAY STATION",
+        "station_id": "20",
+        "pharmacy_name": "J&J Mini-Mart",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3408495,
+        "pharmacy_lon": -71.0542654,
+        "pharmacy_distance_miles": 0.18
+    },
+    {
+        "pharmacy_id": "21",
+        "station_name": "BROADWAY STATION",
+        "station_id": "20",
+        "pharmacy_name": "Foodie's Market",
+        "pharmacy_website": "https://www.foodiesmarkets.com",
+        "pharmacy_lat": 42.3398293,
+        "pharmacy_lon": -71.0518744,
+        "pharmacy_distance_miles": 0.32
+    },
+    {
+        "pharmacy_id": "22",
+        "station_name": "BROOKLINE HILLS STATION",
+        "station_id": "21",
+        "pharmacy_name": "Kurkman's Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3272314,
+        "pharmacy_lon": -71.124604,
+        "pharmacy_distance_miles": 0.31
+    },
+    {
+        "pharmacy_id": "23",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "pharmacy_name": "Central Convenience Store",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3637348,
+        "pharmacy_lon": -71.1012607,
+        "pharmacy_distance_miles": 0.18
+    },
+    {
+        "pharmacy_id": "24",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "pharmacy_name": "Star Variety",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3650111,
+        "pharmacy_lon": -71.1044372,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "25",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "pharmacy_name": "Convenience Plus",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3665209,
+        "pharmacy_lon": -71.1052332,
+        "pharmacy_distance_miles": 0.1
+    },
+    {
+        "pharmacy_id": "26",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "pharmacy_name": "Daily Table",
+        "pharmacy_website": "https://dailytable.org/centralsquare",
+        "pharmacy_lat": 42.3656958,
+        "pharmacy_lon": -71.1045587,
+        "pharmacy_distance_miles": 0.04
+    },
+    {
+        "pharmacy_id": "27",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "pharmacy_name": "Black Sheep Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3602796,
+        "pharmacy_lon": -71.1099642,
+        "pharmacy_distance_miles": 0.48
+    },
+    {
+        "pharmacy_id": "28",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "pharmacy_name": "APlus",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.361694,
+        "pharmacy_lon": -71.0981373,
+        "pharmacy_distance_miles": 0.39
+    },
+    {
+        "pharmacy_id": "29",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "pharmacy_name": "Walgreens",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3654664,
+        "pharmacy_lon": -71.1034776,
+        "pharmacy_distance_miles": 0.02
+    },
+    {
+        "pharmacy_id": "30",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "pharmacy_name": "DeLuca's Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3565533,
+        "pharmacy_lon": -71.0694213,
+        "pharmacy_distance_miles": 0.32
+    },
+    {
+        "pharmacy_id": "31",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "pharmacy_name": "Beacon Hill Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3592218,
+        "pharmacy_lon": -71.0678037,
+        "pharmacy_distance_miles": 0.2
+    },
+    {
+        "pharmacy_id": "32",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "pharmacy_name": "Top Shelf",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3607914,
+        "pharmacy_lon": -71.0702452,
+        "pharmacy_distance_miles": 0.03
+    },
+    {
+        "pharmacy_id": "33",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "pharmacy_name": "Gary Drug Co.",
+        "pharmacy_website": "https://www.garydrug.com/",
+        "pharmacy_lat": 42.3577168,
+        "pharmacy_lon": -71.0700935,
+        "pharmacy_distance_miles": 0.24
+    },
+    {
+        "pharmacy_id": "34",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "pharmacy_name": "Jia Ho Supermarket",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3512504,
+        "pharmacy_lon": -71.0627836,
+        "pharmacy_distance_miles": 0.09
+    },
+    {
+        "pharmacy_id": "35",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "pharmacy_name": "CVS Pharmacy",
+        "pharmacy_website": "https://www.cvs.com/store-locator/boston-ma-pharmacies/631-washington-st-boston-ma-02111/storeid=5874",
+        "pharmacy_lat": 42.3525084,
+        "pharmacy_lon": -71.0628131,
+        "pharmacy_distance_miles": 0.0
+    },
+    {
+        "pharmacy_id": "36",
+        "station_name": "CHISWICK RD STATION",
+        "station_id": "28",
+        "pharmacy_name": "Huntington Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.340631,
+        "pharmacy_lon": -71.1514904,
+        "pharmacy_distance_miles": 0.03
+    },
+    {
+        "pharmacy_id": "37",
+        "station_name": "CLEVELAND CIRCLE PLATFORM STATION",
+        "station_id": "29",
+        "pharmacy_name": "Ccc's Cleveland Circle Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3366676,
+        "pharmacy_lon": -71.1514206,
+        "pharmacy_distance_miles": 0.11
+    },
+    {
+        "pharmacy_id": "38",
+        "station_name": "CONCORD STATION",
+        "station_id": "120",
+        "pharmacy_name": "New England Olive Oil Company",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4551195,
+        "pharmacy_lon": -71.3567345,
+        "pharmacy_distance_miles": 0.11
+    },
+    {
+        "pharmacy_id": "39",
+        "station_name": "CONCORD STATION",
+        "station_id": "120",
+        "pharmacy_name": "Farfalle Italian Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4558156,
+        "pharmacy_lon": -71.3574672,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "40",
+        "station_name": "CONCORD STATION",
+        "station_id": "120",
+        "pharmacy_name": "Crosby's Marketplace",
+        "pharmacy_website": "http://crosbysmarkets.com/",
+        "pharmacy_lat": 42.4539244,
+        "pharmacy_lon": -71.3558212,
+        "pharmacy_distance_miles": 0.2
+    },
+    {
+        "pharmacy_id": "41",
+        "station_name": "CONCORD STATION",
+        "station_id": "120",
+        "pharmacy_name": "Cumberland Farms",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4560178,
+        "pharmacy_lon": -71.3564674,
+        "pharmacy_distance_miles": 0.07
+    },
+    {
+        "pharmacy_id": "42",
+        "station_name": "COOLIDGE CORNER STATION",
+        "station_id": "31",
+        "pharmacy_name": "Trader Joe's",
+        "pharmacy_website": "https://locations.traderjoes.com/ma/brookline/501/",
+        "pharmacy_lat": 42.3419007,
+        "pharmacy_lon": -71.1205006,
+        "pharmacy_distance_miles": 0.03
+    },
+    {
+        "pharmacy_id": "43",
+        "station_name": "COOLIDGE CORNER STATION",
+        "station_id": "31",
+        "pharmacy_name": "Maruichi Select Shop",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3430402,
+        "pharmacy_lon": -71.1229296,
+        "pharmacy_distance_miles": 0.11
+    },
+    {
+        "pharmacy_id": "44",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "pharmacy_name": "The Wild Duck Market Place",
+        "pharmacy_website": "https://www.7-eleven.com/locations/ma/boston/717-boylston-st-37344",
+        "pharmacy_lat": 42.3496001,
+        "pharmacy_lon": -71.0800712,
+        "pharmacy_distance_miles": 0.14
+    },
+    {
+        "pharmacy_id": "45",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "pharmacy_name": "Deluca's Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3497642,
+        "pharmacy_lon": -71.0824595,
+        "pharmacy_distance_miles": 0.26
+    },
+    {
+        "pharmacy_id": "46",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "pharmacy_name": "Y-not Variety",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3956385,
+        "pharmacy_lon": -71.1159333,
+        "pharmacy_distance_miles": 0.35
+    },
+    {
+        "pharmacy_id": "47",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "pharmacy_name": "Somerville Flea",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3978802,
+        "pharmacy_lon": -71.1239366,
+        "pharmacy_distance_miles": 0.1
+    },
+    {
+        "pharmacy_id": "48",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "pharmacy_name": "Friendly Corner",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3974229,
+        "pharmacy_lon": -71.1305367,
+        "pharmacy_distance_miles": 0.41
+    },
+    {
+        "pharmacy_id": "49",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "pharmacy_name": "Wonderful Mart",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3966153,
+        "pharmacy_lon": -71.1296424,
+        "pharmacy_distance_miles": 0.36
+    },
+    {
+        "pharmacy_id": "50",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "pharmacy_name": "L. A. Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3964156,
+        "pharmacy_lon": -71.1294002,
+        "pharmacy_distance_miles": 0.35
+    },
+    {
+        "pharmacy_id": "51",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "pharmacy_name": "Food Land",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3937857,
+        "pharmacy_lon": -71.1264778,
+        "pharmacy_distance_miles": 0.29
+    },
+    {
+        "pharmacy_id": "52",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "pharmacy_name": "PK's Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.399052,
+        "pharmacy_lon": -71.1244421,
+        "pharmacy_distance_miles": 0.18
+    },
+    {
+        "pharmacy_id": "53",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "pharmacy_name": "Roche Bros.",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3554512,
+        "pharmacy_lon": -71.0600046,
+        "pharmacy_distance_miles": 0.01
+    },
+    {
+        "pharmacy_id": "54",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "pharmacy_name": "Martin's News Shops",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.356175,
+        "pharmacy_lon": -71.0571597,
+        "pharmacy_distance_miles": 0.16
+    },
+    {
+        "pharmacy_id": "55",
+        "station_name": "FENWAY STATION",
+        "station_id": "39",
+        "pharmacy_name": "Fenway Health Pharmacy",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3440411,
+        "pharmacy_lon": -71.0989704,
+        "pharmacy_distance_miles": 0.3
+    },
+    {
+        "pharmacy_id": "56",
+        "station_name": "FENWOOD RD STATION",
+        "station_id": "40",
+        "pharmacy_name": "Stop & Shop",
+        "pharmacy_website": "https://stores.stopandshop.com/ma/boston/1620-tremont-street",
+        "pharmacy_lat": 42.3333732,
+        "pharmacy_lon": -71.1041121,
+        "pharmacy_distance_miles": 0.08
+    },
+    {
+        "pharmacy_id": "57",
+        "station_name": "FENWOOD RD STATION",
+        "station_id": "40",
+        "pharmacy_name": "Hillside Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.330401,
+        "pharmacy_lon": -71.1029441,
+        "pharmacy_distance_miles": 0.27
+    },
+    {
+        "pharmacy_id": "58",
+        "station_name": "FIELDS CORNER STATION",
+        "station_id": "41",
+        "pharmacy_name": "Foodland Supermarket",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3019965,
+        "pharmacy_lon": -71.0601798,
+        "pharmacy_distance_miles": 0.15
+    },
+    {
+        "pharmacy_id": "59",
+        "station_name": "FIELDS CORNER STATION",
+        "station_id": "41",
+        "pharmacy_name": "Dorchester Food Co-op",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3046961,
+        "pharmacy_lon": -71.0683804,
+        "pharmacy_distance_miles": 0.47
+    },
+    {
+        "pharmacy_id": "60",
+        "station_name": "FITCHBURG STATION",
+        "station_id": "121",
+        "pharmacy_name": "Market Basket",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.5805532,
+        "pharmacy_lon": -71.7940078,
+        "pharmacy_distance_miles": 0.08
+    },
+    {
+        "pharmacy_id": "61",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_id": "42",
+        "pharmacy_name": "The Centre Food Hub",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.300495,
+        "pharmacy_lon": -71.1129119,
+        "pharmacy_distance_miles": 0.06
+    },
+    {
+        "pharmacy_id": "62",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_id": "42",
+        "pharmacy_name": "Emporium Gas",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2959373,
+        "pharmacy_lon": -71.1183271,
+        "pharmacy_distance_miles": 0.39
+    },
+    {
+        "pharmacy_id": "63",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_id": "42",
+        "pharmacy_name": "Forest Hills Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2998131,
+        "pharmacy_lon": -71.1134618,
+        "pharmacy_distance_miles": 0.07
+    },
+    {
+        "pharmacy_id": "64",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_id": "42",
+        "pharmacy_name": "Happy Market & Spirits",
+        "pharmacy_website": "https://happymarketspirits.com/",
+        "pharmacy_lat": 42.3055181,
+        "pharmacy_lon": -71.1145181,
+        "pharmacy_distance_miles": 0.33
+    },
+    {
+        "pharmacy_id": "65",
+        "station_name": "GREEN ST. STATION",
+        "station_id": "44",
+        "pharmacy_name": "Smoke Shop & Variety",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3125646,
+        "pharmacy_lon": -71.1140073,
+        "pharmacy_distance_miles": 0.36
+    },
+    {
+        "pharmacy_id": "66",
+        "station_name": "GREEN ST. STATION",
+        "station_id": "44",
+        "pharmacy_name": "Ruggiero's Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3100789,
+        "pharmacy_lon": -71.1042028,
+        "pharmacy_distance_miles": 0.17
+    },
+    {
+        "pharmacy_id": "67",
+        "station_name": "GRIGGS ST STATION",
+        "station_id": "45",
+        "pharmacy_name": "Central Pharmacy",
+        "pharmacy_website": "http://www.centralpharmacyboston.com/",
+        "pharmacy_lat": 42.3484624,
+        "pharmacy_lon": -71.1358259,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "68",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "pharmacy_name": "Night Star Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3541256,
+        "pharmacy_lon": -71.1325232,
+        "pharmacy_distance_miles": 0.28
+    },
+    {
+        "pharmacy_id": "69",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "pharmacy_name": "Allston Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3513539,
+        "pharmacy_lon": -71.1317379,
+        "pharmacy_distance_miles": 0.08
+    },
+    {
+        "pharmacy_id": "70",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "pharmacy_name": "Sunrise Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.352888,
+        "pharmacy_lon": -71.132458,
+        "pharmacy_distance_miles": 0.2
+    },
+    {
+        "pharmacy_id": "71",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "pharmacy_name": "La Favorita",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.354002,
+        "pharmacy_lon": -71.1321851,
+        "pharmacy_distance_miles": 0.27
+    },
+    {
+        "pharmacy_id": "72",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "pharmacy_name": "Berezka International Food Store",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3507735,
+        "pharmacy_lon": -71.13073,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "73",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "pharmacy_name": "Harvard Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3532725,
+        "pharmacy_lon": -71.1323457,
+        "pharmacy_distance_miles": 0.22
+    },
+    {
+        "pharmacy_id": "74",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "pharmacy_name": "Speedway",
+        "pharmacy_website": "https://www.speedway.com/locations/MA/Allston/100-BRIGHTON-AVE",
+        "pharmacy_lat": 42.3524236,
+        "pharmacy_lon": -71.1298904,
+        "pharmacy_distance_miles": 0.17
+    },
+    {
+        "pharmacy_id": "75",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "pharmacy_name": "Linden Superette",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3530069,
+        "pharmacy_lon": -71.1302588,
+        "pharmacy_distance_miles": 0.2
+    },
+    {
+        "pharmacy_id": "76",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "pharmacy_name": "Bazaar Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3544682,
+        "pharmacy_lon": -71.1344056,
+        "pharmacy_distance_miles": 0.34
+    },
+    {
+        "pharmacy_id": "77",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "pharmacy_name": "C'est Bon",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3741945,
+        "pharmacy_lon": -71.1190946,
+        "pharmacy_distance_miles": 0.06
+    },
+    {
+        "pharmacy_id": "78",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "pharmacy_name": "Tommy's Value",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3713562,
+        "pharmacy_lon": -71.1166253,
+        "pharmacy_distance_miles": 0.18
+    },
+    {
+        "pharmacy_id": "79",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "pharmacy_name": "Charles Square Farmer's Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3723375,
+        "pharmacy_lon": -71.1223295,
+        "pharmacy_distance_miles": 0.19
+    },
+    {
+        "pharmacy_id": "80",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "pharmacy_name": "Wholesome Fresh",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3739302,
+        "pharmacy_lon": -71.121275,
+        "pharmacy_distance_miles": 0.12
+    },
+    {
+        "pharmacy_id": "81",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "pharmacy_name": "Salt & Olive",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3724324,
+        "pharmacy_lon": -71.1193874,
+        "pharmacy_distance_miles": 0.07
+    },
+    {
+        "pharmacy_id": "82",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "pharmacy_name": "University Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3706386,
+        "pharmacy_lon": -71.1134141,
+        "pharmacy_distance_miles": 0.34
+    },
+    {
+        "pharmacy_id": "83",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "pharmacy_name": "Broadway Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3738034,
+        "pharmacy_lon": -71.1131063,
+        "pharmacy_distance_miles": 0.3
+    },
+    {
+        "pharmacy_id": "84",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "pharmacy_name": "Boston Public Market",
+        "pharmacy_website": "https://bostonpublicmarket.org",
+        "pharmacy_lat": 42.3621228,
+        "pharmacy_lon": -71.0575399,
+        "pharmacy_distance_miles": 0.03
+    },
+    {
+        "pharmacy_id": "85",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "pharmacy_name": "Bob's Grocery Store",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.365439,
+        "pharmacy_lon": -71.0575226,
+        "pharmacy_distance_miles": 0.24
+    },
+    {
+        "pharmacy_id": "86",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "pharmacy_name": "Sulmona Meat Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3640427,
+        "pharmacy_lon": -71.0554596,
+        "pharmacy_distance_miles": 0.19
+    },
+    {
+        "pharmacy_id": "87",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "pharmacy_name": "Going Bananas",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3633793,
+        "pharmacy_lon": -71.0560984,
+        "pharmacy_distance_miles": 0.14
+    },
+    {
+        "pharmacy_id": "88",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "pharmacy_name": "Symphony Mart",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3466842,
+        "pharmacy_lon": -71.0890102,
+        "pharmacy_distance_miles": 0.1
+    },
+    {
+        "pharmacy_id": "89",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "pharmacy_name": "Marlboro Market",
+        "pharmacy_website": "http://marlboromarketinc.com/",
+        "pharmacy_lat": 42.3499012,
+        "pharmacy_lon": -71.089264,
+        "pharmacy_distance_miles": 0.16
+    },
+    {
+        "pharmacy_id": "90",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "pharmacy_name": "Quality Mart",
+        "pharmacy_website": "https://www.qualitymartinc.com/",
+        "pharmacy_lat": 42.3506449,
+        "pharmacy_lon": -71.0896134,
+        "pharmacy_distance_miles": 0.21
+    },
+    {
+        "pharmacy_id": "91",
+        "station_name": "JACKSON SQ STATION",
+        "station_id": "53",
+        "pharmacy_name": "JP Convenience Store",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3250024,
+        "pharmacy_lon": -71.1050165,
+        "pharmacy_distance_miles": 0.3
+    },
+    {
+        "pharmacy_id": "92",
+        "station_name": "JACKSON SQ STATION",
+        "station_id": "53",
+        "pharmacy_name": "Pimentel Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3224429,
+        "pharmacy_lon": -71.1066488,
+        "pharmacy_distance_miles": 0.33
+    },
+    {
+        "pharmacy_id": "93",
+        "station_name": "JFK/UMAS--RED LINE STATION",
+        "station_id": "54",
+        "pharmacy_name": "Triangle Point Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3240445,
+        "pharmacy_lon": -71.0570234,
+        "pharmacy_distance_miles": 0.33
+    },
+    {
+        "pharmacy_id": "94",
+        "station_name": "JFK/UMAS--RED LINE STATION",
+        "station_id": "54",
+        "pharmacy_name": "Cappy's Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3186458,
+        "pharmacy_lon": -71.0568892,
+        "pharmacy_distance_miles": 0.27
+    },
+    {
+        "pharmacy_id": "95",
+        "station_name": "JFK/UMAS--RED LINE STATION",
+        "station_id": "54",
+        "pharmacy_name": "New Store On The Block",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.321815,
+        "pharmacy_lon": -71.0569268,
+        "pharmacy_distance_miles": 0.25
+    },
+    {
+        "pharmacy_id": "96",
+        "station_name": "JFK/UMAS--RED LINE STATION",
+        "station_id": "54",
+        "pharmacy_name": "Dorchester Mrket",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3183737,
+        "pharmacy_lon": -71.0569303,
+        "pharmacy_distance_miles": 0.28
+    },
+    {
+        "pharmacy_id": "97",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "pharmacy_name": "Brothers Marketplace",
+        "pharmacy_website": "https://brothers-marketplace.com",
+        "pharmacy_lat": 42.3624933,
+        "pharmacy_lon": -71.0834282,
+        "pharmacy_distance_miles": 0.14
+    },
+    {
+        "pharmacy_id": "98",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "pharmacy_name": "Fresh Mart",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3664267,
+        "pharmacy_lon": -71.0940051,
+        "pharmacy_distance_miles": 0.48
+    },
+    {
+        "pharmacy_id": "99",
+        "station_name": "LECHMERE STATION",
+        "station_id": "58",
+        "pharmacy_name": "Luigi's Variety",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3715688,
+        "pharmacy_lon": -71.0849521,
+        "pharmacy_distance_miles": 0.45
+    },
+    {
+        "pharmacy_id": "100",
+        "station_name": "LECHMERE STATION",
+        "station_id": "58",
+        "pharmacy_name": "Cambridge Medical Supply",
+        "pharmacy_website": "https://www.cambridgemedsupply.com/",
+        "pharmacy_lat": 42.3725742,
+        "pharmacy_lon": -71.0802515,
+        "pharmacy_distance_miles": 0.23
+    },
+    {
+        "pharmacy_id": "101",
+        "station_name": "LINCOLN STATION",
+        "station_id": "123",
+        "pharmacy_name": "Donelan's Supermarket",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4151807,
+        "pharmacy_lon": -71.3255447,
+        "pharmacy_distance_miles": 0.1
+    },
+    {
+        "pharmacy_id": "102",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "N & B Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4240334,
+        "pharmacy_lon": -71.080492,
+        "pharmacy_distance_miles": 0.37
+    },
+    {
+        "pharmacy_id": "103",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "One Stop C Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4231223,
+        "pharmacy_lon": -71.0802881,
+        "pharmacy_distance_miles": 0.4
+    },
+    {
+        "pharmacy_id": "104",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "Atlas Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4213287,
+        "pharmacy_lon": -71.0799418,
+        "pharmacy_distance_miles": 0.47
+    },
+    {
+        "pharmacy_id": "105",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "Harvard Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4214012,
+        "pharmacy_lon": -71.0799524,
+        "pharmacy_distance_miles": 0.47
+    },
+    {
+        "pharmacy_id": "106",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "Summer Street Fruit",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4292123,
+        "pharmacy_lon": -71.0742464,
+        "pharmacy_distance_miles": 0.18
+    },
+    {
+        "pharmacy_id": "107",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "Super 88 \u9999\u6e2f\u8d85\u5e02",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.421538,
+        "pharmacy_lon": -71.0740114,
+        "pharmacy_distance_miles": 0.35
+    },
+    {
+        "pharmacy_id": "108",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "International Dollar Store",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4269263,
+        "pharmacy_lon": -71.0686082,
+        "pharmacy_distance_miles": 0.28
+    },
+    {
+        "pharmacy_id": "109",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "Baba Supermarket",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4273194,
+        "pharmacy_lon": -71.0720764,
+        "pharmacy_distance_miles": 0.11
+    },
+    {
+        "pharmacy_id": "110",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "One Stop Mart",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.426759,
+        "pharmacy_lon": -71.0680769,
+        "pharmacy_distance_miles": 0.31
+    },
+    {
+        "pharmacy_id": "111",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "Safy Halal Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4264175,
+        "pharmacy_lon": -71.0678617,
+        "pharmacy_distance_miles": 0.32
+    },
+    {
+        "pharmacy_id": "112",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "Super Stop & Shop",
+        "pharmacy_website": "https://stores.stopandshop.com/ma/malden/99-charles-street",
+        "pharmacy_lat": 42.4243084,
+        "pharmacy_lon": -71.0714729,
+        "pharmacy_distance_miles": 0.21
+    },
+    {
+        "pharmacy_id": "113",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "pharmacy_name": "Elmwood Pharmacy",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4273694,
+        "pharmacy_lon": -71.0752851,
+        "pharmacy_distance_miles": 0.08
+    },
+    {
+        "pharmacy_id": "114",
+        "station_name": "MASSACHUSETTS AVE STATION",
+        "station_id": "62",
+        "pharmacy_name": "College Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3419184,
+        "pharmacy_lon": -71.0863571,
+        "pharmacy_distance_miles": 0.09
+    },
+    {
+        "pharmacy_id": "115",
+        "station_name": "MASSACHUSETTS AVE STATION",
+        "station_id": "62",
+        "pharmacy_name": "Testing Supermarket",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3449421,
+        "pharmacy_lon": -71.0852457,
+        "pharmacy_distance_miles": 0.16
+    },
+    {
+        "pharmacy_id": "116",
+        "station_name": "MASSACHUSETTS AVE STATION",
+        "station_id": "62",
+        "pharmacy_name": "The Food Basket",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3411163,
+        "pharmacy_lon": -71.0814058,
+        "pharmacy_distance_miles": 0.21
+    },
+    {
+        "pharmacy_id": "117",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "Las Palmas Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.370306,
+        "pharmacy_lon": -71.0380986,
+        "pharmacy_distance_miles": 0.11
+    },
+    {
+        "pharmacy_id": "118",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "Maverick Multiservice & Grocery",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3706944,
+        "pharmacy_lon": -71.0380789,
+        "pharmacy_distance_miles": 0.13
+    },
+    {
+        "pharmacy_id": "119",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "EBO & Co. Grocery",
+        "pharmacy_website": "https://www.eastbostonoysters.com/",
+        "pharmacy_lat": 42.3729146,
+        "pharmacy_lon": -71.0391985,
+        "pharmacy_distance_miles": 0.26
+    },
+    {
+        "pharmacy_id": "120",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "Jaqueline Grocery Store",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3734219,
+        "pharmacy_lon": -71.038713,
+        "pharmacy_distance_miles": 0.3
+    },
+    {
+        "pharmacy_id": "121",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "La Esperanza Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3758058,
+        "pharmacy_lon": -71.0392808,
+        "pharmacy_distance_miles": 0.46
+    },
+    {
+        "pharmacy_id": "122",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "Riqueza Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3736714,
+        "pharmacy_lon": -71.0392113,
+        "pharmacy_distance_miles": 0.31
+    },
+    {
+        "pharmacy_id": "123",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "The T Station Grocery",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3689701,
+        "pharmacy_lon": -71.0393151,
+        "pharmacy_distance_miles": 0.02
+    },
+    {
+        "pharmacy_id": "124",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "Bella's Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3698561,
+        "pharmacy_lon": -71.0385816,
+        "pharmacy_distance_miles": 0.07
+    },
+    {
+        "pharmacy_id": "125",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "Los Paisanos Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3705466,
+        "pharmacy_lon": -71.0388296,
+        "pharmacy_distance_miles": 0.1
+    },
+    {
+        "pharmacy_id": "126",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "Square Bites",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3700078,
+        "pharmacy_lon": -71.0391923,
+        "pharmacy_distance_miles": 0.06
+    },
+    {
+        "pharmacy_id": "127",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "pharmacy_name": "Portside Market & Spirits",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.367264,
+        "pharmacy_lon": -71.0407879,
+        "pharmacy_distance_miles": 0.14
+    },
+    {
+        "pharmacy_id": "128",
+        "station_name": "NEWTON CENTRE STATION",
+        "station_id": "65",
+        "pharmacy_name": "Union Pharmacy",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.329752,
+        "pharmacy_lon": -71.1935342,
+        "pharmacy_distance_miles": 0.06
+    },
+    {
+        "pharmacy_id": "129",
+        "station_name": "NEWTON HIGHLANDS STATION",
+        "station_id": "66",
+        "pharmacy_name": "Tedeschi",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.31663,
+        "pharmacy_lon": -71.2084757,
+        "pharmacy_distance_miles": 0.43
+    },
+    {
+        "pharmacy_id": "130",
+        "station_name": "NORTH LEOMINSTER STATION",
+        "station_id": "125",
+        "pharmacy_name": "Shell",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.5344657,
+        "pharmacy_lon": -71.7418021,
+        "pharmacy_distance_miles": 0.37
+    },
+    {
+        "pharmacy_id": "131",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "pharmacy_name": "C Mart Quincy",
+        "pharmacy_website": "https://www.cmartboston.com/",
+        "pharmacy_lat": 42.2716666,
+        "pharmacy_lon": -71.0243672,
+        "pharmacy_distance_miles": 0.37
+    },
+    {
+        "pharmacy_id": "132",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "pharmacy_name": "5 Corners Food Mart",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2783945,
+        "pharmacy_lon": -71.0274743,
+        "pharmacy_distance_miles": 0.24
+    },
+    {
+        "pharmacy_id": "133",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "pharmacy_name": "Yin Yin Convenience Store",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2738346,
+        "pharmacy_lon": -71.0256527,
+        "pharmacy_distance_miles": 0.22
+    },
+    {
+        "pharmacy_id": "134",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "pharmacy_name": "Yuen Sum Tai Groceries",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2738556,
+        "pharmacy_lon": -71.0249587,
+        "pharmacy_distance_miles": 0.26
+    },
+    {
+        "pharmacy_id": "135",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "pharmacy_name": "Sam's Variety",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.275318,
+        "pharmacy_lon": -71.02198,
+        "pharmacy_distance_miles": 0.39
+    },
+    {
+        "pharmacy_id": "136",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "pharmacy_name": "Stop and Shop Pharmacy",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2713401,
+        "pharmacy_lon": -71.0267056,
+        "pharmacy_distance_miles": 0.31
+    },
+    {
+        "pharmacy_id": "137",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "pharmacy_name": "Star Market",
+        "pharmacy_website": "https://local.starmarket.com/ma/boston/90-causeway-st.html",
+        "pharmacy_lat": 42.3657266,
+        "pharmacy_lon": -71.0616706,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "138",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "pharmacy_name": "Star Market Pharmacy",
+        "pharmacy_website": "https://local.pharmacy.starmarket.com/ma/boston/90-causeway-st.html",
+        "pharmacy_lat": 42.3656965,
+        "pharmacy_lon": -71.0617268,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "139",
+        "station_name": "NORTHEASTERN STATION",
+        "station_id": "70",
+        "pharmacy_name": "Wollaston's Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3403456,
+        "pharmacy_lon": -71.0906607,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "140",
+        "station_name": "NORTHEASTERN STATION",
+        "station_id": "70",
+        "pharmacy_name": "the Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3392406,
+        "pharmacy_lon": -71.0877357,
+        "pharmacy_distance_miles": 0.11
+    },
+    {
+        "pharmacy_id": "141",
+        "station_name": "OAK GROVE STATION - ORANGE LINE",
+        "station_id": "71",
+        "pharmacy_name": "Oak Grove Variety",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4355662,
+        "pharmacy_lon": -71.0723909,
+        "pharmacy_distance_miles": 0.15
+    },
+    {
+        "pharmacy_id": "142",
+        "station_name": "OAK GROVE STATION - ORANGE LINE",
+        "station_id": "71",
+        "pharmacy_name": "Dandea's Superette",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4337101,
+        "pharmacy_lon": -71.0683141,
+        "pharmacy_distance_miles": 0.29
+    },
+    {
+        "pharmacy_id": "143",
+        "station_name": "ORIENT HEIGTS STATION",
+        "station_id": "111",
+        "pharmacy_name": "Saratoga Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3859205,
+        "pharmacy_lon": -71.0109011,
+        "pharmacy_distance_miles": 0.32
+    },
+    {
+        "pharmacy_id": "144",
+        "station_name": "PACKARDS CORNER STATION",
+        "station_id": "72",
+        "pharmacy_name": "Commonwealth Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3518736,
+        "pharmacy_lon": -71.1240546,
+        "pharmacy_distance_miles": 0.04
+    },
+    {
+        "pharmacy_id": "145",
+        "station_name": "PACKARDS CORNER STATION",
+        "station_id": "72",
+        "pharmacy_name": "Hong Kong Supermarket",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3530265,
+        "pharmacy_lon": -71.1252829,
+        "pharmacy_distance_miles": 0.08
+    },
+    {
+        "pharmacy_id": "146",
+        "station_name": "PACKARDS CORNER STATION",
+        "station_id": "72",
+        "pharmacy_name": "Joe's Kwik Marts",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3584868,
+        "pharmacy_lon": -71.1262613,
+        "pharmacy_distance_miles": 0.46
+    },
+    {
+        "pharmacy_id": "147",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "pharmacy_name": "Lambert's Marketplace",
+        "pharmacy_website": "http://lambertsmarket.com/",
+        "pharmacy_lat": 42.355635,
+        "pharmacy_lon": -71.0626046,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "148",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "pharmacy_name": "KS Variety",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3581293,
+        "pharmacy_lon": -71.0618052,
+        "pharmacy_distance_miles": 0.12
+    },
+    {
+        "pharmacy_id": "149",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "pharmacy_name": "Thistle & Shamrock",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3889473,
+        "pharmacy_lon": -71.1248342,
+        "pharmacy_distance_miles": 0.29
+    },
+    {
+        "pharmacy_id": "150",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "pharmacy_name": "City Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3829042,
+        "pharmacy_lon": -71.1193998,
+        "pharmacy_distance_miles": 0.38
+    },
+    {
+        "pharmacy_id": "151",
+        "station_name": "PORTER SQUARE--COMMUTER RAIL STATION",
+        "station_id": "127",
+        "pharmacy_name": "Montrose Spa",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3812412,
+        "pharmacy_lon": -71.1200499,
+        "pharmacy_distance_miles": 0.49
+    },
+    {
+        "pharmacy_id": "152",
+        "station_name": "QUINCY CENTER STATION--RED LINE",
+        "station_id": "78",
+        "pharmacy_name": "Hancock Market & Liquor",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2478483,
+        "pharmacy_lon": -71.0011562,
+        "pharmacy_distance_miles": 0.35
+    },
+    {
+        "pharmacy_id": "153",
+        "station_name": "QUINCY CENTER STATION--RED LINE",
+        "station_id": "78",
+        "pharmacy_name": "roxy",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2538325,
+        "pharmacy_lon": -70.9963811,
+        "pharmacy_distance_miles": 0.48
+    },
+    {
+        "pharmacy_id": "154",
+        "station_name": "REVERE BEACH STATION",
+        "station_id": "112",
+        "pharmacy_name": "Battambong market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.407969,
+        "pharmacy_lon": -70.996061,
+        "pharmacy_distance_miles": 0.18
+    },
+    {
+        "pharmacy_id": "155",
+        "station_name": "RUGGLES STATION--ORANGE LINE",
+        "station_id": "83",
+        "pharmacy_name": "Pe\u00f1a's Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3364314,
+        "pharmacy_lon": -71.0858751,
+        "pharmacy_distance_miles": 0.18
+    },
+    {
+        "pharmacy_id": "156",
+        "station_name": "RUGGLES STATION--ORANGE LINE",
+        "station_id": "83",
+        "pharmacy_name": "Ruggles Pizza & Cafe",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3367453,
+        "pharmacy_lon": -71.0890378,
+        "pharmacy_distance_miles": 0.02
+    },
+    {
+        "pharmacy_id": "157",
+        "station_name": "RUGGLES STATION--ORANGE LINE",
+        "station_id": "83",
+        "pharmacy_name": "Quick Pick",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3374453,
+        "pharmacy_lon": -71.084091,
+        "pharmacy_distance_miles": 0.27
+    },
+    {
+        "pharmacy_id": "158",
+        "station_name": "RUGGLES STATION--ORANGE LINE",
+        "station_id": "83",
+        "pharmacy_name": "Tropical Foods",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3332549,
+        "pharmacy_lon": -71.0823224,
+        "pharmacy_distance_miles": 0.43
+    },
+    {
+        "pharmacy_id": "159",
+        "station_name": "SAINT MARY ST STATION",
+        "station_id": "84",
+        "pharmacy_name": "H Mart",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3461622,
+        "pharmacy_lon": -71.1082135,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "160",
+        "station_name": "SAVIN HILL STATION",
+        "station_id": "86",
+        "pharmacy_name": "Walgreens",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3132119,
+        "pharmacy_lon": -71.0565788,
+        "pharmacy_distance_miles": 0.21
+    },
+    {
+        "pharmacy_id": "161",
+        "station_name": "SHIRLEY STATION",
+        "station_id": "128",
+        "pharmacy_name": "M & M Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.544079,
+        "pharmacy_lon": -71.6532634,
+        "pharmacy_distance_miles": 0.25
+    },
+    {
+        "pharmacy_id": "162",
+        "station_name": "SOUTH ACTON STATION",
+        "station_id": "129",
+        "pharmacy_name": "Haffner's",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.46288,
+        "pharmacy_lon": -71.4640172,
+        "pharmacy_distance_miles": 0.37
+    },
+    {
+        "pharmacy_id": "163",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "pharmacy_name": "Pick n\u2019 Bite",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3519032,
+        "pharmacy_lon": -71.0549878,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "164",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "pharmacy_name": "Ego Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3544103,
+        "pharmacy_lon": -71.0561509,
+        "pharmacy_distance_miles": 0.13
+    },
+    {
+        "pharmacy_id": "165",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "pharmacy_name": "Sagarino's",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3472764,
+        "pharmacy_lon": -71.0502388,
+        "pharmacy_distance_miles": 0.45
+    },
+    {
+        "pharmacy_id": "166",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "pharmacy_name": "BNC Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3584689,
+        "pharmacy_lon": -71.0577368,
+        "pharmacy_distance_miles": 0.04
+    },
+    {
+        "pharmacy_id": "167",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "pharmacy_name": "Pepper Palace",
+        "pharmacy_website": "https://pepperpalace.com/pages/boston-ma",
+        "pharmacy_lat": 42.359706,
+        "pharmacy_lon": -71.0550683,
+        "pharmacy_distance_miles": 0.14
+    },
+    {
+        "pharmacy_id": "168",
+        "station_name": "STONEYBROOK STATION",
+        "station_id": "91",
+        "pharmacy_name": "City Feed and Supply",
+        "pharmacy_website": "https://cityfeedandsupply.com/boylston-street-store/",
+        "pharmacy_lat": 42.3172057,
+        "pharmacy_lon": -71.10629,
+        "pharmacy_distance_miles": 0.11
+    },
+    {
+        "pharmacy_id": "169",
+        "station_name": "STONEYBROOK STATION",
+        "station_id": "91",
+        "pharmacy_name": "Joseph's Style Barbershop",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3147807,
+        "pharmacy_lon": -71.0994812,
+        "pharmacy_distance_miles": 0.29
+    },
+    {
+        "pharmacy_id": "170",
+        "station_name": "SULLIVAN STATION",
+        "station_id": "92",
+        "pharmacy_name": "Khoury's State Spa",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3875858,
+        "pharmacy_lon": -71.0841616,
+        "pharmacy_distance_miles": 0.44
+    },
+    {
+        "pharmacy_id": "171",
+        "station_name": "SULLIVAN STATION",
+        "station_id": "92",
+        "pharmacy_name": "Rev Clinics",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3870647,
+        "pharmacy_lon": -71.0810397,
+        "pharmacy_distance_miles": 0.3
+    },
+    {
+        "pharmacy_id": "172",
+        "station_name": "SUMMIT AVE STATION",
+        "station_id": "93",
+        "pharmacy_name": "The Butcherie",
+        "pharmacy_website": "https://www.butcherie.com/",
+        "pharmacy_lat": 42.3455932,
+        "pharmacy_lon": -71.1276813,
+        "pharmacy_distance_miles": 0.34
+    },
+    {
+        "pharmacy_id": "173",
+        "station_name": "SUTHERLAND RD STATION",
+        "station_id": "94",
+        "pharmacy_name": "7-Eleven",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.341704,
+        "pharmacy_lon": -71.1463191,
+        "pharmacy_distance_miles": 0.01
+    },
+    {
+        "pharmacy_id": "174",
+        "station_name": "SUTHERLAND RD STATION",
+        "station_id": "94",
+        "pharmacy_name": "Chansky's Super Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3411828,
+        "pharmacy_lon": -71.1467567,
+        "pharmacy_distance_miles": 0.04
+    },
+    {
+        "pharmacy_id": "175",
+        "station_name": "SUTHERLAND RD STATION",
+        "station_id": "94",
+        "pharmacy_name": "Health First Pharmacy",
+        "pharmacy_website": "https://myhealthfirstpharmacy.com/locations/boston",
+        "pharmacy_lat": 42.341572,
+        "pharmacy_lon": -71.1451322,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "176",
+        "station_name": "SUTHERLAND RD STATION",
+        "station_id": "94",
+        "pharmacy_name": "Brighton Pharmacy",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3412524,
+        "pharmacy_lon": -71.1465211,
+        "pharmacy_distance_miles": 0.03
+    },
+    {
+        "pharmacy_id": "177",
+        "station_name": "SYMPHONY STATION",
+        "station_id": "95",
+        "pharmacy_name": "Whole Foods Market",
+        "pharmacy_website": "https://www.wholefoodsmarket.com/stores/symphony",
+        "pharmacy_lat": 42.3438923,
+        "pharmacy_lon": -71.0872674,
+        "pharmacy_distance_miles": 0.14
+    },
+    {
+        "pharmacy_id": "178",
+        "station_name": "SYMPHONY STATION",
+        "station_id": "95",
+        "pharmacy_name": "Symphony Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3414972,
+        "pharmacy_lon": -71.0867824,
+        "pharmacy_distance_miles": 0.12
+    },
+    {
+        "pharmacy_id": "179",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "pharmacy_name": "C-Mart",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3462438,
+        "pharmacy_lon": -71.0649971,
+        "pharmacy_distance_miles": 0.23
+    },
+    {
+        "pharmacy_id": "180",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "pharmacy_name": "Ming's Supermarket",
+        "pharmacy_website": "https://www.newyorkmart.com/en/stores/boston1-store/",
+        "pharmacy_lat": 42.3441831,
+        "pharmacy_lon": -71.0655817,
+        "pharmacy_distance_miles": 0.38
+    },
+    {
+        "pharmacy_id": "181",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "pharmacy_name": "True Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3731544,
+        "pharmacy_lon": -71.228162,
+        "pharmacy_distance_miles": 0.39
+    },
+    {
+        "pharmacy_id": "182",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "pharmacy_name": "Patel Brothers",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.368862,
+        "pharmacy_lon": -71.2375899,
+        "pharmacy_distance_miles": 0.38
+    },
+    {
+        "pharmacy_id": "183",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "pharmacy_name": "Waltham India Market",
+        "pharmacy_website": "https://indiamarket.co/index.html",
+        "pharmacy_lat": 42.370772,
+        "pharmacy_lon": -71.2372289,
+        "pharmacy_distance_miles": 0.25
+    },
+    {
+        "pharmacy_id": "184",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "pharmacy_name": "A1 Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3701077,
+        "pharmacy_lon": -71.2372684,
+        "pharmacy_distance_miles": 0.3
+    },
+    {
+        "pharmacy_id": "185",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "pharmacy_name": "Cronin's Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3716648,
+        "pharmacy_lon": -71.2375112,
+        "pharmacy_distance_miles": 0.2
+    },
+    {
+        "pharmacy_id": "186",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "pharmacy_name": "Quick Stop Variety",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3766434,
+        "pharmacy_lon": -71.2348133,
+        "pharmacy_distance_miles": 0.17
+    },
+    {
+        "pharmacy_id": "187",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "pharmacy_name": "Hannaford",
+        "pharmacy_website": "https://stores.hannaford.com/ma/waltham/8017",
+        "pharmacy_lat": 42.375959,
+        "pharmacy_lon": -71.2445398,
+        "pharmacy_distance_miles": 0.48
+    },
+    {
+        "pharmacy_id": "188",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "pharmacy_name": "Hannaford Pharmacy",
+        "pharmacy_website": "https://stores.hannaford.com/ma/waltham/8017",
+        "pharmacy_lat": 42.375843,
+        "pharmacy_lon": -71.2449684,
+        "pharmacy_distance_miles": 0.49
+    },
+    {
+        "pharmacy_id": "189",
+        "station_name": "WARREN ST STATION",
+        "station_id": "99",
+        "pharmacy_name": "Cheema's Super Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3523825,
+        "pharmacy_lon": -71.1403616,
+        "pharmacy_distance_miles": 0.28
+    },
+    {
+        "pharmacy_id": "190",
+        "station_name": "WARREN ST STATION",
+        "station_id": "99",
+        "pharmacy_name": "Father & Son Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3489337,
+        "pharmacy_lon": -71.1402052,
+        "pharmacy_distance_miles": 0.04
+    },
+    {
+        "pharmacy_id": "191",
+        "station_name": "WASHINGTON ST STATION",
+        "station_id": "101",
+        "pharmacy_name": "Babushka Deli",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3433052,
+        "pharmacy_lon": -71.1424434,
+        "pharmacy_distance_miles": 0.04
+    },
+    {
+        "pharmacy_id": "192",
+        "station_name": "WELLINGTON STATION",
+        "station_id": "102",
+        "pharmacy_name": "ALDI",
+        "pharmacy_website": "https://stores.aldi.us/ma/medford/630-fellsway",
+        "pharmacy_lat": 42.4069525,
+        "pharmacy_lon": -71.083666,
+        "pharmacy_distance_miles": 0.5
+    },
+    {
+        "pharmacy_id": "193",
+        "station_name": "WEST CONCORD STATION",
+        "station_id": "133",
+        "pharmacy_name": "Debra's Natural Gourmet",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4573395,
+        "pharmacy_lon": -71.3954556,
+        "pharmacy_distance_miles": 0.13
+    },
+    {
+        "pharmacy_id": "194",
+        "station_name": "WEST CONCORD STATION",
+        "station_id": "133",
+        "pharmacy_name": "West Concord Pharmacy",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4569445,
+        "pharmacy_lon": -71.3918274,
+        "pharmacy_distance_miles": 0.06
+    },
+    {
+        "pharmacy_id": "195",
+        "station_name": "WOLLASTON STATION",
+        "station_id": "103",
+        "pharmacy_name": "99 Ranch Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2704534,
+        "pharmacy_lon": -71.0235261,
+        "pharmacy_distance_miles": 0.32
+    },
+    {
+        "pharmacy_id": "196",
+        "station_name": "WOLLASTON STATION",
+        "station_id": "103",
+        "pharmacy_name": "Everest Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2629158,
+        "pharmacy_lon": -71.0125815,
+        "pharmacy_distance_miles": 0.47
+    },
+    {
+        "pharmacy_id": "197",
+        "station_name": "WOLLASTON STATION",
+        "station_id": "103",
+        "pharmacy_name": "Xiaoqi Convenience Store",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2688649,
+        "pharmacy_lon": -71.0178075,
+        "pharmacy_distance_miles": 0.21
+    },
+    {
+        "pharmacy_id": "198",
+        "station_name": "WOLLASTON STATION",
+        "station_id": "103",
+        "pharmacy_name": "New York Marts supermarkets",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.2659299,
+        "pharmacy_lon": -71.0144098,
+        "pharmacy_distance_miles": 0.31
+    },
+    {
+        "pharmacy_id": "199",
+        "station_name": "WOOD ISLAND STATION",
+        "station_id": "116",
+        "pharmacy_name": "Neptune Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.380153,
+        "pharmacy_lon": -71.0260084,
+        "pharmacy_distance_miles": 0.16
+    },
+    {
+        "pharmacy_id": "200",
+        "station_name": "WOOD ISLAND STATION",
+        "station_id": "116",
+        "pharmacy_name": "Eagle Hill Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3807538,
+        "pharmacy_lon": -71.0311025,
+        "pharmacy_distance_miles": 0.43
+    },
+    {
+        "pharmacy_id": "201",
+        "station_name": "WOOD ISLAND STATION",
+        "station_id": "116",
+        "pharmacy_name": "Eben Ezer Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3805475,
+        "pharmacy_lon": -71.027585,
+        "pharmacy_distance_miles": 0.25
+    },
+    {
+        "pharmacy_id": "202",
+        "station_name": "WOOD ISLAND STATION",
+        "station_id": "116",
+        "pharmacy_name": "Richdale's",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3838999,
+        "pharmacy_lon": -71.0162263,
+        "pharmacy_distance_miles": 0.45
+    },
+    {
+        "pharmacy_id": "203",
+        "station_name": "BALL SQUARE STATION",
+        "station_id": "135",
+        "pharmacy_name": "Y-not Variety",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3956385,
+        "pharmacy_lon": -71.1159333,
+        "pharmacy_distance_miles": 0.44
+    },
+    {
+        "pharmacy_id": "204",
+        "station_name": "BALL SQUARE STATION",
+        "station_id": "135",
+        "pharmacy_name": "7-Eleven",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3983189,
+        "pharmacy_lon": -71.1083875,
+        "pharmacy_distance_miles": 0.17
+    },
+    {
+        "pharmacy_id": "205",
+        "station_name": "BALL SQUARE STATION",
+        "station_id": "135",
+        "pharmacy_name": "Neighborhood Produce",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3999738,
+        "pharmacy_lon": -71.1119371,
+        "pharmacy_distance_miles": 0.1
+    },
+    {
+        "pharmacy_id": "206",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "pharmacy_name": "Mid-Nite Convenience",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3795442,
+        "pharmacy_lon": -71.0959933,
+        "pharmacy_distance_miles": 0.41
+    },
+    {
+        "pharmacy_id": "207",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "pharmacy_name": "Star Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.373999,
+        "pharmacy_lon": -71.0837988,
+        "pharmacy_distance_miles": 0.47
+    },
+    {
+        "pharmacy_id": "208",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "pharmacy_name": "Speedway",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3825761,
+        "pharmacy_lon": -71.0800174,
+        "pharmacy_distance_miles": 0.45
+    },
+    {
+        "pharmacy_id": "209",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "pharmacy_name": "Reliable Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3801351,
+        "pharmacy_lon": -71.0962969,
+        "pharmacy_distance_miles": 0.42
+    },
+    {
+        "pharmacy_id": "210",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "pharmacy_name": "Mineir\u00e3o One Stop Mart Mercado Brasileiro",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.379874,
+        "pharmacy_lon": -71.0957645,
+        "pharmacy_distance_miles": 0.4
+    },
+    {
+        "pharmacy_id": "211",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "pharmacy_name": "International Market Multiservice",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3802021,
+        "pharmacy_lon": -71.090338,
+        "pharmacy_distance_miles": 0.12
+    },
+    {
+        "pharmacy_id": "212",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "pharmacy_name": "Lucky Corner",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3793908,
+        "pharmacy_lon": -71.0919231,
+        "pharmacy_distance_miles": 0.21
+    },
+    {
+        "pharmacy_id": "213",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "pharmacy_name": "Target",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3763588,
+        "pharmacy_lon": -71.0905825,
+        "pharmacy_distance_miles": 0.28
+    },
+    {
+        "pharmacy_id": "214",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "pharmacy_name": "Get-N-Go",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.388293,
+        "pharmacy_lon": -71.1033453,
+        "pharmacy_distance_miles": 0.34
+    },
+    {
+        "pharmacy_id": "215",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "pharmacy_name": "Bostonian Convenience II",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3917322,
+        "pharmacy_lon": -71.0999677,
+        "pharmacy_distance_miles": 0.3
+    },
+    {
+        "pharmacy_id": "216",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "pharmacy_name": "Sky Braz",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3915831,
+        "pharmacy_lon": -71.09952,
+        "pharmacy_distance_miles": 0.28
+    },
+    {
+        "pharmacy_id": "217",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "pharmacy_name": "Winter Hill Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3915303,
+        "pharmacy_lon": -71.0909084,
+        "pharmacy_distance_miles": 0.39
+    },
+    {
+        "pharmacy_id": "218",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "pharmacy_name": "S&S Market",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3842247,
+        "pharmacy_lon": -71.100409,
+        "pharmacy_distance_miles": 0.32
+    },
+    {
+        "pharmacy_id": "219",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "pharmacy_name": "Shivalic Food & Spices",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3923405,
+        "pharmacy_lon": -71.0932537,
+        "pharmacy_distance_miles": 0.35
+    },
+    {
+        "pharmacy_id": "220",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "pharmacy_name": "Broadway Gulf",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3892224,
+        "pharmacy_lon": -71.0881835,
+        "pharmacy_distance_miles": 0.45
+    },
+    {
+        "pharmacy_id": "221",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "pharmacy_name": "Stop n Save Neighborhood Store",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3886458,
+        "pharmacy_lon": -71.0972658,
+        "pharmacy_distance_miles": 0.05
+    },
+    {
+        "pharmacy_id": "222",
+        "station_name": "MARGOUN SQUARE STATION",
+        "station_id": "136",
+        "pharmacy_name": "Rosemary's",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3986968,
+        "pharmacy_lon": -71.1019859,
+        "pharmacy_distance_miles": 0.41
+    },
+    {
+        "pharmacy_id": "223",
+        "station_name": "MARGOUN SQUARE STATION",
+        "station_id": "136",
+        "pharmacy_name": "The Mushroom Shoppe",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.3924951,
+        "pharmacy_lon": -71.1004593,
+        "pharmacy_distance_miles": 0.32
+    },
+    {
+        "pharmacy_id": "224",
+        "station_name": "MEDFORD/TUFTS STATION",
+        "station_id": "134",
+        "pharmacy_name": "Alexander's",
+        "pharmacy_website": "No website",
+        "pharmacy_lat": 42.4093774,
+        "pharmacy_lon": -71.1098733,
+        "pharmacy_distance_miles": 0.34
+    }
+]

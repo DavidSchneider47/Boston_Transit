@@ -1,0 +1,2563 @@
+[
+    {
+        "coffee_id": "1",
+        "station_name": "ALLSTON ST STATION",
+        "station_id": "2",
+        "coffee_name": "Teamoji",
+        "coffee_website": "https://www.teamojiboston.com",
+        "coffee_lat": 42.3537534,
+        "coffee_lon": -71.1375161,
+        "coffee_distance_miles": 0.36
+    },
+    {
+        "coffee_id": "2",
+        "station_name": "ALLSTON ST STATION",
+        "station_id": "2",
+        "coffee_name": "Yomie's Rice X Yogurt",
+        "coffee_website": "https://www.yomiesricexyogurt.us/",
+        "coffee_lat": 42.3537384,
+        "coffee_lon": -71.1396597,
+        "coffee_distance_miles": 0.36
+    },
+    {
+        "coffee_id": "3",
+        "station_name": "ALLSTON ST STATION",
+        "station_id": "2",
+        "coffee_name": "Coffee Turco",
+        "coffee_website": "https://coffeeturcos.com",
+        "coffee_lat": 42.3538268,
+        "coffee_lon": -71.1371492,
+        "coffee_distance_miles": 0.36
+    },
+    {
+        "coffee_id": "4",
+        "station_name": "ALLSTON ST STATION",
+        "station_id": "2",
+        "coffee_name": "Twin Donuts",
+        "coffee_website": "No website",
+        "coffee_lat": 42.353532,
+        "coffee_lon": -71.1379957,
+        "coffee_distance_miles": 0.34
+    },
+    {
+        "coffee_id": "5",
+        "station_name": "AMORY STREET STATION",
+        "station_id": "3",
+        "coffee_name": "Buick Street Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3521337,
+        "coffee_lon": -71.1158287,
+        "coffee_distance_miles": 0.14
+    },
+    {
+        "coffee_id": "6",
+        "station_name": "ANDREW SQ STATION",
+        "station_id": "4",
+        "coffee_name": "Cannonball Cafe",
+        "coffee_website": "https://www.cannonballcafe.com",
+        "coffee_lat": 42.3350499,
+        "coffee_lon": -71.0572142,
+        "coffee_distance_miles": 0.35
+    },
+    {
+        "coffee_id": "7",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "coffee_name": "Flat Black Coffee",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3579932,
+        "coffee_lon": -71.0538281,
+        "coffee_distance_miles": 0.17
+    },
+    {
+        "coffee_id": "8",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "coffee_name": "Cafe Pulse",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3599629,
+        "coffee_lon": -71.0547721,
+        "coffee_distance_miles": 0.16
+    },
+    {
+        "coffee_id": "9",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "coffee_name": "Ben & Jerry",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3588884,
+        "coffee_lon": -71.0504248,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "10",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "coffee_name": "fooda",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3592074,
+        "coffee_lon": -71.0513114,
+        "coffee_distance_miles": 0.04
+    },
+    {
+        "coffee_id": "11",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "coffee_name": "Sunny Girl",
+        "coffee_website": "https://www.sunnygirlboston.com/",
+        "coffee_lat": 42.3639476,
+        "coffee_lon": -71.0512949,
+        "coffee_distance_miles": 0.29
+    },
+    {
+        "coffee_id": "12",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "coffee_name": "Caf\u00e9 Amalfi",
+        "coffee_website": "https://www.batterywharfhotelboston.com/dining/caf-amalfi",
+        "coffee_lat": 42.3665699,
+        "coffee_lon": -71.0510112,
+        "coffee_distance_miles": 0.47
+    },
+    {
+        "coffee_id": "13",
+        "station_name": "ARLINGTON STATION",
+        "station_id": "5",
+        "coffee_name": "Tatte Bakery & Cafe",
+        "coffee_website": "https://tattebakery.com/locations/boston-back-bay/",
+        "coffee_lat": 42.351799,
+        "coffee_lon": -71.0718774,
+        "coffee_distance_miles": 0.05
+    },
+    {
+        "coffee_id": "14",
+        "station_name": "ASHMONT STATION--RED LINE",
+        "station_id": "6",
+        "coffee_name": "Flat Black",
+        "coffee_website": "No website",
+        "coffee_lat": 42.2844845,
+        "coffee_lon": -71.0644422,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "15",
+        "station_name": "ASSEMBLY STATION",
+        "station_id": "7",
+        "coffee_name": "J.P. Licks",
+        "coffee_website": "https://www.jplicks.com/",
+        "coffee_lat": 42.3955294,
+        "coffee_lon": -71.0794659,
+        "coffee_distance_miles": 0.22
+    },
+    {
+        "coffee_id": "16",
+        "station_name": "AYER STATION",
+        "station_id": "117",
+        "coffee_name": "Union Coffee Roasters",
+        "coffee_website": "No website",
+        "coffee_lat": 42.5596386,
+        "coffee_lon": -71.588005,
+        "coffee_distance_miles": 0.07
+    },
+    {
+        "coffee_id": "17",
+        "station_name": "BABCOCK ST STATION",
+        "station_id": "8",
+        "coffee_name": "Fuel America",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3515605,
+        "coffee_lon": -71.1216064,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "18",
+        "station_name": "BABCOCK ST STATION",
+        "station_id": "8",
+        "coffee_name": "Balance Patch",
+        "coffee_website": "https://balancepatch.com",
+        "coffee_lat": 42.3521424,
+        "coffee_lon": -71.1218521,
+        "coffee_distance_miles": 0.11
+    },
+    {
+        "coffee_id": "19",
+        "station_name": "BABCOCK ST STATION",
+        "station_id": "8",
+        "coffee_name": "Brown Sugar Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3523015,
+        "coffee_lon": -71.1216801,
+        "coffee_distance_miles": 0.1
+    },
+    {
+        "coffee_id": "20",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "coffee_name": "Greystone Cafe",
+        "coffee_website": "https://www.greystonecafe.com/",
+        "coffee_lat": 42.3452434,
+        "coffee_lon": -71.0747204,
+        "coffee_distance_miles": 0.15
+    },
+    {
+        "coffee_id": "21",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "coffee_name": "Jugos",
+        "coffee_website": "http://www.visitjugos.com/",
+        "coffee_lat": 42.3476612,
+        "coffee_lon": -71.0758665,
+        "coffee_distance_miles": 0.02
+    },
+    {
+        "coffee_id": "22",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "coffee_name": "The Blue Glass Caf\u00e9",
+        "coffee_website": "https://www.blueglasscafe.com/",
+        "coffee_lat": 42.348962,
+        "coffee_lon": -71.0750234,
+        "coffee_distance_miles": 0.12
+    },
+    {
+        "coffee_id": "23",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "coffee_name": "Berkeley Perk Cafe",
+        "coffee_website": "https://berkeleyperkcafe.has.restaurant/",
+        "coffee_lat": 42.3467974,
+        "coffee_lon": -71.0706168,
+        "coffee_distance_miles": 0.26
+    },
+    {
+        "coffee_id": "24",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "coffee_name": "K\u014dhi Coffee",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3460624,
+        "coffee_lon": -71.0707005,
+        "coffee_distance_miles": 0.27
+    },
+    {
+        "coffee_id": "25",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "coffee_name": "South End Buttery",
+        "coffee_website": "https://www.southendbuttery.com",
+        "coffee_lat": 42.3453632,
+        "coffee_lon": -71.0724637,
+        "coffee_distance_miles": 0.22
+    },
+    {
+        "coffee_id": "26",
+        "station_name": "BELMONT STATION",
+        "station_id": "118",
+        "coffee_name": "Black Bear Caf\u00e9",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3980287,
+        "coffee_lon": -71.1747224,
+        "coffee_distance_miles": 0.17
+    },
+    {
+        "coffee_id": "27",
+        "station_name": "BELMONT STATION",
+        "station_id": "118",
+        "coffee_name": "Bellmont Caffe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.398204,
+        "coffee_lon": -71.1749549,
+        "coffee_distance_miles": 0.17
+    },
+    {
+        "coffee_id": "28",
+        "station_name": "BELMONT STATION",
+        "station_id": "118",
+        "coffee_name": "Butternut Bakehouse",
+        "coffee_website": "https://www.butternutbakehouse.com/",
+        "coffee_lat": 42.3973516,
+        "coffee_lon": -71.1753429,
+        "coffee_distance_miles": 0.11
+    },
+    {
+        "coffee_id": "29",
+        "station_name": "BLANDFORD ST STATION",
+        "station_id": "12",
+        "coffee_name": "Starbucks",
+        "coffee_website": "https://www.starbucks.com/store-locator/store/11890/boston-univ-school-of-managem-595-commonwealth-ave-boston-ma-022151704-us",
+        "coffee_lat": 42.3495212,
+        "coffee_lon": -71.0999346,
+        "coffee_distance_miles": 0.02
+    },
+    {
+        "coffee_id": "30",
+        "station_name": "BLANDFORD ST STATION",
+        "station_id": "12",
+        "coffee_name": "Bread Winners ",
+        "coffee_website": "No website",
+        "coffee_lat": 42.349503,
+        "coffee_lon": -71.0997679,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "31",
+        "station_name": "BLANDFORD ST STATION",
+        "station_id": "12",
+        "coffee_name": "Fenway Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3471311,
+        "coffee_lon": -71.0988367,
+        "coffee_distance_miles": 0.17
+    },
+    {
+        "coffee_id": "32",
+        "station_name": "BOSTON COLLEGE STATION",
+        "station_id": "13",
+        "coffee_name": "Hillside Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3361605,
+        "coffee_lon": -71.168293,
+        "coffee_distance_miles": 0.28
+    },
+    {
+        "coffee_id": "33",
+        "station_name": "BOSTON COLLEGE STATION",
+        "station_id": "13",
+        "coffee_name": "Cafe 129",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3438689,
+        "coffee_lon": -71.1622043,
+        "coffee_distance_miles": 0.35
+    },
+    {
+        "coffee_id": "34",
+        "station_name": "BOSTON UNIV CENTRAL STATION",
+        "station_id": "14",
+        "coffee_name": "Rhett's",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3509315,
+        "coffee_lon": -71.109173,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "35",
+        "station_name": "BOSTON UNIV CENTRAL STATION",
+        "station_id": "14",
+        "coffee_name": "Pavement Coffee",
+        "coffee_website": "http://www.espressoroyaleboston.com",
+        "coffee_lat": 42.3498465,
+        "coffee_lon": -71.1072088,
+        "coffee_distance_miles": 0.02
+    },
+    {
+        "coffee_id": "36",
+        "station_name": "BOSTON UNIV EAST STATION",
+        "station_id": "15",
+        "coffee_name": "Saxbys",
+        "coffee_website": "https://www.saxbyscoffee.com",
+        "coffee_lat": 42.350023,
+        "coffee_lon": -71.1033209,
+        "coffee_distance_miles": 0.04
+    },
+    {
+        "coffee_id": "37",
+        "station_name": "BOWDOIN STATION BLUE LINE",
+        "station_id": "108",
+        "coffee_name": "Blackbird Doughnuts",
+        "coffee_website": "https://www.blackbirddoughnuts.com/beacon-hill",
+        "coffee_lat": 42.3613952,
+        "coffee_lon": -71.0656779,
+        "coffee_distance_miles": 0.19
+    },
+    {
+        "coffee_id": "38",
+        "station_name": "BOYLSTON STATION--GREEN LINE",
+        "station_id": "16",
+        "coffee_name": "Thinking Cup",
+        "coffee_website": "http://www.thinkingcup.com/",
+        "coffee_lat": 42.3536887,
+        "coffee_lon": -71.0638884,
+        "coffee_distance_miles": 0.05
+    },
+    {
+        "coffee_id": "39",
+        "station_name": "BOYLSTON STATION--GREEN LINE",
+        "station_id": "16",
+        "coffee_name": "Vivi Bubble Tea",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3512996,
+        "coffee_lon": -71.064679,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "40",
+        "station_name": "BROADWAY STATION",
+        "station_id": "20",
+        "coffee_name": "Mohr & McPherson",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3425352,
+        "coffee_lon": -71.0651922,
+        "coffee_distance_miles": 0.41
+    },
+    {
+        "coffee_id": "41",
+        "station_name": "BROADWAY STATION",
+        "station_id": "20",
+        "coffee_name": "Broadway's Pastry & Coffee Shop",
+        "coffee_website": "https://www.broadwayspastry.com/",
+        "coffee_lat": 42.3394006,
+        "coffee_lon": -71.0515018,
+        "coffee_distance_miles": 0.35
+    },
+    {
+        "coffee_id": "42",
+        "station_name": "BROADWAY STATION",
+        "station_id": "20",
+        "coffee_name": "Olga's Kafe",
+        "coffee_website": "https://olgaskafe.com",
+        "coffee_lat": 42.3401849,
+        "coffee_lon": -71.0526867,
+        "coffee_distance_miles": 0.27
+    },
+    {
+        "coffee_id": "43",
+        "station_name": "BROOKLINE VILLAGE STATION",
+        "station_id": "22",
+        "coffee_name": "Cafe Nero",
+        "coffee_website": "No website",
+        "coffee_lat": 42.333486,
+        "coffee_lon": -71.1186748,
+        "coffee_distance_miles": 0.11
+    },
+    {
+        "coffee_id": "44",
+        "station_name": "BROOKLINE VILLAGE STATION",
+        "station_id": "22",
+        "coffee_name": "Brothers & Sisters Co.",
+        "coffee_website": "https://www.brothersandsistersco.com/",
+        "coffee_lat": 42.3325545,
+        "coffee_lon": -71.1178453,
+        "coffee_distance_miles": 0.05
+    },
+    {
+        "coffee_id": "45",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "coffee_name": "Andala Coffee House",
+        "coffee_website": "https://www.andalacoffee.com/",
+        "coffee_lat": 42.364771,
+        "coffee_lon": -71.1057705,
+        "coffee_distance_miles": 0.11
+    },
+    {
+        "coffee_id": "46",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "coffee_name": "Pacific Street Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3602168,
+        "coffee_lon": -71.102461,
+        "coffee_distance_miles": 0.37
+    },
+    {
+        "coffee_id": "47",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "coffee_name": "Mariposa Bakery",
+        "coffee_website": "https://www.mariposabakery.com/",
+        "coffee_lat": 42.3633623,
+        "coffee_lon": -71.1006465,
+        "coffee_distance_miles": 0.22
+    },
+    {
+        "coffee_id": "48",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "coffee_name": "1369 Coffee House",
+        "coffee_website": "https://www.1369coffeehouse.com/",
+        "coffee_lat": 42.3665431,
+        "coffee_lon": -71.1053039,
+        "coffee_distance_miles": 0.11
+    },
+    {
+        "coffee_id": "49",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "coffee_name": "Longfellows",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3678721,
+        "coffee_lon": -71.0980312,
+        "coffee_distance_miles": 0.34
+    },
+    {
+        "coffee_id": "50",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "coffee_name": "Barismo 364",
+        "coffee_website": "https://www.barismo.com/",
+        "coffee_lat": 42.3704436,
+        "coffee_lon": -71.1042168,
+        "coffee_distance_miles": 0.34
+    },
+    {
+        "coffee_id": "51",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "coffee_name": "Dado Tea",
+        "coffee_website": "https://dadotea.com/",
+        "coffee_lat": 42.3689886,
+        "coffee_lon": -71.1098774,
+        "coffee_distance_miles": 0.39
+    },
+    {
+        "coffee_id": "52",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "coffee_name": "M\u00f6ge Tee Cambridge",
+        "coffee_website": "https://mogeteeusa.com",
+        "coffee_lat": 42.3651657,
+        "coffee_lon": -71.1029784,
+        "coffee_distance_miles": 0.05
+    },
+    {
+        "coffee_id": "53",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "coffee_name": "Cicada Coffee Bar",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3676769,
+        "coffee_lon": -71.1019944,
+        "coffee_distance_miles": 0.18
+    },
+    {
+        "coffee_id": "54",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "coffee_name": "Beacon Hill Books & Cafe",
+        "coffee_website": "https://www.bhbooks.com",
+        "coffee_lat": 42.3581991,
+        "coffee_lon": -71.0703264,
+        "coffee_distance_miles": 0.21
+    },
+    {
+        "coffee_id": "55",
+        "station_name": "CHESTNUT HILL STATION",
+        "station_id": "26",
+        "coffee_name": "Blue Blottle",
+        "coffee_website": "No website",
+        "coffee_lat": 42.322657,
+        "coffee_lon": -71.1684937,
+        "coffee_distance_miles": 0.32
+    },
+    {
+        "coffee_id": "56",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "coffee_name": "OneZo Tapioca",
+        "coffee_website": "https://www.onezo.us/",
+        "coffee_lat": 42.3509096,
+        "coffee_lon": -71.0615621,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "57",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "coffee_name": "Boston Common Coffee Company",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3542405,
+        "coffee_lon": -71.0619504,
+        "coffee_distance_miles": 0.12
+    },
+    {
+        "coffee_id": "58",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "coffee_name": "Jaho Coffee Roaster & Wine Bar",
+        "coffee_website": "https://www.jaho.com/pages/boston-locations",
+        "coffee_lat": 42.3518743,
+        "coffee_lon": -71.0628615,
+        "coffee_distance_miles": 0.05
+    },
+    {
+        "coffee_id": "59",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "coffee_name": "Cafe Darq",
+        "coffee_website": "https://cafedarq.com/",
+        "coffee_lat": 42.351571,
+        "coffee_lon": -71.0615754,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "60",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "coffee_name": "Tea-Do",
+        "coffee_website": "https://www.teadocafe.com/",
+        "coffee_lat": 42.3510442,
+        "coffee_lon": -71.0605075,
+        "coffee_distance_miles": 0.15
+    },
+    {
+        "coffee_id": "61",
+        "station_name": "CLEVELAND CIRCLE PLATFORM STATION",
+        "station_id": "29",
+        "coffee_name": "Kung Fu Tea",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3365296,
+        "coffee_lon": -71.149028,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "62",
+        "station_name": "CLEVELAND CIRCLE PLATFORM STATION",
+        "station_id": "29",
+        "coffee_name": "Energize: Healthy Eating",
+        "coffee_website": "No website",
+        "coffee_lat": 42.336318,
+        "coffee_lon": -71.1498931,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "63",
+        "station_name": "COMMUNITY COLLEGE STATION",
+        "station_id": "30",
+        "coffee_name": "Zume's Coffee House",
+        "coffee_website": "No website",
+        "coffee_lat": 42.376533,
+        "coffee_lon": -71.0655523,
+        "coffee_distance_miles": 0.29
+    },
+    {
+        "coffee_id": "64",
+        "station_name": "CONCORD STATION",
+        "station_id": "120",
+        "coffee_name": "Main Street Market",
+        "coffee_website": "No website",
+        "coffee_lat": 42.4600416,
+        "coffee_lon": -71.3502355,
+        "coffee_distance_miles": 0.44
+    },
+    {
+        "coffee_id": "65",
+        "station_name": "CONCORD STATION",
+        "station_id": "120",
+        "coffee_name": "Sally Ann Food Shop",
+        "coffee_website": "No website",
+        "coffee_lat": 42.4595708,
+        "coffee_lon": -71.3511364,
+        "coffee_distance_miles": 0.39
+    },
+    {
+        "coffee_id": "66",
+        "station_name": "CONCORD STATION",
+        "station_id": "120",
+        "coffee_name": "Haute Coffee",
+        "coffee_website": "http://myhautecoffee.com/",
+        "coffee_lat": 42.4594837,
+        "coffee_lon": -71.3505154,
+        "coffee_distance_miles": 0.41
+    },
+    {
+        "coffee_id": "67",
+        "station_name": "COOLIDGE CORNER STATION",
+        "station_id": "31",
+        "coffee_name": "Maruichi | Gen Sou En",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3430452,
+        "coffee_lon": -71.1224495,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "68",
+        "station_name": "COOLIDGE CORNER STATION",
+        "station_id": "31",
+        "coffee_name": "Paris Creperie",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3424145,
+        "coffee_lon": -71.1218629,
+        "coffee_distance_miles": 0.04
+    },
+    {
+        "coffee_id": "69",
+        "station_name": "COOLIDGE CORNER STATION",
+        "station_id": "31",
+        "coffee_name": "Temptations",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3420698,
+        "coffee_lon": -71.1223815,
+        "coffee_distance_miles": 0.06
+    },
+    {
+        "coffee_id": "70",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "coffee_name": "Revival Cafe + Kitchen",
+        "coffee_website": "https://www.revivalcafeandkitchen.com/",
+        "coffee_lat": 42.3517325,
+        "coffee_lon": -71.0754334,
+        "coffee_distance_miles": 0.16
+    },
+    {
+        "coffee_id": "71",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "coffee_name": "Newsfeed Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.34924,
+        "coffee_lon": -71.0790061,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "72",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "coffee_name": "Blue Bottle Coffee",
+        "coffee_website": "https://bluebottlecoffee.com/cafes/newbury-street",
+        "coffee_lat": 42.3508102,
+        "coffee_lon": -71.0787779,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "73",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "coffee_name": "L.A. Burdick Chocolates",
+        "coffee_website": "https://www.burdickchocolate.com/chocolateshop-cafe-boston.aspx",
+        "coffee_lat": 42.3511098,
+        "coffee_lon": -71.0755741,
+        "coffee_distance_miles": 0.12
+    },
+    {
+        "coffee_id": "74",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "coffee_name": "Capital One Caf\u00e9",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3496391,
+        "coffee_lon": -71.0797177,
+        "coffee_distance_miles": 0.12
+    },
+    {
+        "coffee_id": "75",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "coffee_name": "Caf\u00e9 Susu by Suitsupply",
+        "coffee_website": "https://us.suitsupply.com/",
+        "coffee_lat": 42.3494538,
+        "coffee_lon": -71.0822575,
+        "coffee_distance_miles": 0.25
+    },
+    {
+        "coffee_id": "76",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "coffee_name": "Max Brenner",
+        "coffee_website": "https://maxbrenner.com/locations/usa/restaurant-boston/",
+        "coffee_lat": 42.3493887,
+        "coffee_lon": -71.0808179,
+        "coffee_distance_miles": 0.18
+    },
+    {
+        "coffee_id": "77",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "coffee_name": "Nourish Your Soul",
+        "coffee_website": "https://nourishyoursoul.com/in-store-menu/lululemon-menu/",
+        "coffee_lat": 42.3498704,
+        "coffee_lon": -71.0804434,
+        "coffee_distance_miles": 0.15
+    },
+    {
+        "coffee_id": "78",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "coffee_name": "Central Perk Coffee Co",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3502499,
+        "coffee_lon": -71.0808427,
+        "coffee_distance_miles": 0.17
+    },
+    {
+        "coffee_id": "79",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "coffee_name": "Gong Cha",
+        "coffee_website": "https://gongchausa.com/massachusetts-somerville-coming-soon/",
+        "coffee_lat": 42.3960458,
+        "coffee_lon": -71.121531,
+        "coffee_distance_miles": 0.08
+    },
+    {
+        "coffee_id": "80",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "coffee_name": "Diesel Cafe",
+        "coffee_website": "https://www.diesel-cafe.com/",
+        "coffee_lat": 42.3957125,
+        "coffee_lon": -71.1219616,
+        "coffee_distance_miles": 0.08
+    },
+    {
+        "coffee_id": "81",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "coffee_name": "Life Alive Organic Caf\u00e9",
+        "coffee_website": "https://www.lifealive.com/",
+        "coffee_lat": 42.3973613,
+        "coffee_lon": -71.1233975,
+        "coffee_distance_miles": 0.06
+    },
+    {
+        "coffee_id": "82",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "coffee_name": "Mr. Cr\u00eape",
+        "coffee_website": "https://www.mrcrepe.com/",
+        "coffee_lat": 42.3965791,
+        "coffee_lon": -71.1227578,
+        "coffee_distance_miles": 0.02
+    },
+    {
+        "coffee_id": "83",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "coffee_name": "Nine Bar Espresso",
+        "coffee_website": "https://www.ninebarespresso.net/",
+        "coffee_lat": 42.3971513,
+        "coffee_lon": -71.1229158,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "84",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "coffee_name": "King Fu Tea",
+        "coffee_website": "https://www.kungfutea.com/",
+        "coffee_lat": 42.3950856,
+        "coffee_lon": -71.1215213,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "85",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "coffee_name": "Cafe Barada",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3947311,
+        "coffee_lon": -71.1269037,
+        "coffee_distance_miles": 0.26
+    },
+    {
+        "coffee_id": "86",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "coffee_name": "Shirley",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3972454,
+        "coffee_lon": -71.1219821,
+        "coffee_distance_miles": 0.05
+    },
+    {
+        "coffee_id": "87",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "coffee_name": "Caff\u00e8 Nero",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3551174,
+        "coffee_lon": -71.0597637,
+        "coffee_distance_miles": 0.04
+    },
+    {
+        "coffee_id": "88",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "coffee_name": "George Howell Coffee",
+        "coffee_website": "https://georgehowellcoffee.com/pages/the-godfrey-hotel",
+        "coffee_lat": 42.35477,
+        "coffee_lon": -71.0614439,
+        "coffee_distance_miles": 0.08
+    },
+    {
+        "coffee_id": "89",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "coffee_name": "Ogawa Coffee",
+        "coffee_website": "https://www.ogawacoffeeusa.com/",
+        "coffee_lat": 42.3568422,
+        "coffee_lon": -71.0580786,
+        "coffee_distance_miles": 0.14
+    },
+    {
+        "coffee_id": "90",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "coffee_name": "Bonjour Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3549282,
+        "coffee_lon": -71.0616918,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "91",
+        "station_name": "FENWOOD RD STATION",
+        "station_id": "40",
+        "coffee_name": "Tbaar",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3335187,
+        "coffee_lon": -71.1057948,
+        "coffee_distance_miles": 0.01
+    },
+    {
+        "coffee_id": "92",
+        "station_name": "FIELDS CORNER STATION",
+        "station_id": "41",
+        "coffee_name": "Homestead bakery & cafe",
+        "coffee_website": "https://dorchesterhomestead.com/",
+        "coffee_lat": 42.3011294,
+        "coffee_lon": -71.059742,
+        "coffee_distance_miles": 0.12
+    },
+    {
+        "coffee_id": "93",
+        "station_name": "FIELDS CORNER STATION",
+        "station_id": "41",
+        "coffee_name": "AKOKO - Coco Leaf Dorchester",
+        "coffee_website": "https://akokocafe.com/contact/",
+        "coffee_lat": 42.300011,
+        "coffee_lon": -71.0601167,
+        "coffee_distance_miles": 0.08
+    },
+    {
+        "coffee_id": "94",
+        "station_name": "FITCHBURG STATION",
+        "station_id": "121",
+        "coffee_name": "Cozy Corner Coffee Shop",
+        "coffee_website": "No website",
+        "coffee_lat": 42.5840839,
+        "coffee_lon": -71.7841531,
+        "coffee_distance_miles": 0.48
+    },
+    {
+        "coffee_id": "95",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_id": "42",
+        "coffee_name": "The Tot Cafe by Little Cocoa Bean Co.",
+        "coffee_website": "https://www.littlecocoabeanco.com/",
+        "coffee_lat": 42.305997,
+        "coffee_lon": -71.1147634,
+        "coffee_distance_miles": 0.37
+    },
+    {
+        "coffee_id": "96",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_id": "42",
+        "coffee_name": "Brassica Kitchen + Cafe",
+        "coffee_website": "https://www.brassicakitchen.com/",
+        "coffee_lat": 42.3002732,
+        "coffee_lon": -71.113132,
+        "coffee_distance_miles": 0.06
+    },
+    {
+        "coffee_id": "97",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_id": "42",
+        "coffee_name": "Forest Hills Diner",
+        "coffee_website": "http://theforesthillsdiner.com",
+        "coffee_lat": 42.3006707,
+        "coffee_lon": -71.1127463,
+        "coffee_distance_miles": 0.07
+    },
+    {
+        "coffee_id": "98",
+        "station_name": "GREEN ST. STATION",
+        "station_id": "44",
+        "coffee_name": "Juicygreens",
+        "coffee_website": "https://juicygreensboston.com/",
+        "coffee_lat": 42.3077134,
+        "coffee_lon": -71.1156587,
+        "coffee_distance_miles": 0.45
+    },
+    {
+        "coffee_id": "99",
+        "station_name": "GREEN ST. STATION",
+        "station_id": "44",
+        "coffee_name": "Caf\u00e9 Siete",
+        "coffee_website": "https://www.instagram.com/cafesietejp/",
+        "coffee_lat": 42.3147663,
+        "coffee_lon": -71.114369,
+        "coffee_distance_miles": 0.46
+    },
+    {
+        "coffee_id": "100",
+        "station_name": "GREEN ST. STATION",
+        "station_id": "44",
+        "coffee_name": "Fiore's Bakery",
+        "coffee_website": "https://fioresbakeryjp.com/",
+        "coffee_lat": 42.3079697,
+        "coffee_lon": -71.1157177,
+        "coffee_distance_miles": 0.45
+    },
+    {
+        "coffee_id": "101",
+        "station_name": "GREEN ST. STATION",
+        "station_id": "44",
+        "coffee_name": "Espresso Yourself",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3101744,
+        "coffee_lon": -71.1152764,
+        "coffee_distance_miles": 0.4
+    },
+    {
+        "coffee_id": "102",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "coffee_name": "Pavement Coffeehouse",
+        "coffee_website": "https://pavementcoffeehouse.com/",
+        "coffee_lat": 42.3502937,
+        "coffee_lon": -71.1317983,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "103",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "coffee_name": "Habibi's Lounge",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3507149,
+        "coffee_lon": -71.1309101,
+        "coffee_distance_miles": 0.04
+    },
+    {
+        "coffee_id": "104",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "coffee_name": "Madame Tea",
+        "coffee_website": "http://www.madametea.net/",
+        "coffee_lat": 42.3531696,
+        "coffee_lon": -71.1319409,
+        "coffee_distance_miles": 0.21
+    },
+    {
+        "coffee_id": "105",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "coffee_name": "Moge Tee",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3529358,
+        "coffee_lon": -71.1327403,
+        "coffee_distance_miles": 0.2
+    },
+    {
+        "coffee_id": "106",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "coffee_name": "Fruity",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3536571,
+        "coffee_lon": -71.1323856,
+        "coffee_distance_miles": 0.25
+    },
+    {
+        "coffee_id": "107",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "coffee_name": "Tiger Sugar",
+        "coffee_website": "https://tigersugarma.com/",
+        "coffee_lat": 42.3509583,
+        "coffee_lon": -71.1315246,
+        "coffee_distance_miles": 0.05
+    },
+    {
+        "coffee_id": "108",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "coffee_name": "Curio Coffee",
+        "coffee_website": "https://www.curiocoffee.com/",
+        "coffee_lat": 42.3547368,
+        "coffee_lon": -71.1350496,
+        "coffee_distance_miles": 0.37
+    },
+    {
+        "coffee_id": "109",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Blank Street Coffee",
+        "coffee_website": "https://www.blankstreet.com/locations/boston/LXRVV62J2RA5E-massachusetts-and-dunster-st",
+        "coffee_lat": 42.373321,
+        "coffee_lon": -71.1191042,
+        "coffee_distance_miles": 0.01
+    },
+    {
+        "coffee_id": "110",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Peet's Coffee",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3726335,
+        "coffee_lon": -71.1206838,
+        "coffee_distance_miles": 0.1
+    },
+    {
+        "coffee_id": "111",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Flour Bakery + Cafe",
+        "coffee_website": "https://flourbakery.com",
+        "coffee_lat": 42.3731187,
+        "coffee_lon": -71.1226685,
+        "coffee_distance_miles": 0.19
+    },
+    {
+        "coffee_id": "112",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Bauer Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3775378,
+        "coffee_lon": -71.1153803,
+        "coffee_distance_miles": 0.34
+    },
+    {
+        "coffee_id": "113",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Cafe Gato Rojo",
+        "coffee_website": "http://www.dudley.harvard.edu/icb/icb.do?keyword=k73092&pageid=icb.page359690",
+        "coffee_lat": 42.3735895,
+        "coffee_lon": -71.1184022,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "114",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Zinneken's",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3712072,
+        "coffee_lon": -71.1145182,
+        "coffee_distance_miles": 0.27
+    },
+    {
+        "coffee_id": "115",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Circus Cooperative Cafe",
+        "coffee_website": "https://www.circus.coop/",
+        "coffee_lat": 42.3689611,
+        "coffee_lon": -71.1136071,
+        "coffee_distance_miles": 0.41
+    },
+    {
+        "coffee_id": "116",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "L. A. Burdick",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3744284,
+        "coffee_lon": -71.1220749,
+        "coffee_distance_miles": 0.18
+    },
+    {
+        "coffee_id": "117",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Bluestone Lane",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3734973,
+        "coffee_lon": -71.1206843,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "118",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Clover Food Lab",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3762106,
+        "coffee_lon": -71.1164724,
+        "coffee_distance_miles": 0.23
+    },
+    {
+        "coffee_id": "119",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Capitol One Cafe",
+        "coffee_website": "https://www.harvardsquare.com/venue/capital-one-360-cafe/",
+        "coffee_lat": 42.3728528,
+        "coffee_lon": -71.1197184,
+        "coffee_distance_miles": 0.05
+    },
+    {
+        "coffee_id": "120",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Faro Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.371266,
+        "coffee_lon": -71.1147192,
+        "coffee_distance_miles": 0.26
+    },
+    {
+        "coffee_id": "121",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Life Alive Organic Cafe",
+        "coffee_website": "https://www.lifealive.com/location/harvard-square",
+        "coffee_lat": 42.3729665,
+        "coffee_lon": -71.1196344,
+        "coffee_distance_miles": 0.04
+    },
+    {
+        "coffee_id": "122",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "coffee_name": "Luxor Cafe",
+        "coffee_website": "https://luxorcafee.com/",
+        "coffee_lat": 42.3740268,
+        "coffee_lon": -71.125103,
+        "coffee_distance_miles": 0.32
+    },
+    {
+        "coffee_id": "123",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "Cuppacoffee",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3634282,
+        "coffee_lon": -71.0596378,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "124",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "Caff\u00e9 Pompei",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3638817,
+        "coffee_lon": -71.0545944,
+        "coffee_distance_miles": 0.22
+    },
+    {
+        "coffee_id": "125",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "Caff\u00e9 Vittoria",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3640676,
+        "coffee_lon": -71.054375,
+        "coffee_distance_miles": 0.23
+    },
+    {
+        "coffee_id": "126",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "Caff\u00e9 dello Sport",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3643055,
+        "coffee_lon": -71.0541088,
+        "coffee_distance_miles": 0.26
+    },
+    {
+        "coffee_id": "127",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "Caff\u00e8 Paradiso",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3632334,
+        "coffee_lon": -71.054827,
+        "coffee_distance_miles": 0.18
+    },
+    {
+        "coffee_id": "128",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "Galleria Umberto",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3636985,
+        "coffee_lon": -71.0543744,
+        "coffee_distance_miles": 0.22
+    },
+    {
+        "coffee_id": "129",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "Polcari's Coffee",
+        "coffee_website": "https://polcariscoffee.com/",
+        "coffee_lat": 42.3640446,
+        "coffee_lon": -71.0555113,
+        "coffee_distance_miles": 0.19
+    },
+    {
+        "coffee_id": "130",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "Mulligans",
+        "coffee_website": "http://www.mulligansdeli.com",
+        "coffee_lat": 42.3643119,
+        "coffee_lon": -71.0596665,
+        "coffee_distance_miles": 0.18
+    },
+    {
+        "coffee_id": "131",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "Bonne Chance Caf\u00e8",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3642532,
+        "coffee_lon": -71.0595885,
+        "coffee_distance_miles": 0.18
+    },
+    {
+        "coffee_id": "132",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "The Juicery",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3633549,
+        "coffee_lon": -71.0563399,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "133",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "coffee_name": "Lil Italy",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3664737,
+        "coffee_lon": -71.0547278,
+        "coffee_distance_miles": 0.35
+    },
+    {
+        "coffee_id": "134",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "coffee_name": "Ten One Tea House",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3493822,
+        "coffee_lon": -71.0839969,
+        "coffee_distance_miles": 0.23
+    },
+    {
+        "coffee_id": "135",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "coffee_name": "Mother Juice",
+        "coffee_website": "https://www.motherjuice.com/",
+        "coffee_lat": 42.3491546,
+        "coffee_lon": -71.0850055,
+        "coffee_distance_miles": 0.17
+    },
+    {
+        "coffee_id": "136",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "coffee_name": "Linden Lounge",
+        "coffee_website": "https://www.coffeebylt.com/",
+        "coffee_lat": 42.3492572,
+        "coffee_lon": -71.0847915,
+        "coffee_distance_miles": 0.19
+    },
+    {
+        "coffee_id": "137",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "coffee_name": "Trident Booksellers & Cafe",
+        "coffee_website": "https://www.tridentbookscafe.com/",
+        "coffee_lat": 42.3482979,
+        "coffee_lon": -71.0866366,
+        "coffee_distance_miles": 0.07
+    },
+    {
+        "coffee_id": "138",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "coffee_name": "Coco Leaf",
+        "coffee_website": "https://www.cocoleafboston.com/",
+        "coffee_lat": 42.3489786,
+        "coffee_lon": -71.0854495,
+        "coffee_distance_miles": 0.15
+    },
+    {
+        "coffee_id": "139",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "coffee_name": "Manhattan Bagel and Coffee",
+        "coffee_website": "https://manhattanbagelncoffee.com/",
+        "coffee_lat": 42.3466618,
+        "coffee_lon": -71.0876487,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "140",
+        "station_name": "JFK/UMAS--RED LINE STATION",
+        "station_id": "54",
+        "coffee_name": "The Sugar Bowl",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3214818,
+        "coffee_lon": -71.0569268,
+        "coffee_distance_miles": 0.24
+    },
+    {
+        "coffee_id": "141",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "coffee_name": "Bean Towne Coffee House",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3664118,
+        "coffee_lon": -71.0906362,
+        "coffee_distance_miles": 0.35
+    },
+    {
+        "coffee_id": "142",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "coffee_name": "Forbes Family Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3617308,
+        "coffee_lon": -71.0900125,
+        "coffee_distance_miles": 0.2
+    },
+    {
+        "coffee_id": "143",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "coffee_name": "Bosworth's Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3591037,
+        "coffee_lon": -71.0930385,
+        "coffee_distance_miles": 0.42
+    },
+    {
+        "coffee_id": "144",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "coffee_name": "Tatte Bakery and Caf\u00e9",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3649355,
+        "coffee_lon": -71.0826912,
+        "coffee_distance_miles": 0.25
+    },
+    {
+        "coffee_id": "145",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "coffee_name": "Cafe 4",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3598525,
+        "coffee_lon": -71.0913169,
+        "coffee_distance_miles": 0.32
+    },
+    {
+        "coffee_id": "146",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "coffee_name": "Vester",
+        "coffee_website": "https://www.vestercafe.com/",
+        "coffee_lat": 42.3632913,
+        "coffee_lon": -71.0882151,
+        "coffee_distance_miles": 0.12
+    },
+    {
+        "coffee_id": "147",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "coffee_name": "Kendall Kitchen",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3660059,
+        "coffee_lon": -71.0920952,
+        "coffee_distance_miles": 0.39
+    },
+    {
+        "coffee_id": "148",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "coffee_name": "Blue Bottle",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3634784,
+        "coffee_lon": -71.0876196,
+        "coffee_distance_miles": 0.1
+    },
+    {
+        "coffee_id": "149",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "coffee_name": "Cafe Luna",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3628922,
+        "coffee_lon": -71.094241,
+        "coffee_distance_miles": 0.41
+    },
+    {
+        "coffee_id": "150",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "coffee_name": "Ripple Cafe",
+        "coffee_website": "https://www.rippleboston.com/",
+        "coffee_lat": 42.3622285,
+        "coffee_lon": -71.0863681,
+        "coffee_distance_miles": 0.02
+    },
+    {
+        "coffee_id": "151",
+        "station_name": "LECHMERE STATION",
+        "station_id": "58",
+        "coffee_name": "Cafe Beatrice",
+        "coffee_website": "https://www.thelexingtoncx.com/cafebeatrice",
+        "coffee_lat": 42.3720512,
+        "coffee_lon": -71.07557,
+        "coffee_distance_miles": 0.06
+    },
+    {
+        "coffee_id": "152",
+        "station_name": "LINCOLN STATION",
+        "station_id": "123",
+        "coffee_name": "Twisted Tree Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.4149084,
+        "coffee_lon": -71.3248673,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "153",
+        "station_name": "LONGWOOD MED AREA STATION",
+        "station_id": "59",
+        "coffee_name": "Cafe G",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3382838,
+        "coffee_lon": -71.0992382,
+        "coffee_distance_miles": 0.17
+    },
+    {
+        "coffee_id": "154",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "coffee_name": "Bikeeny caffe",
+        "coffee_website": "https://bikeeny.com/",
+        "coffee_lat": 42.4289645,
+        "coffee_lon": -71.0741902,
+        "coffee_distance_miles": 0.16
+    },
+    {
+        "coffee_id": "155",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "coffee_name": "Cornucopia Foods",
+        "coffee_website": "https://www.cornufoods.com/",
+        "coffee_lat": 42.4269606,
+        "coffee_lon": -71.0687554,
+        "coffee_distance_miles": 0.27
+    },
+    {
+        "coffee_id": "156",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "coffee_name": "Honey Honey Dessert Cafe",
+        "coffee_website": "http://honeyhoneydessertcafe.com/",
+        "coffee_lat": 42.4272502,
+        "coffee_lon": -71.0670866,
+        "coffee_distance_miles": 0.36
+    },
+    {
+        "coffee_id": "157",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "coffee_name": "TSA\u014d\u00b7CHA",
+        "coffee_website": "https://www.tsaocaatea.com/location.html",
+        "coffee_lat": 42.4266351,
+        "coffee_lon": -71.0669039,
+        "coffee_distance_miles": 0.37
+    },
+    {
+        "coffee_id": "158",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "coffee_name": "Up Tea Hub",
+        "coffee_website": "No website",
+        "coffee_lat": 42.4266037,
+        "coffee_lon": -71.0674951,
+        "coffee_distance_miles": 0.34
+    },
+    {
+        "coffee_id": "159",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "coffee_name": "Tous les Jours",
+        "coffee_website": "https://www.tljus.com/",
+        "coffee_lat": 42.4271451,
+        "coffee_lon": -71.0732029,
+        "coffee_distance_miles": 0.06
+    },
+    {
+        "coffee_id": "160",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "coffee_name": "Mixer eSports",
+        "coffee_website": "No website",
+        "coffee_lat": 42.4269462,
+        "coffee_lon": -71.0698501,
+        "coffee_distance_miles": 0.22
+    },
+    {
+        "coffee_id": "161",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "coffee_name": "BingeBowl",
+        "coffee_website": "https://bingebowl.com/",
+        "coffee_lat": 42.4289618,
+        "coffee_lon": -71.0742309,
+        "coffee_distance_miles": 0.16
+    },
+    {
+        "coffee_id": "162",
+        "station_name": "MASSACHUSETTS AVE STATION",
+        "station_id": "62",
+        "coffee_name": "Colette Bakery",
+        "coffee_website": "https://www.colettebakery.com/locations-and-hours",
+        "coffee_lat": 42.3422183,
+        "coffee_lon": -71.0800944,
+        "coffee_distance_miles": 0.25
+    },
+    {
+        "coffee_id": "163",
+        "station_name": "MASSACHUSETTS AVE STATION",
+        "station_id": "62",
+        "coffee_name": "Farmer Horse Coffee",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3419062,
+        "coffee_lon": -71.083346,
+        "coffee_distance_miles": 0.1
+    },
+    {
+        "coffee_id": "164",
+        "station_name": "MASSACHUSETTS AVE STATION",
+        "station_id": "62",
+        "coffee_name": "Caff\u00e9 Bene",
+        "coffee_website": "https://caffebenema.com/",
+        "coffee_lat": 42.3423715,
+        "coffee_lon": -71.0848027,
+        "coffee_distance_miles": 0.02
+    },
+    {
+        "coffee_id": "165",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "coffee_name": "Eagle Hill Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3719227,
+        "coffee_lon": -71.0388652,
+        "coffee_distance_miles": 0.2
+    },
+    {
+        "coffee_id": "166",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "coffee_name": "East Boston Farmstand",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3720333,
+        "coffee_lon": -71.0388823,
+        "coffee_distance_miles": 0.2
+    },
+    {
+        "coffee_id": "167",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "coffee_name": "Sweet BoBa",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3745184,
+        "coffee_lon": -71.0389155,
+        "coffee_distance_miles": 0.37
+    },
+    {
+        "coffee_id": "168",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "coffee_name": "Americano Espresso Bar",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3738549,
+        "coffee_lon": -71.0388563,
+        "coffee_distance_miles": 0.33
+    },
+    {
+        "coffee_id": "169",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "coffee_name": "Cafe Iterum",
+        "coffee_website": "https://www.cafeiterum.com/",
+        "coffee_lat": 42.3681594,
+        "coffee_lon": -71.0407012,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "170",
+        "station_name": "MUSEUM OF FINE ARTS STATION",
+        "station_id": "64",
+        "coffee_name": "New American Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3397234,
+        "coffee_lon": -71.0939601,
+        "coffee_distance_miles": 0.16
+    },
+    {
+        "coffee_id": "171",
+        "station_name": "MUSEUM OF FINE ARTS STATION",
+        "station_id": "64",
+        "coffee_name": "Taste cafe & wine bar",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3393295,
+        "coffee_lon": -71.0951349,
+        "coffee_distance_miles": 0.12
+    },
+    {
+        "coffee_id": "172",
+        "station_name": "NEWTON CENTRE STATION",
+        "station_id": "65",
+        "coffee_name": "Tatte Bakery and Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3308821,
+        "coffee_lon": -71.1948878,
+        "coffee_distance_miles": 0.16
+    },
+    {
+        "coffee_id": "173",
+        "station_name": "NEWTON CENTRE STATION",
+        "station_id": "65",
+        "coffee_name": "Johnny's Luncheonette",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3309285,
+        "coffee_lon": -71.1932373,
+        "coffee_distance_miles": 0.11
+    },
+    {
+        "coffee_id": "174",
+        "station_name": "NEWTON HIGHLANDS STATION",
+        "station_id": "66",
+        "coffee_name": "L\u00e0kon Paris",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3218728,
+        "coffee_lon": -71.2065515,
+        "coffee_distance_miles": 0.07
+    },
+    {
+        "coffee_id": "175",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "coffee_name": "Vivi's Bubble Tea Cafe Quincy",
+        "coffee_website": "No website",
+        "coffee_lat": 42.2738129,
+        "coffee_lon": -71.0260389,
+        "coffee_distance_miles": 0.21
+    },
+    {
+        "coffee_id": "176",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "coffee_name": "B Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.2734579,
+        "coffee_lon": -71.0256825,
+        "coffee_distance_miles": 0.24
+    },
+    {
+        "coffee_id": "177",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "coffee_name": "M\u00f6ge Tee",
+        "coffee_website": "No website",
+        "coffee_lat": 42.2739195,
+        "coffee_lon": -71.0248658,
+        "coffee_distance_miles": 0.26
+    },
+    {
+        "coffee_id": "178",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "coffee_name": "P Tea",
+        "coffee_website": "No website",
+        "coffee_lat": 42.2739033,
+        "coffee_lon": -71.0244001,
+        "coffee_distance_miles": 0.28
+    },
+    {
+        "coffee_id": "179",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "coffee_name": "Boston Common Coffee Co.",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3648671,
+        "coffee_lon": -71.0602846,
+        "coffee_distance_miles": 0.14
+    },
+    {
+        "coffee_id": "180",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "coffee_name": "Rustico",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3643534,
+        "coffee_lon": -71.0597161,
+        "coffee_distance_miles": 0.18
+    },
+    {
+        "coffee_id": "181",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "coffee_name": "Caff\u00e9 Ducali",
+        "coffee_website": "https://duca.li/",
+        "coffee_lat": 42.3670856,
+        "coffee_lon": -71.0580727,
+        "coffee_distance_miles": 0.22
+    },
+    {
+        "coffee_id": "182",
+        "station_name": "NORTHEASTERN STATION",
+        "station_id": "70",
+        "coffee_name": "Tatte",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3400383,
+        "coffee_lon": -71.0905041,
+        "coffee_distance_miles": 0.04
+    },
+    {
+        "coffee_id": "183",
+        "station_name": "NORTHEASTERN STATION",
+        "station_id": "70",
+        "coffee_name": "Argo Tea",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3386033,
+        "coffee_lon": -71.0880875,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "184",
+        "station_name": "OAK GROVE STATION - ORANGE LINE",
+        "station_id": "71",
+        "coffee_name": "Jitters Caf\u00e9",
+        "coffee_website": "https://www.jitters-cafe.com/",
+        "coffee_lat": 42.4409045,
+        "coffee_lon": -71.0681076,
+        "coffee_distance_miles": 0.28
+    },
+    {
+        "coffee_id": "185",
+        "station_name": "PACKARDS CORNER STATION",
+        "station_id": "72",
+        "coffee_name": "LimeRed Teahouse",
+        "coffee_website": "https://www.limeredteahouse.com/",
+        "coffee_lat": 42.3518752,
+        "coffee_lon": -71.1241231,
+        "coffee_distance_miles": 0.04
+    },
+    {
+        "coffee_id": "186",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "coffee_name": "Frog Pond Caf\u00e9",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3559015,
+        "coffee_lon": -71.0656488,
+        "coffee_distance_miles": 0.17
+    },
+    {
+        "coffee_id": "187",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "coffee_name": "360 Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3562295,
+        "coffee_lon": -71.0619738,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "188",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "coffee_name": "Cafe 26",
+        "coffee_website": "http://cafe26boston.com",
+        "coffee_lat": 42.3554274,
+        "coffee_lon": -71.0622593,
+        "coffee_distance_miles": 0.07
+    },
+    {
+        "coffee_id": "189",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "coffee_name": "Caf\u00e9 Rustica",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3856385,
+        "coffee_lon": -71.115657,
+        "coffee_distance_miles": 0.26
+    },
+    {
+        "coffee_id": "190",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "coffee_name": "Simon's Cofee Shop",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3844695,
+        "coffee_lon": -71.1196495,
+        "coffee_distance_miles": 0.27
+    },
+    {
+        "coffee_id": "191",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "coffee_name": "3 Little Figs",
+        "coffee_website": "https://www.3littlefigs.com/",
+        "coffee_lat": 42.3917922,
+        "coffee_lon": -71.1118847,
+        "coffee_distance_miles": 0.44
+    },
+    {
+        "coffee_id": "192",
+        "station_name": "PORTER SQUARE--COMMUTER RAIL STATION",
+        "station_id": "127",
+        "coffee_name": "Caffe Nero",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3880073,
+        "coffee_lon": -71.1196008,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "193",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "coffee_name": "Charlie's Sandwich Shoppe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3440917,
+        "coffee_lon": -71.0777133,
+        "coffee_distance_miles": 0.23
+    },
+    {
+        "coffee_id": "194",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "coffee_name": "Nespresso",
+        "coffee_website": "https://www.nespresso.com/",
+        "coffee_lat": 42.3472841,
+        "coffee_lon": -71.0806429,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "195",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "coffee_name": "Caff\u00e8 Vergnano",
+        "coffee_website": "https://www.eataly.com/us_en/stores/boston/boston-caffe-vergnano/",
+        "coffee_lat": 42.3477176,
+        "coffee_lon": -71.0823275,
+        "coffee_distance_miles": 0.15
+    },
+    {
+        "coffee_id": "196",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "coffee_name": "Caff\u00e8 Lavazza",
+        "coffee_website": "https://www.eataly.com/us_en/stores/boston/boston-lavazza/",
+        "coffee_lat": 42.3480885,
+        "coffee_lon": -71.083126,
+        "coffee_distance_miles": 0.19
+    },
+    {
+        "coffee_id": "197",
+        "station_name": "QUINCY CENTER STATION--RED LINE",
+        "station_id": "78",
+        "coffee_name": "Gunther Tooties",
+        "coffee_website": "gunthertooties.com",
+        "coffee_lat": 42.2519493,
+        "coffee_lon": -71.0041691,
+        "coffee_distance_miles": 0.06
+    },
+    {
+        "coffee_id": "198",
+        "station_name": "QUINCY CENTER STATION--RED LINE",
+        "station_id": "78",
+        "coffee_name": "Italian Caf\u00e9 Gelato",
+        "coffee_website": "No website",
+        "coffee_lat": 42.2495793,
+        "coffee_lon": -71.0014772,
+        "coffee_distance_miles": 0.25
+    },
+    {
+        "coffee_id": "199",
+        "station_name": "RESERVOIR STATION",
+        "station_id": "79",
+        "coffee_name": "Cafe Landwer",
+        "coffee_website": "https://www.landwercafe.com/branches/#",
+        "coffee_lat": 42.3352663,
+        "coffee_lon": -71.1503524,
+        "coffee_distance_miles": 0.07
+    },
+    {
+        "coffee_id": "200",
+        "station_name": "REVERE BEACH STATION",
+        "station_id": "112",
+        "coffee_name": "Valsos Cafe & Bar",
+        "coffee_website": "No website",
+        "coffee_lat": 42.407668,
+        "coffee_lon": -70.9955946,
+        "coffee_distance_miles": 0.16
+    },
+    {
+        "coffee_id": "201",
+        "station_name": "REVERE BEACH STATION",
+        "station_id": "112",
+        "coffee_name": "Chocolaffee",
+        "coffee_website": "https://chocolaffee.com/",
+        "coffee_lat": 42.4068645,
+        "coffee_lon": -70.9933895,
+        "coffee_distance_miles": 0.08
+    },
+    {
+        "coffee_id": "202",
+        "station_name": "RIVERSIDE STATION",
+        "station_id": "80",
+        "coffee_name": "Honey Dew",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3303427,
+        "coffee_lon": -71.2548288,
+        "coffee_distance_miles": 0.49
+    },
+    {
+        "coffee_id": "203",
+        "station_name": "ROXBURY CROSSING STATION",
+        "station_id": "82",
+        "coffee_name": "Milkweed",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3321631,
+        "coffee_lon": -71.0995234,
+        "coffee_distance_miles": 0.22
+    },
+    {
+        "coffee_id": "204",
+        "station_name": "RUGGLES STATION--ORANGE LINE",
+        "station_id": "83",
+        "coffee_name": "Caff\u00e9 Strega",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3375079,
+        "coffee_lon": -71.0870102,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "205",
+        "station_name": "SAINT MARY ST STATION",
+        "station_id": "84",
+        "coffee_name": "Japonaise Bakery",
+        "coffee_website": "https://www.japonaisebakery.com/",
+        "coffee_lat": 42.346182,
+        "coffee_lon": -71.107795,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "206",
+        "station_name": "SAVIN HILL STATION",
+        "station_id": "86",
+        "coffee_name": "McKenna's Cafe",
+        "coffee_website": "https://www.mckennascafe.com/",
+        "coffee_lat": 42.3115609,
+        "coffee_lon": -71.0538844,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "207",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "Gracenote Coffee Roasters",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3515263,
+        "coffee_lon": -71.0581273,
+        "coffee_distance_miles": 0.16
+    },
+    {
+        "coffee_id": "208",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "KoHi",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3530249,
+        "coffee_lon": -71.0571274,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "209",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "Tradesman Coffee Shop",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3552866,
+        "coffee_lon": -71.0555793,
+        "coffee_distance_miles": 0.18
+    },
+    {
+        "coffee_id": "210",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "Sip Caf\u00e9",
+        "coffee_website": "http://www.sipboston.com/",
+        "coffee_lat": 42.3559069,
+        "coffee_lon": -71.0555332,
+        "coffee_distance_miles": 0.23
+    },
+    {
+        "coffee_id": "211",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "La Colombe Coffee Roasters",
+        "coffee_website": "https://www.lacolombe.com/pages/cafes#boston",
+        "coffee_lat": 42.3504764,
+        "coffee_lon": -71.057103,
+        "coffee_distance_miles": 0.17
+    },
+    {
+        "coffee_id": "212",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "Melting Sun",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3516566,
+        "coffee_lon": -71.0551892,
+        "coffee_distance_miles": 0.07
+    },
+    {
+        "coffee_id": "213",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "Phin Coffee House",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3535474,
+        "coffee_lon": -71.0566398,
+        "coffee_distance_miles": 0.09
+    },
+    {
+        "coffee_id": "214",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "Gracenote Coffee",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3541007,
+        "coffee_lon": -71.0554715,
+        "coffee_distance_miles": 0.1
+    },
+    {
+        "coffee_id": "215",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "Amtrak Metropolitan Lounge",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3519865,
+        "coffee_lon": -71.0546406,
+        "coffee_distance_miles": 0.06
+    },
+    {
+        "coffee_id": "216",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "Intelligentsia",
+        "coffee_website": "https://www.intelligentsia.com/pages/post-office-square-coffeebar",
+        "coffee_lat": 42.3560643,
+        "coffee_lon": -71.0545466,
+        "coffee_distance_miles": 0.24
+    },
+    {
+        "coffee_id": "217",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "Sorelle",
+        "coffee_website": "No website",
+        "coffee_lat": 42.353327,
+        "coffee_lon": -71.0529532,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "218",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "coffee_name": "Channel Cafe",
+        "coffee_website": "https://channel-cafe.com/",
+        "coffee_lat": 42.3499065,
+        "coffee_lon": -71.0491411,
+        "coffee_distance_miles": 0.37
+    },
+    {
+        "coffee_id": "219",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "coffee_name": "Milk Street Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3568397,
+        "coffee_lon": -71.0575833,
+        "coffee_distance_miles": 0.15
+    },
+    {
+        "coffee_id": "220",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "coffee_name": "Render Coffee",
+        "coffee_website": "https://www.rendercoffeebar.com/",
+        "coffee_lat": 42.3571321,
+        "coffee_lon": -71.0574738,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "221",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "coffee_name": "The Well",
+        "coffee_website": "https://www.thewellcoffeehouse.com/",
+        "coffee_lat": 42.3585462,
+        "coffee_lon": -71.0577196,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "222",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "coffee_name": "Oliver Street Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3569029,
+        "coffee_lon": -71.0541391,
+        "coffee_distance_miles": 0.23
+    },
+    {
+        "coffee_id": "223",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "coffee_name": "Boston News Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3595155,
+        "coffee_lon": -71.057655,
+        "coffee_distance_miles": 0.04
+    },
+    {
+        "coffee_id": "224",
+        "station_name": "STONEYBROOK STATION",
+        "station_id": "91",
+        "coffee_name": "Ula Cafe",
+        "coffee_website": "https://www.ulacafe.com/",
+        "coffee_lat": 42.3147028,
+        "coffee_lon": -71.1039441,
+        "coffee_distance_miles": 0.16
+    },
+    {
+        "coffee_id": "225",
+        "station_name": "STONEYBROOK STATION",
+        "station_id": "91",
+        "coffee_name": "Happy Lemon",
+        "coffee_website": "https://happylemonusa.com/",
+        "coffee_lat": 42.3126542,
+        "coffee_lon": -71.1016136,
+        "coffee_distance_miles": 0.33
+    },
+    {
+        "coffee_id": "226",
+        "station_name": "SUMMIT AVE STATION",
+        "station_id": "93",
+        "coffee_name": "Royaltea Brookline",
+        "coffee_website": "https://www.clover.com/online-ordering/royaltea-brookline-brookline",
+        "coffee_lat": 42.3417109,
+        "coffee_lon": -71.1238646,
+        "coffee_distance_miles": 0.12
+    },
+    {
+        "coffee_id": "227",
+        "station_name": "SUMMIT AVE STATION",
+        "station_id": "93",
+        "coffee_name": "Knight Moves Cafe",
+        "coffee_website": "https://www.knightmovescafe.com/",
+        "coffee_lat": 42.3414919,
+        "coffee_lon": -71.1250801,
+        "coffee_distance_miles": 0.06
+    },
+    {
+        "coffee_id": "228",
+        "station_name": "SUTHERLAND RD STATION",
+        "station_id": "94",
+        "coffee_name": "Dolce Vita Caf\u00e8",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3412205,
+        "coffee_lon": -71.1465949,
+        "coffee_distance_miles": 0.03
+    },
+    {
+        "coffee_id": "229",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "coffee_name": "Cafe on the Common",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3763119,
+        "coffee_lon": -71.2371951,
+        "coffee_distance_miles": 0.17
+    },
+    {
+        "coffee_id": "230",
+        "station_name": "WARREN ST STATION",
+        "station_id": "99",
+        "coffee_name": "Dash Cafe",
+        "coffee_website": "https://dashcafe.net/",
+        "coffee_lat": 42.3494466,
+        "coffee_lon": -71.1497292,
+        "coffee_distance_miles": 0.49
+    },
+    {
+        "coffee_id": "231",
+        "station_name": "WASHINGTON ST STATION",
+        "station_id": "101",
+        "coffee_name": "Brighton Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3440836,
+        "coffee_lon": -71.1432151,
+        "coffee_distance_miles": 0.02
+    },
+    {
+        "coffee_id": "232",
+        "station_name": "WAVERLEY STATION",
+        "station_id": "132",
+        "coffee_name": "Dunkin' Donuts",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3869186,
+        "coffee_lon": -71.1908854,
+        "coffee_distance_miles": 0.04
+    },
+    {
+        "coffee_id": "233",
+        "station_name": "WAVERLEY STATION",
+        "station_id": "132",
+        "coffee_name": "Sweet Heart",
+        "coffee_website": "No website",
+        "coffee_lat": 42.3857536,
+        "coffee_lon": -71.1849669,
+        "coffee_distance_miles": 0.32
+    },
+    {
+        "coffee_id": "234",
+        "station_name": "WEST CONCORD STATION",
+        "station_id": "133",
+        "coffee_name": "Nashoba Brook Bakery",
+        "coffee_website": "No website",
+        "coffee_lat": 42.4584463,
+        "coffee_lon": -71.3965241,
+        "coffee_distance_miles": 0.21
+    },
+    {
+        "coffee_id": "235",
+        "station_name": "WEST CONCORD STATION",
+        "station_id": "133",
+        "coffee_name": "Reasons to be Cheerful",
+        "coffee_website": "https://www.cheerful-reasons.com/",
+        "coffee_lat": 42.4574725,
+        "coffee_lon": -71.3957654,
+        "coffee_distance_miles": 0.15
+    },
+    {
+        "coffee_id": "236",
+        "station_name": "WEST CONCORD STATION",
+        "station_id": "133",
+        "coffee_name": "Salt Box Kitchen",
+        "coffee_website": "No website",
+        "coffee_lat": 42.4571394,
+        "coffee_lon": -71.3950291,
+        "coffee_distance_miles": 0.11
+    },
+    {
+        "coffee_id": "237",
+        "station_name": "WEST CONCORD STATION",
+        "station_id": "133",
+        "coffee_name": "Tea Firte",
+        "coffee_website": "No website",
+        "coffee_lat": 42.4566409,
+        "coffee_lon": -71.396676,
+        "coffee_distance_miles": 0.19
+    },
+    {
+        "coffee_id": "238",
+        "station_name": "WEST CONCORD STATION",
+        "station_id": "133",
+        "coffee_name": "Concord Teacakes",
+        "coffee_website": "No website",
+        "coffee_lat": 42.4564776,
+        "coffee_lon": -71.3940049,
+        "coffee_distance_miles": 0.06
+    },
+    {
+        "coffee_id": "239",
+        "station_name": "WEST CONCORD STATION",
+        "station_id": "133",
+        "coffee_name": "Club Car Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.4568727,
+        "coffee_lon": -71.3930058,
+        "coffee_distance_miles": 0.0
+    },
+    {
+        "coffee_id": "240",
+        "station_name": "WOLLASTON STATION",
+        "station_id": "103",
+        "coffee_name": "CoCo Fresh Tea & Juice",
+        "coffee_website": "No website",
+        "coffee_lat": 42.2703962,
+        "coffee_lon": -71.0230154,
+        "coffee_distance_miles": 0.3
+    },
+    {
+        "coffee_id": "241",
+        "station_name": "WOLLASTON STATION",
+        "station_id": "103",
+        "coffee_name": "Coffee Break Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.26564,
+        "coffee_lon": -71.0185058,
+        "coffee_distance_miles": 0.11
+    },
+    {
+        "coffee_id": "242",
+        "station_name": "WOLLASTON STATION",
+        "station_id": "103",
+        "coffee_name": "Momo Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.267984,
+        "coffee_lon": -71.0168435,
+        "coffee_distance_miles": 0.21
+    },
+    {
+        "coffee_id": "243",
+        "station_name": "WOLLASTON STATION",
+        "station_id": "103",
+        "coffee_name": "Big Fun Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.2659372,
+        "coffee_lon": -71.02107,
+        "coffee_distance_miles": 0.05
+    },
+    {
+        "coffee_id": "244",
+        "station_name": "WOLLASTON STATION",
+        "station_id": "103",
+        "coffee_name": "Fairy Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.2660202,
+        "coffee_lon": -71.0209334,
+        "coffee_distance_miles": 0.05
+    },
+    {
+        "coffee_id": "245",
+        "station_name": "WOOD ISLAND STATION",
+        "station_id": "116",
+        "coffee_name": "Melo's Cafe",
+        "coffee_website": "No website",
+        "coffee_lat": 42.380137,
+        "coffee_lon": -71.0272074,
+        "coffee_distance_miles": 0.22
+    },
+    {
+        "coffee_id": "246",
+        "station_name": "MEDFORD/TUFTS STATION",
+        "station_id": "134",
+        "coffee_name": "Danish Pastry House",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.4117184,
+        "coffee_lon": -71.1218144,
+        "coffee_distance_miles": 0.39
+    },
+    {
+        "coffee_id": "247",
+        "station_name": "MEDFORD/TUFTS STATION",
+        "station_id": "134",
+        "coffee_name": "Tasty Cafe and Kitchen",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.4116729,
+        "coffee_lon": -71.1222436,
+        "coffee_distance_miles": 0.4
+    },
+    {
+        "coffee_id": "248",
+        "station_name": "MEDFORD/TUFTS STATION",
+        "station_id": "134",
+        "coffee_name": "Tamper",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.4114709,
+        "coffee_lon": -71.1213573,
+        "coffee_distance_miles": 0.36
+    },
+    {
+        "coffee_id": "249",
+        "station_name": "BALL SQUARE STATION",
+        "station_id": "135",
+        "coffee_name": "Oasis Caf\u00e9 and Bakery",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.4051978,
+        "coffee_lon": -71.1081692,
+        "coffee_distance_miles": 0.35
+    },
+    {
+        "coffee_id": "250",
+        "station_name": "BALL SQUARE STATION",
+        "station_id": "135",
+        "coffee_name": "True Grounds",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.400143,
+        "coffee_lon": -71.112436,
+        "coffee_distance_miles": 0.12
+    },
+    {
+        "coffee_id": "251",
+        "station_name": "MARGOUN SQUARE STATION",
+        "station_id": "136",
+        "coffee_name": "Armory Cafe",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.389642,
+        "coffee_lon": -71.1061709,
+        "coffee_distance_miles": 0.29
+    },
+    {
+        "coffee_id": "252",
+        "station_name": "MARGOUN SQUARE STATION",
+        "station_id": "136",
+        "coffee_name": "Zaruma Gold",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.3919413,
+        "coffee_lon": -71.1065931,
+        "coffee_distance_miles": 0.13
+    },
+    {
+        "coffee_id": "253",
+        "station_name": "MARGOUN SQUARE STATION",
+        "station_id": "136",
+        "coffee_name": "3 Little Figs",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.3917922,
+        "coffee_lon": -71.1118847,
+        "coffee_distance_miles": 0.31
+    },
+    {
+        "coffee_id": "254",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "137",
+        "coffee_name": "Bloc",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.3808311,
+        "coffee_lon": -71.0968378,
+        "coffee_distance_miles": 0.46
+    },
+    {
+        "coffee_id": "255",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "137",
+        "coffee_name": "Union Square Donuts",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.3808011,
+        "coffee_lon": -71.0972174,
+        "coffee_distance_miles": 0.47
+    },
+    {
+        "coffee_id": "256",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "137",
+        "coffee_name": "Starbucks",
+        "restaurant_website": "No website",
+        "coffee_lat": 42.3767904,
+        "coffee_lon": -71.0908433,
+        "coffee_distance_miles": 0.27
+    }
+
+]

@@ -1,0 +1,1353 @@
+[
+    {
+        "hotel_id": "1",
+        "station_name": "ALEWIFE  STATION",
+        "station_id": "1",
+        "hotel_name": "Freepoint Hotel",
+        "hotel_website": "https://www.freepointhotel.com/",
+        "hotel_lat": 42.3886109,
+        "hotel_lon": -71.1421979,
+        "hotel_distance_miles": 0.51
+    },
+    {
+        "hotel_id": "2",
+        "station_name": "ALEWIFE  STATION",
+        "station_id": "1",
+        "hotel_name": "Homewood Suites",
+        "hotel_website": "No website",
+        "hotel_lat": 42.4019304,
+        "hotel_lon": -71.1360741,
+        "hotel_distance_miles": 0.48
+    },
+    {
+        "hotel_id": "3",
+        "station_name": "ANDREW SQ STATION",
+        "station_id": "4",
+        "hotel_name": "Holiday Inn Express Boston",
+        "hotel_website": "https://www.ihg.com/holidayinnexpress/hotels/us/en/boston/boshj/hoteldetail",
+        "hotel_lat": 42.3272395,
+        "hotel_lon": -71.059575,
+        "hotel_distance_miles": 0.22
+    },
+    {
+        "hotel_id": "4",
+        "station_name": "ANDREW SQ STATION",
+        "station_id": "4",
+        "hotel_name": "Courtyard South Boston",
+        "hotel_website": "https://www.marriott.com/bosso",
+        "hotel_lat": 42.3267649,
+        "hotel_lon": -71.0602828,
+        "hotel_distance_miles": 0.27
+    },
+    {
+        "hotel_id": "5",
+        "station_name": "ANDREW SQ STATION",
+        "station_id": "4",
+        "hotel_name": "Home2 Suites",
+        "hotel_website": "https://www.hilton.com/en/hotels/bosbyht-home2-suites-boston-south-bay/",
+        "hotel_lat": 42.326005,
+        "hotel_lon": -71.0608199,
+        "hotel_distance_miles": 0.33
+    },
+    {
+        "hotel_id": "6",
+        "station_name": "ARLINGTON STATION",
+        "station_id": "5",
+        "hotel_name": "Hampshire House",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3560419,
+        "hotel_lon": -71.0712398,
+        "hotel_distance_miles": 0.29
+    },
+    {
+        "hotel_id": "7",
+        "station_name": "ARLINGTON STATION",
+        "station_id": "5",
+        "hotel_name": "The Newbury Boston",
+        "hotel_website": "https://www.thenewburyboston.com/",
+        "hotel_lat": 42.3529327,
+        "hotel_lon": -71.0714884,
+        "hotel_distance_miles": 0.08
+    },
+    {
+        "hotel_id": "8",
+        "station_name": "ARLINGTON STATION",
+        "station_id": "5",
+        "hotel_name": "Loews Boston Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3492011,
+        "hotel_lon": -71.072394,
+        "hotel_distance_miles": 0.2
+    },
+    {
+        "hotel_id": "9",
+        "station_name": "ARLINGTON STATION",
+        "station_id": "5",
+        "hotel_name": "Four Seasons Hotel Boston",
+        "hotel_website": "https://www.fourseasons.com/boston/",
+        "hotel_lat": 42.3520527,
+        "hotel_lon": -71.0683352,
+        "hotel_distance_miles": 0.13
+    },
+    {
+        "hotel_id": "10",
+        "station_name": "ARLINGTON STATION",
+        "station_id": "5",
+        "hotel_name": "Hilton Boston Park Plaza",
+        "hotel_website": "https://www.hilton.com/en/hotels/bossrhh-hilton-boston-park-plaza/",
+        "hotel_lat": 42.350974,
+        "hotel_lon": -71.0693336,
+        "hotel_distance_miles": 0.1
+    },
+    {
+        "hotel_id": "11",
+        "station_name": "ASSEMBLY STATION",
+        "station_id": "7",
+        "hotel_name": "The Row Hotel at Assembly Row",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3933027,
+        "hotel_lon": -71.0794206,
+        "hotel_distance_miles": 0.12
+    },
+    {
+        "hotel_id": "12",
+        "station_name": "ASSEMBLY STATION",
+        "station_id": "7",
+        "hotel_name": "La Quinta",
+        "hotel_website": "https://www.wyndhamhotels.com/laquinta/somerville-massachusetts/la-quinta-boston-somerville/overview",
+        "hotel_lat": 42.3943234,
+        "hotel_lon": -71.0847465,
+        "hotel_distance_miles": 0.4
+    },
+    {
+        "hotel_id": "13",
+        "station_name": "ASSEMBLY STATION",
+        "station_id": "7",
+        "hotel_name": "Encore Boston Harbor Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3950324,
+        "hotel_lon": -71.0694558,
+        "hotel_distance_miles": 0.43
+    },
+    {
+        "hotel_id": "14",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "hotel_name": "The Revolution Hotel",
+        "hotel_website": "https://therevolutionhotel.com/",
+        "hotel_lat": 42.346057,
+        "hotel_lon": -71.0708438,
+        "hotel_distance_miles": 0.27
+    },
+    {
+        "hotel_id": "15",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "hotel_name": "Staypineapple",
+        "hotel_website": "https://www.staypineapple.com/south-end-boston",
+        "hotel_lat": 42.3469832,
+        "hotel_lon": -71.0705055,
+        "hotel_distance_miles": 0.27
+    },
+    {
+        "hotel_id": "16",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "hotel_name": "Raffles",
+        "hotel_website": "http://www.bostonplans.org/projects/development-projects/40-trinity-place",
+        "hotel_lat": 42.3484279,
+        "hotel_lon": -71.0750144,
+        "hotel_distance_miles": 0.08
+    },
+    {
+        "hotel_id": "17",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "hotel_name": "Boston Marriott Copley Place",
+        "hotel_website": "https://www.marriott.com/hotels/travel/bosco-boston-marriott-copley-place",
+        "hotel_lat": 42.3472371,
+        "hotel_lon": -71.0777364,
+        "hotel_distance_miles": 0.1
+    },
+    {
+        "hotel_id": "18",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "hotel_name": "140 Clarendon",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3485927,
+        "hotel_lon": -71.0744782,
+        "hotel_distance_miles": 0.11
+    },
+    {
+        "hotel_id": "19",
+        "station_name": "BOSTON UNIV CENTRAL STATION",
+        "station_id": "14",
+        "hotel_name": "Hyatt Regency Boston / Cambridge",
+        "hotel_website": "https://www.hyatt.com/en-US/hotel/massachusetts/hyatt-regency-boston-cambridge/bosrc",
+        "hotel_lat": 42.3540964,
+        "hotel_lon": -71.1054261,
+        "hotel_distance_miles": 0.29
+    },
+    {
+        "hotel_id": "20",
+        "station_name": "BOYLSTON STATION--GREEN LINE",
+        "station_id": "16",
+        "hotel_name": "The Ritz-Carlton, Boston",
+        "hotel_website": "http://www.ritzcarlton.com/en/Properties/BostonCommon/Default.htm",
+        "hotel_lat": 42.3531653,
+        "hotel_lon": -71.0636868,
+        "hotel_distance_miles": 0.04
+    },
+    {
+        "hotel_id": "21",
+        "station_name": "BRAINTREE STATION--RED LINE ",
+        "station_id": "17",
+        "hotel_name": "Motel 6",
+        "hotel_website": "No website",
+        "hotel_lat": 42.2091227,
+        "hotel_lon": -70.9988408,
+        "hotel_distance_miles": 0.18
+    },
+    {
+        "hotel_id": "22",
+        "station_name": "BRIGHAM CIRCLE STATION",
+        "station_id": "19",
+        "hotel_name": "Inn at Longwood Medical",
+        "hotel_website": "No website",
+        "hotel_lat": 42.33821,
+        "hotel_lon": -71.1063752,
+        "hotel_distance_miles": 0.29
+    },
+    {
+        "hotel_id": "23",
+        "station_name": "BROADWAY STATION",
+        "station_id": "20",
+        "hotel_name": "AC Hotel by Marriott Boston Downtown",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3449988,
+        "hotel_lon": -71.0619311,
+        "hotel_distance_miles": 0.31
+    },
+    {
+        "hotel_id": "24",
+        "station_name": "BROADWAY STATION",
+        "station_id": "20",
+        "hotel_name": "Cambria Hotel",
+        "hotel_website": "https://choicehotels.com",
+        "hotel_lat": 42.3431858,
+        "hotel_lon": -71.0569512,
+        "hotel_distance_miles": 0.07
+    },
+    {
+        "hotel_id": "25",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "hotel_name": "Le Meridien Cambridge-MIT",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3620538,
+        "hotel_lon": -71.0999395,
+        "hotel_distance_miles": 0.31
+    },
+    {
+        "hotel_id": "26",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "hotel_name": "907 Main",
+        "hotel_website": "https://www.907main.com",
+        "hotel_lat": 42.3635515,
+        "hotel_lon": -71.0996244,
+        "hotel_distance_miles": 0.25
+    },
+    {
+        "hotel_id": "27",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "hotel_name": "The Amory Guest House",
+        "hotel_website": "https://theamoryhouse.com/",
+        "hotel_lat": 42.370883,
+        "hotel_lon": -71.1009504,
+        "hotel_distance_miles": 0.4
+    },
+    {
+        "hotel_id": "28",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "hotel_name": "Beacon Hill Hotel and Bistro",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3569144,
+        "hotel_lon": -71.0696536,
+        "hotel_distance_miles": 0.3
+    },
+    {
+        "hotel_id": "29",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "hotel_name": "The Whitney Hotel",
+        "hotel_website": "https://www.whitneyhotelboston.com/",
+        "hotel_lat": 42.3606355,
+        "hotel_lon": -71.071073,
+        "hotel_distance_miles": 0.04
+    },
+    {
+        "hotel_id": "30",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "hotel_name": "The Liberty Hotel",
+        "hotel_website": "http://www.libertyhotel.com/",
+        "hotel_lat": 42.362064,
+        "hotel_lon": -71.0702514,
+        "hotel_distance_miles": 0.06
+    },
+    {
+        "hotel_id": "31",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "hotel_name": "Wyndham Boston Beacon Hill",
+        "hotel_website": "https://www.wyndhamhotels.com/wyndham/boston-massachusetts/wyndham-boston-beacon-hill/overview",
+        "hotel_lat": 42.3616783,
+        "hotel_lon": -71.0666031,
+        "hotel_distance_miles": 0.21
+    },
+    {
+        "hotel_id": "32",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "hotel_name": "John Jeffries House",
+        "hotel_website": "No website",
+        "hotel_lat": 42.360618,
+        "hotel_lon": -71.0713791,
+        "hotel_distance_miles": 0.05
+    },
+    {
+        "hotel_id": "33",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "hotel_name": "HI Boston",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3511012,
+        "hotel_lon": -71.0633625,
+        "hotel_distance_miles": 0.1
+    },
+    {
+        "hotel_id": "34",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "hotel_name": "Hyatt Regency Boston",
+        "hotel_website": "https://www.hyatt.com/en-US/hotel/massachusetts/hyatt-regency-boston/bosto",
+        "hotel_lat": 42.3534041,
+        "hotel_lon": -71.0607712,
+        "hotel_distance_miles": 0.12
+    },
+    {
+        "hotel_id": "35",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "hotel_name": "Churchill At The Radian",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3522131,
+        "hotel_lon": -71.0590854,
+        "hotel_distance_miles": 0.19
+    },
+    {
+        "hotel_id": "36",
+        "station_name": "COOLIDGE CORNER STATION",
+        "station_id": "31",
+        "hotel_name": "Courtyard Brookline",
+        "hotel_website": "https://www.marriott.com/bosbl",
+        "hotel_lat": 42.3409709,
+        "hotel_lon": -71.1229506,
+        "hotel_distance_miles": 0.12
+    },
+    {
+        "hotel_id": "37",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "hotel_name": "The Westin Copley Place",
+        "hotel_website": "https://www.marriott.com/hotels/travel/boswi-the-westin-copley-place-boston",
+        "hotel_lat": 42.3485752,
+        "hotel_lon": -71.0772032,
+        "hotel_distance_miles": 0.1
+    },
+    {
+        "hotel_id": "38",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "hotel_name": "Copley Square Hotel",
+        "hotel_website": "https://www.copleysquarehotel.com/",
+        "hotel_lat": 42.3483514,
+        "hotel_lon": -71.0787289,
+        "hotel_distance_miles": 0.13
+    },
+    {
+        "hotel_id": "39",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "hotel_name": "Oakwood At Exeter Towers Hotel",
+        "hotel_website": "http://oakwood-at-exeter-towers.choosebostonhotel.com/",
+        "hotel_lat": 42.3501599,
+        "hotel_lon": -71.0794848,
+        "hotel_distance_miles": 0.11
+    },
+    {
+        "hotel_id": "40",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "hotel_name": "Charlesmark Hotel",
+        "hotel_website": "https://www.charlesmarkhotel.com/",
+        "hotel_lat": 42.3499981,
+        "hotel_lon": -71.0785679,
+        "hotel_distance_miles": 0.06
+    },
+    {
+        "hotel_id": "41",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "hotel_name": "Courtyard",
+        "hotel_website": "https://www.marriott.com/hotels/travel/bosdt-courtyard-boston-copley-square/",
+        "hotel_lat": 42.3485942,
+        "hotel_lon": -71.0788563,
+        "hotel_distance_miles": 0.12
+    },
+    {
+        "hotel_id": "42",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "hotel_name": "The Lenox",
+        "hotel_website": "https://www.lenoxhotel.com/",
+        "hotel_lat": 42.3491509,
+        "hotel_lon": -71.0796191,
+        "hotel_distance_miles": 0.12
+    },
+    {
+        "hotel_id": "43",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "hotel_name": "The Fairmont Copley Plaza Hotel",
+        "hotel_website": "https://www.fairmont.com/copley-plaza-boston/",
+        "hotel_lat": 42.3490609,
+        "hotel_lon": -71.0761826,
+        "hotel_distance_miles": 0.09
+    },
+    {
+        "hotel_id": "44",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "hotel_name": "Scholars House",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3938173,
+        "hotel_lon": -71.1266904,
+        "hotel_distance_miles": 0.29
+    },
+    {
+        "hotel_id": "45",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "hotel_name": "Morrison House B and B",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3977256,
+        "hotel_lon": -71.1203497,
+        "hotel_distance_miles": 0.13
+    },
+    {
+        "hotel_id": "46",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "hotel_name": "The Godfrey Hotel Boston",
+        "hotel_website": "https://www.godfreyhotelboston.com/",
+        "hotel_lat": 42.354732,
+        "hotel_lon": -71.0614884,
+        "hotel_distance_miles": 0.08
+    },
+    {
+        "hotel_id": "47",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "hotel_name": "Club Quarters Hotel",
+        "hotel_website": "https://clubquartershotels.com/boston/faneuil-hall",
+        "hotel_lat": 42.3563563,
+        "hotel_lon": -71.0574951,
+        "hotel_distance_miles": 0.15
+    },
+    {
+        "hotel_id": "48",
+        "station_name": "FENWAY STATION",
+        "station_id": "39",
+        "hotel_name": "Residence Inn Boston Back Bay/Fenway",
+        "hotel_website": "https://www.marriott.com/hotels/travel/bosfn-residence-inn-boston-back-bay-fenway/",
+        "hotel_lat": 42.3458856,
+        "hotel_lon": -71.100584,
+        "hotel_distance_miles": 0.21
+    },
+    {
+        "hotel_id": "49",
+        "station_name": "GOVERNMENT CENTER STATION-GREEN LINE",
+        "station_id": "43",
+        "hotel_name": "Omni Parker House",
+        "hotel_website": "https://www.omnihotels.com/hotels/boston-parker-house",
+        "hotel_lat": 42.3578372,
+        "hotel_lon": -71.0602361,
+        "hotel_distance_miles": 0.14
+    },
+    {
+        "hotel_id": "50",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "hotel_name": "Farrington Inn",
+        "hotel_website": "https://farringtoninn.com/",
+        "hotel_lat": 42.3542602,
+        "hotel_lon": -71.130889,
+        "hotel_distance_miles": 0.28
+    },
+    {
+        "hotel_id": "51",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "hotel_name": "The Charles Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3724623,
+        "hotel_lon": -71.1230942,
+        "hotel_distance_miles": 0.22
+    },
+    {
+        "hotel_id": "52",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "hotel_name": "Hotel Veritas",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3710414,
+        "hotel_lon": -71.1138836,
+        "hotel_distance_miles": 0.31
+    },
+    {
+        "hotel_id": "53",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "hotel_name": "Irving House",
+        "hotel_website": "https://irvinghouse.com/",
+        "hotel_lat": 42.3755258,
+        "hotel_lon": -71.1106899,
+        "hotel_distance_miles": 0.45
+    },
+    {
+        "hotel_id": "54",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "hotel_name": "Sheraton Commander Hotel",
+        "hotel_website": "https://www.marriott.com/hotels/travel/boscs-sheraton-commander-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2",
+        "hotel_lat": 42.3772703,
+        "hotel_lon": -71.1232971,
+        "hotel_distance_miles": 0.35
+    },
+    {
+        "hotel_id": "55",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "hotel_name": "Harvard Square Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3726932,
+        "hotel_lon": -71.1220631,
+        "hotel_distance_miles": 0.17
+    },
+    {
+        "hotel_id": "56",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "hotel_name": "The Bostonian Boston",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3610615,
+        "hotel_lon": -71.0559058,
+        "hotel_distance_miles": 0.13
+    },
+    {
+        "hotel_id": "57",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "hotel_name": "Canopy by Hilton Boston Downtown",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3616496,
+        "hotel_lon": -71.0559941,
+        "hotel_distance_miles": 0.11
+    },
+    {
+        "hotel_id": "58",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "hotel_name": "Newbury Guest House",
+        "hotel_website": "https://www.newburyguesthouse.com/",
+        "hotel_lat": 42.3496572,
+        "hotel_lon": -71.0832743,
+        "hotel_distance_miles": 0.27
+    },
+    {
+        "hotel_id": "59",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "hotel_name": "Hilton Boston Back Bay",
+        "hotel_website": "https://www3.hilton.com/en/hotels/massachusetts/hilton-boston-back-bay-BOSBHHH/index.html",
+        "hotel_lat": 42.3463574,
+        "hotel_lon": -71.0851509,
+        "hotel_distance_miles": 0.18
+    },
+    {
+        "hotel_id": "60",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "hotel_name": "The Eliot Hotel",
+        "hotel_website": "https://www.eliothotel.com/",
+        "hotel_lat": 42.3486873,
+        "hotel_lon": -71.0887471,
+        "hotel_distance_miles": 0.07
+    },
+    {
+        "hotel_id": "61",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "hotel_name": "Boston Fenway Inn",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3463802,
+        "hotel_lon": -71.0890053,
+        "hotel_distance_miles": 0.12
+    },
+    {
+        "hotel_id": "62",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "hotel_name": "Adams Bed & Breakfast",
+        "hotel_website": "https://www.oasisguesthouse.com/",
+        "hotel_lat": 42.3460624,
+        "hotel_lon": -71.0878807,
+        "hotel_distance_miles": 0.13
+    },
+    {
+        "hotel_id": "63",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "hotel_name": "Oasis Guest House",
+        "hotel_website": "https://www.oasisguesthouse.com/",
+        "hotel_lat": 42.3458547,
+        "hotel_lon": -71.0877793,
+        "hotel_distance_miles": 0.14
+    },
+    {
+        "hotel_id": "64",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "hotel_name": "citizenM Boston Back Bay hotel",
+        "hotel_website": "https://www.citizenm.com/hotels/united-states/boston/boston-back-bay-hotel",
+        "hotel_lat": 42.3479345,
+        "hotel_lon": -71.0887403,
+        "hotel_distance_miles": 0.04
+    },
+    {
+        "hotel_id": "65",
+        "station_name": "JFK/UMAS--RED LINE STATION",
+        "station_id": "54",
+        "hotel_name": "DoubleTree by Hilton Boston Bayside",
+        "hotel_website": "https://www.hilton.com/en/hotels/boschdt-doubletree-boston-bayside/",
+        "hotel_lat": 42.3202865,
+        "hotel_lon": -71.047972,
+        "hotel_distance_miles": 0.23
+    },
+    {
+        "hotel_id": "66",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "hotel_name": "The Kendall Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3622337,
+        "hotel_lon": -71.0872547,
+        "hotel_distance_miles": 0.06
+    },
+    {
+        "hotel_id": "67",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "hotel_name": "Residence Inn Cambridge",
+        "hotel_website": "https://www.marriott.com/hotels/travel/boscm-residence-inn-boston-cambridge/",
+        "hotel_lat": 42.3638906,
+        "hotel_lon": -71.0881057,
+        "hotel_distance_miles": 0.14
+    },
+    {
+        "hotel_id": "68",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "hotel_name": "Boston Marriott Cambridge",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3632806,
+        "hotel_lon": -71.0865022,
+        "hotel_distance_miles": 0.06
+    },
+    {
+        "hotel_id": "69",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "hotel_name": "Hotel Commonwealth",
+        "hotel_website": "https://www.hotelcommonwealth.com/",
+        "hotel_lat": 42.348593,
+        "hotel_lon": -71.0953263,
+        "hotel_distance_miles": 0.03
+    },
+    {
+        "hotel_id": "70",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "hotel_name": "The Verb Hotel",
+        "hotel_website": "https://www.samuelsre.com/properties/verb-hotel/",
+        "hotel_lat": 42.3453419,
+        "hotel_lon": -71.0969246,
+        "hotel_distance_miles": 0.26
+    },
+    {
+        "hotel_id": "71",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "hotel_name": "Boston Hotel Buckminster",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3483578,
+        "hotel_lon": -71.0977051,
+        "hotel_distance_miles": 0.14
+    },
+    {
+        "hotel_id": "72",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "hotel_name": "The Gryphon House",
+        "hotel_website": "https://www.innboston.com/",
+        "hotel_lat": 42.3502001,
+        "hotel_lon": -71.0931566,
+        "hotel_distance_miles": 0.13
+    },
+    {
+        "hotel_id": "73",
+        "station_name": "LECHMERE STATION",
+        "station_id": "58",
+        "hotel_name": "The Royal Sonesta Boston",
+        "hotel_website": "https://www.sonesta.com/royal-sonesta/ma/cambridge/royal-sonesta-boston?utm_source=google-local&utm_medium=organic&utm_campaign=gmb",
+        "hotel_lat": 42.3665619,
+        "hotel_lon": -71.0751691,
+        "hotel_distance_miles": 0.33
+    },
+    {
+        "hotel_id": "74",
+        "station_name": "LECHMERE STATION",
+        "station_id": "58",
+        "hotel_name": "Hampton Inn Boston/Cambridge",
+        "hotel_website": "https://hamptoninn3.hilton.com/en/hotels/massachusetts/hampton-inn-boston-cambridge-BOSCBHX/index.html",
+        "hotel_lat": 42.3722892,
+        "hotel_lon": -71.0786278,
+        "hotel_distance_miles": 0.15
+    },
+    {
+        "hotel_id": "75",
+        "station_name": "LECHMERE STATION",
+        "station_id": "58",
+        "hotel_name": "Hotel Marlowe",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3679528,
+        "hotel_lon": -71.0750896,
+        "hotel_distance_miles": 0.23
+    },
+    {
+        "hotel_id": "76",
+        "station_name": "LECHMERE STATION",
+        "station_id": "58",
+        "hotel_name": "Holiday Inn Express Hotel & Suites",
+        "hotel_website": "https://www.ihg.com/holidayinnexpress/hotels/us/en/cambridge/boscb/hoteldetail",
+        "hotel_lat": 42.3732791,
+        "hotel_lon": -71.0816117,
+        "hotel_distance_miles": 0.31
+    },
+    {
+        "hotel_id": "77",
+        "station_name": "LECHMERE STATION",
+        "station_id": "58",
+        "hotel_name": "Fairfield Inn and Suites",
+        "hotel_website": "https://www.marriott.com/bosbg",
+        "hotel_lat": 42.3728794,
+        "hotel_lon": -71.0798151,
+        "hotel_distance_miles": 0.22
+    },
+    {
+        "hotel_id": "78",
+        "station_name": "MASSACHUSETTS AVE STATION",
+        "station_id": "62",
+        "hotel_name": "The Midtown Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.343527,
+        "hotel_lon": -71.0834736,
+        "hotel_distance_miles": 0.09
+    },
+    {
+        "hotel_id": "79",
+        "station_name": "NORTH QUINCY STATION",
+        "station_id": "67",
+        "hotel_name": "Holiday Inn Express",
+        "hotel_website": "https://www.ihg.com/holidayinnexpress/hotels/us/en/quincy/bosqc/hoteldetail",
+        "hotel_lat": 42.273598,
+        "hotel_lon": -71.0299443,
+        "hotel_distance_miles": 0.12
+    },
+    {
+        "hotel_id": "80",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "hotel_name": "The Boxer Boston",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3638945,
+        "hotel_lon": -71.0624148,
+        "hotel_distance_miles": 0.16
+    },
+    {
+        "hotel_id": "81",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "hotel_name": "Residence Inn by Marriott Boston Harbor on Tudor Wharf",
+        "hotel_website": "https://www.marriott.com/en-us/hotels/bostw-residence-inn-boston-harbor-on-tudor-wharf/overview/",
+        "hotel_lat": 42.3706317,
+        "hotel_lon": -71.0605095,
+        "hotel_distance_miles": 0.32
+    },
+    {
+        "hotel_id": "82",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "hotel_name": "Friend Street Hostel",
+        "hotel_website": "https://www.friendstreethostel.com/",
+        "hotel_lat": 42.3643271,
+        "hotel_lon": -71.061148,
+        "hotel_distance_miles": 0.14
+    },
+    {
+        "hotel_id": "83",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "hotel_name": "Holiday Inn Express Hotel & Suites Boston Garden",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3648285,
+        "hotel_lon": -71.0617196,
+        "hotel_distance_miles": 0.1
+    },
+    {
+        "hotel_id": "84",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "hotel_name": "Onyx Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3642031,
+        "hotel_lon": -71.0613475,
+        "hotel_distance_miles": 0.15
+    },
+    {
+        "hotel_id": "85",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "hotel_name": "citizenM",
+        "hotel_website": "https://www.citizenm.com/hotels/united-states/boston/boston-north-station-hotel",
+        "hotel_lat": 42.3655871,
+        "hotel_lon": -71.0618195,
+        "hotel_distance_miles": 0.05
+    },
+    {
+        "hotel_id": "86",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "hotel_name": "Hotel AKA Boston Common",
+        "hotel_website": "https://www.stayaka.com/hotel-aka-boston-common",
+        "hotel_lat": 42.3573301,
+        "hotel_lon": -71.0606926,
+        "hotel_distance_miles": 0.11
+    },
+    {
+        "hotel_id": "87",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "hotel_name": "XV Beacon",
+        "hotel_website": "https://xvbeacon.com/",
+        "hotel_lat": 42.3583866,
+        "hotel_lon": -71.0619489,
+        "hotel_distance_miles": 0.14
+    },
+    {
+        "hotel_id": "88",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "hotel_name": "Churchill at Boston View",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3586425,
+        "hotel_lon": -71.0623931,
+        "hotel_distance_miles": 0.16
+    },
+    {
+        "hotel_id": "89",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "hotel_name": "Mary Prentiss Inn",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3843027,
+        "hotel_lon": -71.1188254,
+        "hotel_distance_miles": 0.28
+    },
+    {
+        "hotel_id": "90",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "hotel_name": "Hotel 1868",
+        "hotel_website": "https://www.hotel1868.com/",
+        "hotel_lat": 42.3878905,
+        "hotel_lon": -71.1195767,
+        "hotel_distance_miles": 0.04
+    },
+    {
+        "hotel_id": "91",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "hotel_name": "Porter Square Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3891957,
+        "hotel_lon": -71.1204818,
+        "hotel_distance_miles": 0.09
+    },
+    {
+        "hotel_id": "92",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "hotel_name": "The Colonnade Hotel",
+        "hotel_website": "https://www.colonnadehotel.com/",
+        "hotel_lat": 42.3457259,
+        "hotel_lon": -71.0809307,
+        "hotel_distance_miles": 0.04
+    },
+    {
+        "hotel_id": "93",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "hotel_name": "Copley Inn",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3458947,
+        "hotel_lon": -71.079844,
+        "hotel_distance_miles": 0.1
+    },
+    {
+        "hotel_id": "94",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "hotel_name": "Mandarin Oriental",
+        "hotel_website": "https://www.mandarinoriental.com/boston/back-bay/luxury-hotel",
+        "hotel_lat": 42.3486874,
+        "hotel_lon": -71.0815996,
+        "hotel_distance_miles": 0.22
+    },
+    {
+        "hotel_id": "95",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "hotel_name": "The Inn At St Botolph",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3450467,
+        "hotel_lon": -71.0808485,
+        "hotel_distance_miles": 0.06
+    },
+    {
+        "hotel_id": "96",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "hotel_name": "Copley House",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3445279,
+        "hotel_lon": -71.0801666,
+        "hotel_distance_miles": 0.11
+    },
+    {
+        "hotel_id": "97",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "hotel_name": "Sheraton Boston Hotel",
+        "hotel_website": "https://www.marriott.com/hotels/travel/bosbo-sheraton-boston-hotel",
+        "hotel_lat": 42.346525,
+        "hotel_lon": -71.0838516,
+        "hotel_distance_miles": 0.13
+    },
+    {
+        "hotel_id": "98",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "hotel_name": "Four Seasons Hotel One Dalton",
+        "hotel_website": "https://onedalton.com/",
+        "hotel_lat": 42.3456929,
+        "hotel_lon": -71.0839284,
+        "hotel_distance_miles": 0.11
+    },
+    {
+        "hotel_id": "99",
+        "station_name": "RESERVOIR STATION",
+        "station_id": "79",
+        "hotel_name": "AC Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3348271,
+        "hotel_lon": -71.1503109,
+        "hotel_distance_miles": 0.07
+    },
+    {
+        "hotel_id": "100",
+        "station_name": "RIVERSIDE STATION",
+        "station_id": "80",
+        "hotel_name": "Walker Center",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3415916,
+        "hotel_lon": -71.2509113,
+        "hotel_distance_miles": 0.32
+    },
+    {
+        "hotel_id": "101",
+        "station_name": "RIVERSIDE STATION",
+        "station_id": "80",
+        "hotel_name": "Hotel Indigo - Newton Riverside",
+        "hotel_website": "https://www.hotelindigo.com/Newton",
+        "hotel_lat": 42.3340046,
+        "hotel_lon": -71.2544879,
+        "hotel_distance_miles": 0.25
+    },
+    {
+        "hotel_id": "102",
+        "station_name": "RIVERWAY STATION",
+        "station_id": "81",
+        "hotel_name": "Hilton Garden Inn Boston Brookline",
+        "hotel_website": "https://www.hilton.com/en/hotels/bosbbgi-garden-inn-boston-brookline/",
+        "hotel_lat": 42.3321461,
+        "hotel_lon": -71.1141194,
+        "hotel_distance_miles": 0.12
+    },
+    {
+        "hotel_id": "103",
+        "station_name": "SAINT PAUL ST/BEACON STATION",
+        "station_id": "85",
+        "hotel_name": "Arcadian Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3440501,
+        "hotel_lon": -71.1159656,
+        "hotel_distance_miles": 0.07
+    },
+    {
+        "hotel_id": "104",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "hotel_name": "InterContinental Boston",
+        "hotel_website": "https://www.intercontinentalboston.com/",
+        "hotel_lat": 42.3538128,
+        "hotel_lon": -71.0520762,
+        "hotel_distance_miles": 0.19
+    },
+    {
+        "hotel_id": "105",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "hotel_name": "Residence Inn",
+        "hotel_website": "https://www.marriott.com/hotels/travel/bosfp-residence-inn-boston-downtown-seaport/",
+        "hotel_lat": 42.350433,
+        "hotel_lon": -71.0476885,
+        "hotel_distance_miles": 0.42
+    },
+    {
+        "hotel_id": "106",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "hotel_name": "The Envoy Hotel",
+        "hotel_website": "https://www.marriott.com/hotels/travel/bosak-the-envoy-hotel-autograph-collection/",
+        "hotel_lat": 42.3536535,
+        "hotel_lon": -71.0483516,
+        "hotel_distance_miles": 0.37
+    },
+    {
+        "hotel_id": "107",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "hotel_name": "YOTEL Boston",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3523116,
+        "hotel_lon": -71.0472321,
+        "hotel_distance_miles": 0.42
+    },
+    {
+        "hotel_id": "108",
+        "station_name": "SULLIVAN STATION",
+        "station_id": "92",
+        "hotel_name": "Holiday Inn",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3813302,
+        "hotel_lon": -71.0820308,
+        "hotel_distance_miles": 0.32
+    },
+    {
+        "hotel_id": "109",
+        "station_name": "SUTHERLAND RD STATION",
+        "station_id": "94",
+        "hotel_name": "Hotel Boston",
+        "hotel_website": "No website",
+        "hotel_lat": 42.341757,
+        "hotel_lon": -71.1436408,
+        "hotel_distance_miles": 0.13
+    },
+    {
+        "hotel_id": "110",
+        "station_name": "SUTHERLAND RD STATION",
+        "station_id": "94",
+        "hotel_name": "Best Western University Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3415789,
+        "hotel_lon": -71.1433193,
+        "hotel_distance_miles": 0.15
+    },
+    {
+        "hotel_id": "111",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "hotel_name": "Revere Hotel Boston Common",
+        "hotel_website": "https://www.reverehotel.com/",
+        "hotel_lat": 42.3504434,
+        "hotel_lon": -71.067087,
+        "hotel_distance_miles": 0.18
+    },
+    {
+        "hotel_id": "112",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "hotel_name": "DoubleTree by Hilton Hotel Boston - Downtown",
+        "hotel_website": "https://doubletree3.hilton.com/en/hotels/massachusetts/doubletree-by-hilton-hotel-boston-downtown-BOSCODT/index.html",
+        "hotel_lat": 42.3488946,
+        "hotel_lon": -71.0642452,
+        "hotel_distance_miles": 0.05
+    },
+    {
+        "hotel_id": "113",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "hotel_name": "Found Hotel Boston Common",
+        "hotel_website": "https://www.foundhotels.com/found-boston-common",
+        "hotel_lat": 42.3499628,
+        "hotel_lon": -71.0663948,
+        "hotel_distance_miles": 0.13
+    },
+    {
+        "hotel_id": "114",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "hotel_name": "W Boston",
+        "hotel_website": "https://www.marriott.com/hotels/travel/boswh-w-boston",
+        "hotel_lat": 42.3508292,
+        "hotel_lon": -71.0655661,
+        "hotel_distance_miles": 0.12
+    },
+    {
+        "hotel_id": "115",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "hotel_name": "Courtyard Boston Downtown",
+        "hotel_website": "https://www.marriott.com/bosdm",
+        "hotel_lat": 42.3499983,
+        "hotel_lon": -71.0656281,
+        "hotel_distance_miles": 0.09
+    },
+    {
+        "hotel_id": "116",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "hotel_name": "Moxy Hotel",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3508836,
+        "hotel_lon": -71.0645897,
+        "hotel_distance_miles": 0.1
+    },
+    {
+        "hotel_id": "117",
+        "station_name": "WELLINGTON STATION",
+        "station_id": "102",
+        "hotel_name": "Fairfield Boston Medford",
+        "hotel_website": "https://www.marriott.com/en-us/hotels/bosfo-fairfield-boston-medford",
+        "hotel_lat": 42.4027162,
+        "hotel_lon": -71.0817889,
+        "hotel_distance_miles": 0.25
+    },
+    {
+        "hotel_id": "118",
+        "station_name": "WELLINGTON STATION",
+        "station_id": "102",
+        "hotel_name": "TownePlace Suites Boston Medford",
+        "hotel_website": "https://www.marriott.com/en-us/hotels/bosto-towneplace-suites-boston-medford",
+        "hotel_lat": 42.4027161,
+        "hotel_lon": -71.0817876,
+        "hotel_distance_miles": 0.25
+    },
+    {
+        "hotel_id": "119",
+        "station_name": "WELLINGTON STATION",
+        "station_id": "102",
+        "hotel_name": "AC Hotel Boston North",
+        "hotel_website": "https://www.marriott.com/en-us/hotels/bosac-ac-hotel-boston-north",
+        "hotel_lat": 42.4022983,
+        "hotel_lon": -71.0817597,
+        "hotel_distance_miles": 0.24
+    },
+    {
+        "hotel_id": "120",
+        "station_name": "WOLLASTON STATION",
+        "station_id": "103",
+        "hotel_name": "Howard Johnson",
+        "hotel_website": "https://www.wyndhamhotels.com/hotels/quincy-massachusetts?brand_id=HJ",
+        "hotel_lat": 42.2620512,
+        "hotel_lon": -71.0127528,
+        "hotel_distance_miles": 0.5
+    },
+    {
+        "hotel_id": "121",
+        "station_name": "AIRPORT STATION--BLUE LINE",
+        "station_id": "105",
+        "hotel_name": "Embassy Suites by Hilton Boston at Logan Airport",
+        "hotel_website": "https://www.hilton.com/en/hotels/bosapes-embassy-suites-boston-at-logan-airport/",
+        "hotel_lat": 42.3701798,
+        "hotel_lon": -71.0318535,
+        "hotel_distance_miles": 0.29
+    },
+    {
+        "hotel_id": "122",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "hotel_name": "Harborside Inn",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3592716,
+        "hotel_lon": -71.0528316,
+        "hotel_distance_miles": 0.07
+    },
+    {
+        "hotel_id": "123",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "hotel_name": "Oakwood at Downtown Boston",
+        "hotel_website": "No website",
+        "hotel_lat": 42.3591655,
+        "hotel_lon": -71.0541539,
+        "hotel_distance_miles": 0.14
+    },
+    {
+        "hotel_id": "124",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "hotel_name": "Marriott Vacation Club Pulse\u00ae at Custom House",
+        "hotel_website": "https://www.marriott.com/hotels/travel/bosch-marriott-vacation-club-pulse-at-custom-house-boston/",
+        "hotel_lat": 42.3590801,
+        "hotel_lon": -71.0536495,
+        "hotel_distance_miles": 0.11
+    },
+    {
+        "hotel_id": "125",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "hotel_name": "The Dagny",
+        "hotel_website": "https://www3.hilton.com/en/hotels/massachusetts/hilton-boston-downtown-faneuil-hall-BOSFDHF/index.html",
+        "hotel_lat": 42.3573315,
+        "hotel_lon": -71.0532276,
+        "hotel_distance_miles": 0.19
+    },
+    {
+        "hotel_id": "126",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "hotel_name": "Boston Marriott Long Wharf",
+        "hotel_website": "https://www.marriott.com/hotels/travel/boslw-boston-marriott-long-wharf/",
+        "hotel_lat": 42.3601835,
+        "hotel_lon": -71.0508524,
+        "hotel_distance_miles": 0.05
+    },
+    {
+        "hotel_id": "127",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "hotel_name": "Boston Harbor Hotel",
+        "hotel_website": "https://www.bostonharborhotel.com/",
+        "hotel_lat": 42.3566602,
+        "hotel_lon": -71.0503163,
+        "hotel_distance_miles": 0.23
+    },
+    {
+        "hotel_id": "128",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "hotel_name": "Battery Wharf Hotel (Sea Cloud Building)",
+        "hotel_website": "https://www.batterywharfhotelboston.com/",
+        "hotel_lat": 42.3673657,
+        "hotel_lon": -71.0503467,
+        "hotel_distance_miles": 0.53
+    },
+    {
+        "hotel_id": "129",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "hotel_name": "Battery Wharf Hotel (Great Admiral Building)",
+        "hotel_website": "https://www.batterywharfhotelboston.com/",
+        "hotel_lat": 42.3669786,
+        "hotel_lon": -71.0500532,
+        "hotel_distance_miles": 0.5
+    },
+    {
+        "hotel_id": "130",
+        "station_name": "ORIENT HEIGTS STATION",
+        "station_id": "111",
+        "hotel_name": "Hilton Garden Inn Boston Logan Airport",
+        "hotel_website": "https://www.hilton.com/en/hotels/boslogi-hilton-garden-inn-boston-logan-airport/",
+        "hotel_lat": 42.3897618,
+        "hotel_lon": -71.012232,
+        "hotel_distance_miles": 0.43
+    },
+    {
+        "hotel_id": "131",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "hotel_name": "Hyatt Centric Faneuil",
+        "hotel_website": "https://www.hyatt.com/en-US/hotel/massachusetts/hyatt-centric-faneuil-hall-boston/bosct",
+        "hotel_lat": 42.3582474,
+        "hotel_lon": -71.0571837,
+        "hotel_distance_miles": 0.05
+    },
+    {
+        "hotel_id": "132",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "hotel_name": "The Langham Boston",
+        "hotel_website": "https://www.langhamhotels.com/en/the-langham/boston",
+        "hotel_lat": 42.3565369,
+        "hotel_lon": -71.0546109,
+        "hotel_distance_miles": 0.23
+    },
+    {
+        "hotel_id": "133",
+        "station_name": "WONDERLAND STATION",
+        "station_id": "115",
+        "hotel_name": "SpringHill Suites",
+        "hotel_website": "https://www.marriott.com/bossr",
+        "hotel_lat": 42.4131637,
+        "hotel_lon": -70.9910584,
+        "hotel_distance_miles": 0.03
+    },
+    {
+        "hotel_id": "134",
+        "station_name": "WONDERLAND STATION",
+        "station_id": "115",
+        "hotel_name": "Comfort Inn and Suites",
+        "hotel_website": "https://www.choicehotels.com/massachusetts/woburn/comfort-inn-hotels",
+        "hotel_lat": 42.4117769,
+        "hotel_lon": -71.0012596,
+        "hotel_distance_miles": 0.5
+    },
+    {
+        "hotel_id": "135",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "hotel_name": "Holiday Inn",
+        "hotel_website": "https://www.choicehotels.com/massachusetts/woburn/comfort-inn-hotels",
+        "hotel_lat": 42.3813302,
+        "hotel_lon": -71.0820308,
+        "hotel_distance_miles": 0.32
+    }
+
+]

@@ -1,0 +1,972 @@
+[
+    {
+        "station_id": "1",
+        "station_name": "ALEWIFE  STATION",
+        "station_line": "Red",
+        "station_lat": 42.3959,
+        "station_lon": -71.1406
+    },
+    {
+        "station_id": "2",
+        "station_name": "ALLSTON ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.34861,
+        "station_lon": -71.137962
+    },
+    {
+        "station_id": "3",
+        "station_name": "AMORY STREET STATION",
+        "station_line": "Green",
+        "station_lat": 42.350803,
+        "station_lon": -71.113831
+    },
+    {
+        "station_id": "4",
+        "station_name": "ANDREW SQ STATION",
+        "station_line": "Red",
+        "station_lat": 42.329917,
+        "station_lon": -71.05714
+    },
+    {
+        "station_id": "5",
+        "station_name": "ARLINGTON STATION",
+        "station_line": "Green",
+        "station_lat": 42.351902,
+        "station_lon": -71.070893
+    },
+    {
+        "station_id": "6",
+        "station_name": "ASHMONT STATION--RED LINE",
+        "station_line": "Red",
+        "station_lat": 42.28366,
+        "station_lon": -71.06307
+    },
+    {
+        "station_id": "7",
+        "station_name": "ASSEMBLY STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.39281,
+        "station_lon": -71.07723
+    },
+    {
+        "station_id": "8",
+        "station_name": "BABCOCK ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.35156,
+        "station_lon": -71.11992
+    },
+    {
+        "station_id": "9",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_line": "Orange  ",
+        "station_lat": 42.34735,
+        "station_lon": -71.075727
+    },
+    {
+        "station_id": "10",
+        "station_name": "BACK OF THE HILL STATION",
+        "station_line": "Green",
+        "station_lat": 42.32939,
+        "station_lon": -71.11099
+    },
+    {
+        "station_id": "11",
+        "station_name": "BEACONSFIELD STATION",
+        "station_line": "Green",
+        "station_lat": 42.335808,
+        "station_lon": -71.140839
+    },
+    {
+        "station_id": "12",
+        "station_name": "BLANDFORD ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.349293,
+        "station_lon": -71.100258
+    },
+    {
+        "station_id": "13",
+        "station_name": "BOSTON COLLEGE STATION",
+        "station_line": "Green",
+        "station_lat": 42.340081,
+        "station_lon": -71.166769
+    },
+    {
+        "station_id": "14",
+        "station_name": "BOSTON UNIV CENTRAL STATION",
+        "station_line": "Green",
+        "station_lat": 42.350082,
+        "station_lon": -71.106865
+    },
+    {
+        "station_id": "15",
+        "station_name": "BOSTON UNIV EAST STATION",
+        "station_line": "Green",
+        "station_lat": 42.349735,
+        "station_lon": -71.103889
+    },
+    {
+        "station_id": "16",
+        "station_name": "BOYLSTON STATION--GREEN LINE",
+        "station_line": "Green",
+        "station_lat": 42.35317,
+        "station_lon": -71.06453
+    },
+    {
+        "station_id": "17",
+        "station_name": "BRAINTREE STATION--RED LINE ",
+        "station_line": "Red",
+        "station_lat": 42.20755,
+        "station_lon": -71.00162
+    },
+    {
+        "station_id": "18",
+        "station_name": "BRANDON HALL STATION",
+        "station_line": "Green",
+        "station_lat": 42.339775,
+        "station_lon": -71.129372
+    },
+    {
+        "station_id": "19",
+        "station_name": "BRIGHAM CIRCLE STATION",
+        "station_line": "Green",
+        "station_lat": 42.33459,
+        "station_lon": -71.10369
+    },
+    {
+        "station_id": "20",
+        "station_name": "BROADWAY STATION",
+        "station_line": "Red",
+        "station_lat": 42.3422,
+        "station_lon": -71.05719
+    },
+    {
+        "station_id": "21",
+        "station_name": "BROOKLINE HILLS STATION",
+        "station_line": "Green",
+        "station_lat": 42.331333,
+        "station_lon": -71.126999
+    },
+    {
+        "station_id": "22",
+        "station_name": "BROOKLINE VILLAGE STATION",
+        "station_line": "Green",
+        "station_lat": 42.33255,
+        "station_lon": -71.11696
+    },
+    {
+        "station_id": "23",
+        "station_name": "CENTRAL SQ STATION",
+        "station_line": "Red",
+        "station_lat": 42.365486,
+        "station_lon": -71.103802
+    },
+    {
+        "station_id": "24",
+        "station_name": "CHARLES/MGH STATION",
+        "station_line": "Red",
+        "station_lat": 42.361166,
+        "station_lon": -71.070628
+    },
+    {
+        "station_id": "25",
+        "station_name": "CHESTNUT HILL AVE STATION",
+        "station_line": "Green",
+        "station_lat": 42.3383,
+        "station_lon": -71.15288
+    },
+    {
+        "station_id": "26",
+        "station_name": "CHESTNUT HILL STATION",
+        "station_line": "Green",
+        "station_lat": 42.326633,
+        "station_lon": -71.165298
+    },
+    {
+        "station_id": "27",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.352547,
+        "station_lon": -71.062752
+    },
+    {
+        "station_id": "28",
+        "station_name": "CHISWICK RD STATION",
+        "station_line": "Green",
+        "station_lat": 42.34063,
+        "station_lon": -71.15092
+    },
+    {
+        "station_id": "29",
+        "station_name": "CLEVELAND CIRCLE PLATFORM STATION",
+        "station_line": "Green",
+        "station_lat": 42.336142,
+        "station_lon": -71.149326
+    },
+    {
+        "station_id": "30",
+        "station_name": "COMMUNITY COLLEGE STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.373622,
+        "station_lon": -71.069533
+    },
+    {
+        "station_id": "31",
+        "station_name": "COOLIDGE CORNER STATION",
+        "station_line": "Green",
+        "station_lat": 42.342075,
+        "station_lon": -71.12114
+    },
+    {
+        "station_id": "32",
+        "station_name": "COPLEY STATION",
+        "station_line": "Green",
+        "station_lat": 42.349974,
+        "station_lon": -71.077447
+    },
+    {
+        "station_id": "33",
+        "station_name": "DAVIS SQ STATION",
+        "station_line": "Red",
+        "station_lat": 42.39679,
+        "station_lon": -71.12263
+    },
+    {
+        "station_id": "34",
+        "station_name": "DEAN RD STATION",
+        "station_line": "Green",
+        "station_lat": 42.337738,
+        "station_lon": -71.141647
+    },
+    {
+        "station_id": "35",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_line": "Red, Orange",
+        "station_lat": 42.355518,
+        "station_lon": -71.060225
+    },
+    {
+        "station_id": "36",
+        "station_name": "ELIOT STATION",
+        "station_line": "Green",
+        "station_lat": 42.318958,
+        "station_lon": -71.216774
+    },
+    {
+        "station_id": "37",
+        "station_name": "ENGLEWOOD AVE STATION",
+        "station_line": "Green",
+        "station_lat": 42.336971,
+        "station_lon": -71.14566
+    },
+    {
+        "station_id": "38",
+        "station_name": "FAIRBANKS ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.339725,
+        "station_lon": -71.131073
+    },
+    {
+        "station_id": "39",
+        "station_name": "FENWAY STATION",
+        "station_line": "Green",
+        "station_lat": 42.34516,
+        "station_lon": -71.1046
+    },
+    {
+        "station_id": "40",
+        "station_name": "FENWOOD RD STATION",
+        "station_line": "Green",
+        "station_lat": 42.333683,
+        "station_lon": -71.105698
+    },
+    {
+        "station_id": "41",
+        "station_name": "FIELDS CORNER STATION",
+        "station_line": "Red",
+        "station_lat": 42.300093,
+        "station_lon": -71.061667
+    },
+    {
+        "station_id": "42",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_line": "Orange  ",
+        "station_lat": 42.30068,
+        "station_lon": -71.11409
+    },
+    {
+        "station_id": "43",
+        "station_name": "GOVERNMENT CENTER STATION-GREEN LINE",
+        "station_line": "Green",
+        "station_lat": 42.359705,
+        "station_lon": -71.059215
+    },
+    {
+        "station_id": "44",
+        "station_name": "GREEN ST. STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.3104,
+        "station_lon": -71.10756
+    },
+    {
+        "station_id": "45",
+        "station_name": "GRIGGS ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.348545,
+        "station_lon": -71.134949
+    },
+    {
+        "station_id": "46",
+        "station_name": "HARVARD AVE STATION",
+        "station_line": "Green",
+        "station_lat": 42.350182,
+        "station_lon": -71.131294
+    },
+    {
+        "station_id": "47",
+        "station_name": "HARVARD STATION",
+        "station_line": "Red",
+        "station_lat": 42.373362,
+        "station_lon": -71.118956
+    },
+    {
+        "station_id": "48",
+        "station_name": "HAWES ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.344906,
+        "station_lon": -71.111145
+    },
+    {
+        "station_id": "49",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_line": "Green",
+        "station_lat": 42.36199,
+        "station_lon": -71.05801
+    },
+    {
+        "station_id": "50",
+        "station_name": "HAYMARKET--ORANGE LINE STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.36199,
+        "station_lon": -71.05801
+    },
+    {
+        "station_id": "51",
+        "station_name": "HEATH ST PLATFORM STATION",
+        "station_line": "Green",
+        "station_lat": 42.328681,
+        "station_lon": -71.110559
+    },
+    {
+        "station_id": "52",
+        "station_name": "HYNES STATION",
+        "station_line": "Green",
+        "station_lat": 42.347888,
+        "station_lon": -71.087903
+    },
+    {
+        "station_id": "53",
+        "station_name": "JACKSON SQ STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.32248,
+        "station_lon": -71.10023
+    },
+    {
+        "station_id": "54",
+        "station_name": "JFK/UMAS--RED LINE STATION",
+        "station_line": "Red",
+        "station_lat": 42.320685,
+        "station_lon": -71.052391
+    },
+    {
+        "station_id": "55",
+        "station_name": "KENDALL/MIT STATION",
+        "station_line": "Red",
+        "station_lat": 42.362491,
+        "station_lon": -71.086177
+    },
+    {
+        "station_id": "56",
+        "station_name": "KENMORE STATION",
+        "station_line": "Green",
+        "station_lat": 42.348949,
+        "station_lon": -71.095169
+    },
+    {
+        "station_id": "57",
+        "station_name": "KENT ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.344074,
+        "station_lon": -71.114197
+    },
+    {
+        "station_id": "58",
+        "station_name": "LECHMERE STATION",
+        "station_line": "Green",
+        "station_lat": 42.371259,
+        "station_lon": -71.076123
+    },
+    {
+        "station_id": "59",
+        "station_name": "LONGWOOD MED AREA STATION",
+        "station_line": "Green",
+        "station_lat": 42.335903,
+        "station_lon": -71.100052
+    },
+    {
+        "station_id": "60",
+        "station_name": "LONGWOOD STATION",
+        "station_line": "Green",
+        "station_lat": 42.3416,
+        "station_lon": -71.10988
+    },
+    {
+        "station_id": "61",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_line": "Orange  ",
+        "station_lat": 42.426632,
+        "station_lon": -71.07411
+    },
+    {
+        "station_id": "62",
+        "station_name": "MASSACHUSETTS AVE STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.34269,
+        "station_lon": -71.08491
+    },
+    {
+        "station_id": "63",
+        "station_name": "MISSION PARK STATION",
+        "station_line": "Green",
+        "station_lat": 42.333122,
+        "station_lon": -71.109688
+    },
+    {
+        "station_id": "64",
+        "station_name": "MUSEUM OF FINE ARTS STATION",
+        "station_line": "Green",
+        "station_lat": 42.337681,
+        "station_lon": -71.095474
+    },
+    {
+        "station_id": "65",
+        "station_name": "NEWTON CENTRE STATION",
+        "station_line": "Green",
+        "station_lat": 42.329441,
+        "station_lon": -71.19245
+    },
+    {
+        "station_id": "66",
+        "station_name": "NEWTON HIGHLANDS STATION",
+        "station_line": "Green",
+        "station_lat": 42.32241,
+        "station_lon": -71.20542
+    },
+    {
+        "station_id": "67",
+        "station_name": "NORTH QUINCY STATION",
+        "station_line": "Red",
+        "station_lat": 42.275275,
+        "station_lon": -71.029583
+    },
+    {
+        "station_id": "68",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_line": "Green",
+        "station_lat": 42.36624,
+        "station_lon": -71.06228
+    },
+    {
+        "station_id": "69",
+        "station_name": "NORTH STATION-ORANGE LINE",
+        "station_line": "Orange  ",
+        "station_lat": 42.36624,
+        "station_lon": -71.06228
+    },
+    {
+        "station_id": "70",
+        "station_name": "NORTHEASTERN STATION",
+        "station_line": "Green",
+        "station_lat": 42.34001,
+        "station_lon": -71.08969
+    },
+    {
+        "station_id": "71",
+        "station_name": "OAK GROVE STATION - ORANGE LINE",
+        "station_line": "Orange  ",
+        "station_lat": 42.43742,
+        "station_lon": -71.07089
+    },
+    {
+        "station_id": "72",
+        "station_name": "PACKARDS CORNER STATION",
+        "station_line": "Green",
+        "station_lat": 42.351883,
+        "station_lon": -71.124893
+    },
+    {
+        "station_id": "73",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_line": "Green",
+        "station_lat": 42.356395,
+        "station_lon": -71.062424
+    },
+    {
+        "station_id": "74",
+        "station_name": "PARK ST STATION--RED LINE",
+        "station_line": "Red",
+        "station_lat": 42.356395,
+        "station_lon": -71.062424
+    },
+    {
+        "station_id": "75",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_line": "Red",
+        "station_lat": 42.3884,
+        "station_lon": -71.119149
+    },
+    {
+        "station_id": "76",
+        "station_name": "PRUDENTIAL STATION",
+        "station_line": "Green",
+        "station_lat": 42.34557,
+        "station_lon": -71.081696
+    },
+    {
+        "station_id": "77",
+        "station_name": "QUINCY ADAMS STATION",
+        "station_line": "Red",
+        "station_lat": 42.233391,
+        "station_lon": -71.007153
+    },
+    {
+        "station_id": "78",
+        "station_name": "QUINCY CENTER STATION--RED LINE",
+        "station_line": "Red",
+        "station_lat": 42.251809,
+        "station_lon": -71.005409
+    },
+    {
+        "station_id": "79",
+        "station_name": "RESERVOIR STATION",
+        "station_line": "Green",
+        "station_lat": 42.335027,
+        "station_lon": -71.148952
+    },
+    {
+        "station_id": "80",
+        "station_name": "RIVERSIDE STATION",
+        "station_line": "Green",
+        "station_lat": 42.337059,
+        "station_lon": -71.251742
+    },
+    {
+        "station_id": "81",
+        "station_name": "RIVERWAY STATION",
+        "station_line": "Green",
+        "station_lat": 42.331699,
+        "station_lon": -71.11187
+    },
+    {
+        "station_id": "82",
+        "station_name": "ROXBURY CROSSING STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.331397,
+        "station_lon": -71.095451
+    },
+    {
+        "station_id": "83",
+        "station_name": "RUGGLES STATION--ORANGE LINE",
+        "station_line": "Orange  ",
+        "station_lat": 42.33665,
+        "station_lon": -71.08933
+    },
+    {
+        "station_id": "84",
+        "station_name": "SAINT MARY ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.345974,
+        "station_lon": -71.107353
+    },
+    {
+        "station_id": "85",
+        "station_name": "SAINT PAUL ST/BEACON STATION",
+        "station_line": "Green",
+        "station_lat": 42.343288,
+        "station_lon": -71.116768
+    },
+    {
+        "station_id": "86",
+        "station_name": "SAVIN HILL STATION",
+        "station_line": "Red",
+        "station_lat": 42.31129,
+        "station_lon": -71.053331
+    },
+    {
+        "station_id": "87",
+        "station_name": "SCIENCE PARK STATION",
+        "station_line": "Green",
+        "station_lat": 42.366664,
+        "station_lon": -71.067666
+    },
+    {
+        "station_id": "88",
+        "station_name": "SHAWMUT STATION",
+        "station_line": "Red",
+        "station_lat": 42.293126,
+        "station_lon": -71.065738
+    },
+    {
+        "station_id": "89",
+        "station_name": "SOUTH ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.339561,
+        "station_lon": -71.157722
+    },
+    {
+        "station_id": "90",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_line": "Red",
+        "station_lat": 42.352614,
+        "station_lon": -71.055364
+    },
+    {
+        "station_id": "91",
+        "station_name": "STONEYBROOK STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.317062,
+        "station_lon": -71.104248
+    },
+    {
+        "station_id": "92",
+        "station_name": "SULLIVAN STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.383975,
+        "station_lon": -71.076994
+    },
+    {
+        "station_id": "93",
+        "station_name": "SUMMIT AVE STATION",
+        "station_line": "Green",
+        "station_lat": 42.3409,
+        "station_lon": -71.12586
+    },
+    {
+        "station_id": "94",
+        "station_name": "SUTHERLAND RD STATION",
+        "station_line": "Green",
+        "station_lat": 42.341614,
+        "station_lon": -71.146202
+    },
+    {
+        "station_id": "95",
+        "station_name": "SYMPHONY STATION",
+        "station_line": "Green",
+        "station_lat": 42.342687,
+        "station_lon": -71.085056
+    },
+    {
+        "station_id": "96",
+        "station_name": "TAPPAN ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.338436,
+        "station_lon": -71.138687
+    },
+    {
+        "station_id": "97",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.34951,
+        "station_lon": -71.063896
+    },
+    {
+        "station_id": "98",
+        "station_name": "WABAN STATION",
+        "station_line": "Green",
+        "station_lat": 42.325943,
+        "station_lon": -71.230728
+    },
+    {
+        "station_id": "99",
+        "station_name": "WARREN ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.348301,
+        "station_lon": -71.140381
+    },
+    {
+        "station_id": "100",
+        "station_name": "WASHINGTON SQ STATION",
+        "station_line": "Green",
+        "station_lat": 42.339329,
+        "station_lon": -71.135124
+    },
+    {
+        "station_id": "101",
+        "station_name": "WASHINGTON ST STATION",
+        "station_line": "Green",
+        "station_lat": 42.343864,
+        "station_lon": -71.142853
+    },
+    {
+        "station_id": "102",
+        "station_name": "WELLINGTON STATION",
+        "station_line": "Orange  ",
+        "station_lat": 42.40159,
+        "station_lon": -71.07717
+    },
+    {
+        "station_id": "103",
+        "station_name": "WOLLASTON STATION",
+        "station_line": "Red",
+        "station_lat": 42.266514,
+        "station_lon": -71.020335
+    },
+    {
+        "station_id": "104",
+        "station_name": "WOODLAND STATION",
+        "station_line": "Green",
+        "station_lat": 42.33275,
+        "station_lon": -71.24333
+    },
+    {
+        "station_id": "105",
+        "station_name": "AIRPORT STATION--BLUE LINE",
+        "station_line": "Blue",
+        "station_lat": 42.374262,
+        "station_lon": -71.030395
+    },
+    {
+        "station_id": "106",
+        "station_name": "AQUARIUM STATION",
+        "station_line": "Blue",
+        "station_lat": 42.359784,
+        "station_lon": -71.051652
+    },
+    {
+        "station_id": "107",
+        "station_name": "BEACHMONT STATION",
+        "station_line": "Blue",
+        "station_lat": 42.397542,
+        "station_lon": -70.992319
+    },
+    {
+        "station_id": "108",
+        "station_name": "BOWDOIN STATION BLUE LINE",
+        "station_line": "Blue",
+        "station_lat": 42.361365,
+        "station_lon": -71.062037
+    },
+    {
+        "station_id": "109",
+        "station_name": "GOVERNMENT CENTER STATION--BLUE LINE",
+        "station_line": "Blue",
+        "station_lat": 42.359705,
+        "station_lon": -71.059215
+    },
+    {
+        "station_id": "110",
+        "station_name": "MAVERICK STATION",
+        "station_line": "Blue",
+        "station_lat": 42.369119,
+        "station_lon": -71.03953
+    },
+    {
+        "station_id": "111",
+        "station_name": "ORIENT HEIGTS STATION",
+        "station_line": "Blue",
+        "station_lat": 42.386867,
+        "station_lon": -71.004736
+    },
+    {
+        "station_id": "112",
+        "station_name": "REVERE BEACH STATION",
+        "station_line": "Blue",
+        "station_lat": 42.407843,
+        "station_lon": -70.992533
+    },
+    {
+        "station_id": "113",
+        "station_name": "STATE ST STATION",
+        "station_line": "Blue, Orange",
+        "station_lat": 42.358978,
+        "station_lon": -71.057598
+    },
+    {
+        "station_id": "114",
+        "station_name": "SUFFOLK DOWNS STATION",
+        "station_line": "Blue",
+        "station_lat": 42.390501,
+        "station_lon": -70.997123
+    },
+    {
+        "station_id": "115",
+        "station_name": "WONDERLAND STATION",
+        "station_line": "Blue",
+        "station_lat": 42.41342,
+        "station_lon": -70.991648
+    },
+    {
+        "station_id": "116",
+        "station_name": "WOOD ISLAND STATION",
+        "station_line": "Blue",
+        "station_lat": 42.37964,
+        "station_lon": -71.022865
+    },
+    {
+        "station_id": 117,
+        "station_name": "AYER STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.55897,
+        "station_lon": -71.58913
+    },
+    {
+        "station_id": 118,
+        "station_name": "BELMONT STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.395896,
+        "station_lon": -71.17619
+    },
+    {
+        "station_id": 119,
+        "station_name": "BRANDEIS/ ROBERTS STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.36194,
+        "station_lon": -71.26004
+    },
+    {
+        "station_id": 120,
+        "station_name": "CONCORD STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.4566,
+        "station_lon": -71.35756
+    },
+    {
+        "station_id": 121,
+        "station_name": "FITCHBURG STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.5807,
+        "station_lon": -71.79248
+    },
+    {
+        "station_id": 122,
+        "station_name": "KENDAL GREEN STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.37897,
+        "station_lon": -71.282411
+    },
+    {
+        "station_id": 123,
+        "station_name": "LINCOLN STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.41368,
+        "station_lon": -71.32551
+    },
+    {
+        "station_id": 124,
+        "station_name": "LITTLETON / RTE 495 STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.52135,
+        "station_lon": -71.50343
+    },
+    {
+        "station_id": 125,
+        "station_name": "NORTH LEOMINSTER STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.5396,
+        "station_lon": -71.7397
+    },
+    {
+        "station_id": 126,
+        "station_name": "NORTH STATION-COMMUTER LINES",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.36624,
+        "station_lon": -71.06228
+    },
+    {
+        "station_id": 127,
+        "station_name": "PORTER SQUARE--COMMUTER RAIL STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.388353,
+        "station_lon": -71.119159
+    },
+    {
+        "station_id": 128,
+        "station_name": "SHIRLEY STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.544726,
+        "station_lon": -71.648363
+    },
+    {
+        "station_id": 129,
+        "station_name": "SOUTH ACTON STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.46025,
+        "station_lon": -71.4578
+    },
+    {
+        "station_id": 130,
+        "station_name": "WACHUSETT STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.553477,
+        "station_lon": -71.848488
+    },
+    {
+        "station_id": 131,
+        "station_name": "WALTHAM STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.37422,
+        "station_lon": -71.23555
+    },
+    {
+        "station_id": 132,
+        "station_name": "WAVERLEY STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.38754,
+        "station_lon": -71.19074
+    },
+    {
+        "station_id": 133,
+        "station_name": "WEST CONCORD STATION",
+        "station_line": "Fitchburg   ",
+        "station_lat": 42.45687,
+        "station_lon": -71.39293
+    },
+    {
+	"station_id": 134,
+        "station_name": "MEDFORD/TUFTS STATION",
+        "station_line": "Green",
+        "station_lat": 42.4079 ,
+        "station_lon": -71.1162 
+
+    },
+    {
+	"station_id": 135,
+        "station_name": "BALL SQUARE STATION",
+        "station_line": "Green",
+        "station_lat":  42.4004,
+        "station_lon": -71.1101 
+    },
+    {
+	"station_id": 136,
+        "station_name": "MARGOUN SQUARE STATION",
+        "station_line": "Green",
+        "station_lat": 42.393870,
+        "station_lon": -71.106475
+    
+    },
+    {
+	"station_id": 137,
+        "station_name": "GILMAN SQUARE STATION",
+        "station_line": "Green",
+        "station_lat":  42.38802,
+        "station_lon": -71.096802   
+
+    },
+    {
+	"station_id": 138,
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_line": "Green",
+        "station_lat":  42.3800,
+        "station_lon":  -71.0880 
+    }
+
+]

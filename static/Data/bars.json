@@ -1,0 +1,2192 @@
+[
+    {
+        "bar_id": "1",
+        "station_name": "ALEWIFE  STATION",
+        "station_id": "1",
+        "bar_name": "Fresh Pond Beer Garden",
+        "bar_website": "No website",
+        "bar_lat": 42.3915227,
+        "bar_lon": -71.1392163,
+        "bar_distance_miles": 0.31
+    },
+    {
+        "bar_id": "2",
+        "station_name": "ALLSTON ST STATION",
+        "station_id": "2",
+        "bar_name": "Model Cafe",
+        "bar_website": "No website",
+        "bar_lat": 42.3537515,
+        "bar_lon": -71.1376907,
+        "bar_distance_miles": 0.36
+    },
+    {
+        "bar_id": "3",
+        "station_name": "ANDREW SQ STATION",
+        "station_id": "4",
+        "bar_name": "Small Victories",
+        "bar_website": "https://www.smallvictoriesbar.com/",
+        "bar_lat": 42.3297171,
+        "bar_lon": -71.0566616,
+        "bar_distance_miles": 0.03
+    },
+    {
+        "bar_id": "4",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "Howl at the Moon",
+        "bar_website": "https://www.howlatthemoon.com/locations/location-boston",
+        "bar_lat": 42.3565905,
+        "bar_lon": -71.0527728,
+        "bar_distance_miles": 0.23
+    },
+    {
+        "bar_id": "5",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "The Ginger Man",
+        "bar_website": "http://gingerman-bos.com/",
+        "bar_lat": 42.3593344,
+        "bar_lon": -71.054186,
+        "bar_distance_miles": 0.13
+    },
+    {
+        "bar_id": "6",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "Mr. Dooley's",
+        "bar_website": "No website",
+        "bar_lat": 42.3576683,
+        "bar_lon": -71.0535739,
+        "bar_distance_miles": 0.18
+    },
+    {
+        "bar_id": "7",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "Coogan\u2018s",
+        "bar_website": "https://www.coogansboston.com/",
+        "bar_lat": 42.3583073,
+        "bar_lon": -71.053295,
+        "bar_distance_miles": 0.13
+    },
+    {
+        "bar_id": "8",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "Bostonia Public House",
+        "bar_website": "No website",
+        "bar_lat": 42.359154,
+        "bar_lon": -71.0544674,
+        "bar_distance_miles": 0.15
+    },
+    {
+        "bar_id": "9",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "Wild Rover Bar & Nightspot",
+        "bar_website": "https://www.wildroverboston.com/",
+        "bar_lat": 42.3595995,
+        "bar_lon": -71.0539916,
+        "bar_distance_miles": 0.12
+    },
+    {
+        "bar_id": "10",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "Sissy K's",
+        "bar_website": "https://www.sissyks.com/",
+        "bar_lat": 42.3596157,
+        "bar_lon": -71.0537237,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "11",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "Bier Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3606813,
+        "bar_lon": -71.0505201,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "12",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "Dockside Beer Garden at Central Wharf",
+        "bar_website": "No website",
+        "bar_lat": 42.3591768,
+        "bar_lon": -71.0503612,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "13",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "The Landing at Long Wharf",
+        "bar_website": "No website",
+        "bar_lat": 42.359781,
+        "bar_lon": -71.0503275,
+        "bar_distance_miles": 0.07
+    },
+    {
+        "bar_id": "14",
+        "station_name": "AQUARIUM STATION",
+        "station_id": "106",
+        "bar_name": "The Landing",
+        "bar_website": "No website",
+        "bar_lat": 42.3597752,
+        "bar_lon": -71.0503384,
+        "bar_distance_miles": 0.07
+    },
+    {
+        "bar_id": "15",
+        "station_name": "ARLINGTON STATION",
+        "station_id": "5",
+        "bar_name": "Cheers Beacon Hill",
+        "bar_website": "https://cheersboston.com",
+        "bar_lat": 42.3559525,
+        "bar_lon": -71.0712576,
+        "bar_distance_miles": 0.28
+    },
+    {
+        "bar_id": "16",
+        "station_name": "ASHMONT STATION--RED LINE",
+        "station_id": "6",
+        "bar_name": "Eire Pub",
+        "bar_website": "No website",
+        "bar_lat": 42.2830758,
+        "bar_lon": -71.0560408,
+        "bar_distance_miles": 0.36
+    },
+    {
+        "bar_id": "17",
+        "station_name": "ASSEMBLY STATION",
+        "station_id": "7",
+        "bar_name": "River Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3957065,
+        "bar_lon": -71.0794451,
+        "bar_distance_miles": 0.23
+    },
+    {
+        "bar_id": "18",
+        "station_name": "ASSEMBLY STATION",
+        "station_id": "7",
+        "bar_name": "Muse Paintbar",
+        "bar_website": "No website",
+        "bar_lat": 42.395141,
+        "bar_lon": -71.0783947,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "19",
+        "station_name": "ASSEMBLY STATION",
+        "station_id": "7",
+        "bar_name": "Civility Social House",
+        "bar_website": "No website",
+        "bar_lat": 42.3936078,
+        "bar_lon": -71.0778717,
+        "bar_distance_miles": 0.06
+    },
+    {
+        "bar_id": "20",
+        "station_name": "ASSEMBLY STATION",
+        "station_id": "7",
+        "bar_name": "Parla XXI",
+        "bar_website": "No website",
+        "bar_lat": 42.3955683,
+        "bar_lon": -71.0791748,
+        "bar_distance_miles": 0.21
+    },
+    {
+        "bar_id": "21",
+        "station_name": "AYER STATION",
+        "station_id": "117",
+        "bar_name": "The Next Stop Pub & Grill",
+        "bar_website": "https://www.facebook.com/NextStopPubnGrillAyerMA",
+        "bar_lat": 42.5595118,
+        "bar_lon": -71.5889909,
+        "bar_distance_miles": 0.04
+    },
+    {
+        "bar_id": "22",
+        "station_name": "AYER STATION",
+        "station_id": "117",
+        "bar_name": "The Billiards Cafe",
+        "bar_website": "https://thebilliardscafe.com/",
+        "bar_lat": 42.5597612,
+        "bar_lon": -71.5885238,
+        "bar_distance_miles": 0.06
+    },
+    {
+        "bar_id": "23",
+        "station_name": "AYER STATION",
+        "station_id": "117",
+        "bar_name": "Bar 25",
+        "bar_website": "No website",
+        "bar_lat": 42.5596034,
+        "bar_lon": -71.5879086,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "24",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "bar_name": "DeLux Caf\u00e9",
+        "bar_website": "No website",
+        "bar_lat": 42.3463152,
+        "bar_lon": -71.0729011,
+        "bar_distance_miles": 0.16
+    },
+    {
+        "bar_id": "25",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "bar_name": "Club Caf\u00e9",
+        "bar_website": "No website",
+        "bar_lat": 42.3483941,
+        "bar_lon": -71.0723921,
+        "bar_distance_miles": 0.19
+    },
+    {
+        "bar_id": "26",
+        "station_name": "BACK BAY STATION--ORANGE LINE",
+        "station_id": "9",
+        "bar_name": "Sister Sorel",
+        "bar_website": "No website",
+        "bar_lat": 42.3422326,
+        "bar_lon": -71.0752954,
+        "bar_distance_miles": 0.35
+    },
+    {
+        "bar_id": "27",
+        "station_name": "BALL SQUARE STATION",
+        "station_id": "135",
+        "bar_name": "Free Little Library",
+        "bar_website": "No website",
+        "bar_lat": 42.3979227,
+        "bar_lon": -71.1125904,
+        "bar_distance_miles": 0.21
+    },
+    {
+        "bar_id": "28",
+        "station_name": "BALL SQUARE STATION",
+        "station_id": "135",
+        "bar_name": "Public Tavern",
+        "bar_website": "No website",
+        "bar_lat": 42.3984815,
+        "bar_lon": -71.1072118,
+        "bar_distance_miles": 0.2
+    },
+    {
+        "bar_id": "29",
+        "station_name": "BLANDFORD ST STATION",
+        "station_id": "12",
+        "bar_name": "BEERWORKS No. 1 Fenway",
+        "bar_website": "https://beerworks.net/fenway/",
+        "bar_lat": 42.3469999,
+        "bar_lon": -71.0989887,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "30",
+        "station_name": "BLANDFORD ST STATION",
+        "station_id": "12",
+        "bar_name": "Cask 'n Flagon",
+        "bar_website": "https://casknflagon.com/locations/boston/",
+        "bar_lat": 42.347316,
+        "bar_lon": -71.098196,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "31",
+        "station_name": "BLANDFORD ST STATION",
+        "station_id": "12",
+        "bar_name": "Game On!",
+        "bar_website": "https://gameonboston.com/",
+        "bar_lat": 42.3470487,
+        "bar_lon": -71.0984891,
+        "bar_distance_miles": 0.18
+    },
+    {
+        "bar_id": "32",
+        "station_name": "BLANDFORD ST STATION",
+        "station_id": "12",
+        "bar_name": "The Bullpen Kitchen + Tap",
+        "bar_website": "https://www.thebullpenboston.com/",
+        "bar_lat": 42.3460342,
+        "bar_lon": -71.0987783,
+        "bar_distance_miles": 0.24
+    },
+    {
+        "bar_id": "33",
+        "station_name": "BLANDFORD ST STATION",
+        "station_id": "12",
+        "bar_name": "Oliver's",
+        "bar_website": "No website",
+        "bar_lat": 42.3474168,
+        "bar_lon": -71.098129,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "34",
+        "station_name": "BOSTON UNIV CENTRAL STATION",
+        "station_id": "14",
+        "bar_name": "Dugout Cafe",
+        "bar_website": "No website",
+        "bar_lat": 42.3496292,
+        "bar_lon": -71.1059547,
+        "bar_distance_miles": 0.06
+    },
+    {
+        "bar_id": "35",
+        "station_name": "BOYLSTON STATION--GREEN LINE",
+        "station_id": "16",
+        "bar_name": "The Tam",
+        "bar_website": "No website",
+        "bar_lat": 42.3515157,
+        "bar_lon": -71.06462,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "36",
+        "station_name": "BOYLSTON STATION--GREEN LINE",
+        "station_id": "16",
+        "bar_name": "4th Wall",
+        "bar_website": "No website",
+        "bar_lat": 42.3513531,
+        "bar_lon": -71.0646629,
+        "bar_distance_miles": 0.13
+    },
+    {
+        "bar_id": "37",
+        "station_name": "BRIGHAM CIRCLE STATION",
+        "station_id": "19",
+        "bar_name": "The Squealing Pig",
+        "bar_website": "No website",
+        "bar_lat": 42.3347313,
+        "bar_lon": -71.1020151,
+        "bar_distance_miles": 0.09
+    },
+    {
+        "bar_id": "38",
+        "station_name": "BROADWAY STATION",
+        "station_id": "20",
+        "bar_name": "Castle Island",
+        "bar_website": "https://castleislandbeer.com/south-boston/",
+        "bar_lat": 42.3378061,
+        "bar_lon": -71.0565542,
+        "bar_distance_miles": 0.31
+    },
+    {
+        "bar_id": "39",
+        "station_name": "BROADWAY STATION",
+        "station_id": "20",
+        "bar_name": "Croke",
+        "bar_website": "No website",
+        "bar_lat": 42.3392611,
+        "bar_lon": -71.0511646,
+        "bar_distance_miles": 0.37
+    },
+    {
+        "bar_id": "40",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "Miracle of Science Bar + Grill",
+        "bar_website": "No website",
+        "bar_lat": 42.3625591,
+        "bar_lon": -71.0985916,
+        "bar_distance_miles": 0.33
+    },
+    {
+        "bar_id": "41",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "Middlesex Lounge",
+        "bar_website": "No website",
+        "bar_lat": 42.3624977,
+        "bar_lon": -71.0984964,
+        "bar_distance_miles": 0.34
+    },
+    {
+        "bar_id": "42",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "Cantab Lounge",
+        "bar_website": "https://www.thecantablounge.com/",
+        "bar_lat": 42.366126,
+        "bar_lon": -71.1052914,
+        "bar_distance_miles": 0.09
+    },
+    {
+        "bar_id": "43",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "Phoenix Landing",
+        "bar_website": "https://phoenixlandingbar.com/",
+        "bar_lat": 42.3640906,
+        "bar_lon": -71.1018824,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "44",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "The Middle East Downstairs",
+        "bar_website": "http://www.mideastoffers.com/downstairs/",
+        "bar_lat": 42.3637328,
+        "bar_lon": -71.1015015,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "45",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "Brick & Mortar",
+        "bar_website": "https://www.brickandmortarbar.com/",
+        "bar_lat": 42.3648573,
+        "bar_lon": -71.1024593,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "46",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "730 Tavern, Kitchen & Patio",
+        "bar_website": "No website",
+        "bar_lat": 42.3660159,
+        "bar_lon": -71.1051419,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "47",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "The Plough and Stars",
+        "bar_website": "https://www.ploughandstars.com/",
+        "bar_lat": 42.3682614,
+        "bar_lon": -71.1087976,
+        "bar_distance_miles": 0.32
+    },
+    {
+        "bar_id": "48",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "Manray",
+        "bar_website": "https://www.manrayclub.com/",
+        "bar_lat": 42.3661119,
+        "bar_lon": -71.1032447,
+        "bar_distance_miles": 0.05
+    },
+    {
+        "bar_id": "49",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "Sonia",
+        "bar_website": "http://www.mideastoffers.com/sonia/",
+        "bar_lat": 42.3635621,
+        "bar_lon": -71.101637,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "50",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "Lamplighter Brewing Company",
+        "bar_website": "No website",
+        "bar_lat": 42.3679737,
+        "bar_lon": -71.0979339,
+        "bar_distance_miles": 0.35
+    },
+    {
+        "bar_id": "51",
+        "station_name": "CENTRAL SQ STATION",
+        "station_id": "23",
+        "bar_name": "Blue Owl",
+        "bar_website": "https://www.blueowlcentralsq.com/",
+        "bar_lat": 42.3635823,
+        "bar_lon": -71.0995809,
+        "bar_distance_miles": 0.25
+    },
+    {
+        "bar_id": "52",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "bar_name": "The Sevens",
+        "bar_website": "No website",
+        "bar_lat": 42.3583275,
+        "bar_lon": -71.0703958,
+        "bar_distance_miles": 0.2
+    },
+    {
+        "bar_id": "53",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "bar_name": "Liberty Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3619187,
+        "bar_lon": -71.0701194,
+        "bar_distance_miles": 0.06
+    },
+    {
+        "bar_id": "54",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "bar_name": "The Hill Tavern",
+        "bar_website": "http://www.thehilltavern.com",
+        "bar_lat": 42.3610059,
+        "bar_lon": -71.0666758,
+        "bar_distance_miles": 0.2
+    },
+    {
+        "bar_id": "55",
+        "station_name": "CHARLES/MGH STATION",
+        "station_id": "24",
+        "bar_name": "Beacon Hill Pub",
+        "bar_website": "No website",
+        "bar_lat": 42.3604302,
+        "bar_lon": -71.070636,
+        "bar_distance_miles": 0.05
+    },
+    {
+        "bar_id": "56",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "bar_name": "Rock & Rye",
+        "bar_website": "No website",
+        "bar_lat": 42.351199,
+        "bar_lon": -71.0642489,
+        "bar_distance_miles": 0.12
+    },
+    {
+        "bar_id": "57",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "bar_name": "Bijou",
+        "bar_website": "No website",
+        "bar_lat": 42.3511906,
+        "bar_lon": -71.0641511,
+        "bar_distance_miles": 0.12
+    },
+    {
+        "bar_id": "58",
+        "station_name": "CHINATOWN--ORANGE LINE STATION",
+        "station_id": "27",
+        "bar_name": "Shojo",
+        "bar_website": "https://www.shojoboston.com/",
+        "bar_lat": 42.3510738,
+        "bar_lon": -71.0607399,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "59",
+        "station_name": "CHISWICK RD STATION",
+        "station_id": "28",
+        "bar_name": "Lawn Chair",
+        "bar_website": "No website",
+        "bar_lat": 42.3404544,
+        "bar_lon": -71.1516633,
+        "bar_distance_miles": 0.04
+    },
+    {
+        "bar_id": "60",
+        "station_name": "CLEVELAND CIRCLE PLATFORM STATION",
+        "station_id": "29",
+        "bar_name": "Cityside American Tavern",
+        "bar_website": "http://www.citysidebar.com/",
+        "bar_lat": 42.3363699,
+        "bar_lon": -71.1504142,
+        "bar_distance_miles": 0.06
+    },
+    {
+        "bar_id": "61",
+        "station_name": "COOLIDGE CORNER STATION",
+        "station_id": "31",
+        "bar_name": "Kimchi\u2019s Little Library",
+        "bar_website": "No website",
+        "bar_lat": 42.3443463,
+        "bar_lon": -71.1204941,
+        "bar_distance_miles": 0.16
+    },
+    {
+        "bar_id": "62",
+        "station_name": "COOLIDGE CORNER STATION",
+        "station_id": "31",
+        "bar_name": "Coolidge Corner Clubhouse",
+        "bar_website": "https://www.coolidgecornerclubhouse.com/",
+        "bar_lat": 42.3432613,
+        "bar_lon": -71.1228558,
+        "bar_distance_miles": 0.12
+    },
+    {
+        "bar_id": "63",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "bar_name": "Lolita",
+        "bar_website": "https://www.lolitamexican.com/",
+        "bar_lat": 42.3506853,
+        "bar_lon": -71.0774037,
+        "bar_distance_miles": 0.05
+    },
+    {
+        "bar_id": "64",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "bar_name": "S\u00f3l\u00e1s Irish Pub",
+        "bar_website": "https://www.solasboston.com/",
+        "bar_lat": 42.3492607,
+        "bar_lon": -71.0797749,
+        "bar_distance_miles": 0.13
+    },
+    {
+        "bar_id": "65",
+        "station_name": "COPLEY STATION",
+        "station_id": "32",
+        "bar_name": "Storyville",
+        "bar_website": "https://www.facebook.com/StoryvilleBoston/",
+        "bar_lat": 42.3482396,
+        "bar_lon": -71.0787107,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "66",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "bar_name": "Saloon",
+        "bar_website": "https://saloondavis.com/",
+        "bar_lat": 42.3955324,
+        "bar_lon": -71.1218406,
+        "bar_distance_miles": 0.1
+    },
+    {
+        "bar_id": "67",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "bar_name": "Spoke Wine Bar",
+        "bar_website": "https://www.spokewinebar.com/",
+        "bar_lat": 42.3988942,
+        "bar_lon": -71.1243071,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "68",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "bar_name": "PJ Ryan\u2019s",
+        "bar_website": "No website",
+        "bar_lat": 42.4027899,
+        "bar_lon": -71.1267807,
+        "bar_distance_miles": 0.47
+    },
+    {
+        "bar_id": "69",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "bar_name": "Joe Sent Me",
+        "bar_website": "http://www.joe-sent-me.com/",
+        "bar_lat": 42.396918,
+        "bar_lon": -71.1299636,
+        "bar_distance_miles": 0.38
+    },
+    {
+        "bar_id": "70",
+        "station_name": "DAVIS SQ STATION",
+        "station_id": "33",
+        "bar_name": "Elm Street Taproom",
+        "bar_website": "https://www.elmstreettaproom.com/",
+        "bar_lat": 42.3955064,
+        "bar_lon": -71.1221467,
+        "bar_distance_miles": 0.09
+    },
+    {
+        "bar_id": "71",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "bar_name": "Good Life",
+        "bar_website": "https://www.goodlifebar.com/",
+        "bar_lat": 42.3533994,
+        "bar_lon": -71.0591955,
+        "bar_distance_miles": 0.16
+    },
+    {
+        "bar_id": "72",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "bar_name": "JJ Foleys Bar & Grille",
+        "bar_website": "http://www.jjfoleys.com/location.html",
+        "bar_lat": 42.353753,
+        "bar_lon": -71.0590633,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "73",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "bar_name": "Yvonne's",
+        "bar_website": "https://www.yvonnesboston.com/",
+        "bar_lat": 42.3554002,
+        "bar_lon": -71.0615407,
+        "bar_distance_miles": 0.07
+    },
+    {
+        "bar_id": "74",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "bar_name": "Mast'",
+        "bar_website": "No website",
+        "bar_lat": 42.3571096,
+        "bar_lon": -71.0600365,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "75",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "bar_name": "Sidebar",
+        "bar_website": "No website",
+        "bar_lat": 42.356523,
+        "bar_lon": -71.0600136,
+        "bar_distance_miles": 0.07
+    },
+    {
+        "bar_id": "76",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "bar_name": "Hub Pub",
+        "bar_website": "https://thehubpub.com/",
+        "bar_lat": 42.3571718,
+        "bar_lon": -71.0596569,
+        "bar_distance_miles": 0.12
+    },
+    {
+        "bar_id": "77",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "bar_name": "VERSUS",
+        "bar_website": "https://www.versusboston.com/",
+        "bar_lat": 42.3568636,
+        "bar_lon": -71.0599611,
+        "bar_distance_miles": 0.09
+    },
+    {
+        "bar_id": "78",
+        "station_name": "DOWNTOWN CROSSING--RED AND ORANGE LINES STATION",
+        "station_id": "35",
+        "bar_name": "haley.henry",
+        "bar_website": "No website",
+        "bar_lat": 42.3575054,
+        "bar_lon": -71.0596738,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "79",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "bar_name": "Michael's Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.381597,
+        "bar_lon": -71.0858839,
+        "bar_distance_miles": 0.15
+    },
+    {
+        "bar_id": "80",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "bar_name": "Backbar",
+        "bar_website": "https://backbarunion.com/",
+        "bar_lat": 42.3799325,
+        "bar_lon": -71.0945397,
+        "bar_distance_miles": 0.33
+    },
+    {
+        "bar_id": "81",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "bar_name": "Somerville Brewing Company",
+        "bar_website": "https://www.slumbrew.com/brewery-hq-1",
+        "bar_lat": 42.3748311,
+        "bar_lon": -71.0892453,
+        "bar_distance_miles": 0.36
+    },
+    {
+        "bar_id": "82",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "bar_name": "Vera's",
+        "bar_website": "No website",
+        "bar_lat": 42.3797989,
+        "bar_lon": -71.095229,
+        "bar_distance_miles": 0.37
+    },
+    {
+        "bar_id": "83",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "bar_name": "The Jungle Community Music Club",
+        "bar_website": "https://www.thejunglemusicclub.com/",
+        "bar_lat": 42.3799443,
+        "bar_lon": -71.0946625,
+        "bar_distance_miles": 0.34
+    },
+    {
+        "bar_id": "84",
+        "station_name": "EAST SOMERVILLE STATION",
+        "station_id": "138",
+        "bar_name": "The Independent",
+        "bar_website": "No website",
+        "bar_lat": 42.3797497,
+        "bar_lon": -71.0948221,
+        "bar_distance_miles": 0.35
+    },
+    {
+        "bar_id": "85",
+        "station_name": "FENWAY STATION",
+        "station_id": "39",
+        "bar_name": "Trillium Brewing Company",
+        "bar_website": "https://www.trilliumbrewing.com/locations/fenway",
+        "bar_lat": 42.3440899,
+        "bar_lon": -71.1030535,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "86",
+        "station_name": "FENWAY STATION",
+        "station_id": "39",
+        "bar_name": "Fool's Errand",
+        "bar_website": "https://www.foolserrandboston.com/",
+        "bar_lat": 42.3439541,
+        "bar_lon": -71.1009542,
+        "bar_distance_miles": 0.2
+    },
+    {
+        "bar_id": "87",
+        "station_name": "FIELDS CORNER STATION",
+        "station_id": "41",
+        "bar_name": "Blarney Stone",
+        "bar_website": "No website",
+        "bar_lat": 42.2992353,
+        "bar_lon": -71.0605875,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "88",
+        "station_name": "FITCHBURG STATION",
+        "station_id": "121",
+        "bar_name": "The Cellar",
+        "bar_website": "No website",
+        "bar_lat": 42.582105,
+        "bar_lon": -71.7974231,
+        "bar_distance_miles": 0.27
+    },
+    {
+        "bar_id": "89",
+        "station_name": "FITCHBURG STATION",
+        "station_id": "121",
+        "bar_name": "Tryst Lounge",
+        "bar_website": "https://www.thetrystlounge.com/",
+        "bar_lat": 42.5820431,
+        "bar_lon": -71.7970625,
+        "bar_distance_miles": 0.25
+    },
+    {
+        "bar_id": "90",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_id": "42",
+        "bar_name": "Eugene O'Neills",
+        "bar_website": "No website",
+        "bar_lat": 42.3005521,
+        "bar_lon": -71.1128599,
+        "bar_distance_miles": 0.06
+    },
+    {
+        "bar_id": "91",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_id": "42",
+        "bar_name": "Jeanie Johnston Pub & Grill",
+        "bar_website": "https://jeaniejohnstonpub.com/",
+        "bar_lat": 42.3050894,
+        "bar_lon": -71.1145161,
+        "bar_distance_miles": 0.31
+    },
+    {
+        "bar_id": "92",
+        "station_name": "FOREST HILLS STATION--ORANGE LINE",
+        "station_id": "42",
+        "bar_name": "J.J. Foley's Fireside Tavern",
+        "bar_website": "No website",
+        "bar_lat": 42.2992125,
+        "bar_lon": -71.1138118,
+        "bar_distance_miles": 0.1
+    },
+    {
+        "bar_id": "93",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "bar_name": "Willoughby Little Free Library",
+        "bar_website": "No website",
+        "bar_lat": 42.3895577,
+        "bar_lon": -71.1013895,
+        "bar_distance_miles": 0.26
+    },
+    {
+        "bar_id": "94",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "bar_name": "Remnant Brewing Company",
+        "bar_website": "No website",
+        "bar_lat": 42.3811613,
+        "bar_lon": -71.0979317,
+        "bar_distance_miles": 0.48
+    },
+    {
+        "bar_id": "95",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "bar_name": "Rebel Rebel",
+        "bar_website": "No website",
+        "bar_lat": 42.3810298,
+        "bar_lon": -71.0980988,
+        "bar_distance_miles": 0.49
+    },
+    {
+        "bar_id": "96",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "bar_name": "Sharing Library, Kids",
+        "bar_website": "No website",
+        "bar_lat": 42.3836058,
+        "bar_lon": -71.0985982,
+        "bar_distance_miles": 0.32
+    },
+    {
+        "bar_id": "97",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "bar_name": "Winter Hill Brewery",
+        "bar_website": "https://winterhillbrewing.com",
+        "bar_lat": 42.3926403,
+        "bar_lon": -71.0940039,
+        "bar_distance_miles": 0.35
+    },
+    {
+        "bar_id": "98",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "bar_name": "Bull McCabe's",
+        "bar_website": "No website",
+        "bar_lat": 42.380965,
+        "bar_lon": -71.0994293,
+        "bar_distance_miles": 0.5
+    },
+    {
+        "bar_id": "99",
+        "station_name": "GILMAN SQUARE STATION",
+        "station_id": "137",
+        "bar_name": "Union Tavern",
+        "bar_website": "http://www.uniontavernsomerville.com/",
+        "bar_lat": 42.3808755,
+        "bar_lon": -71.0981996,
+        "bar_distance_miles": 0.5
+    },
+    {
+        "bar_id": "100",
+        "station_name": "GREEN ST. STATION",
+        "station_id": "44",
+        "bar_name": "TT Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3148536,
+        "bar_lon": -71.1142543,
+        "bar_distance_miles": 0.46
+    },
+    {
+        "bar_id": "101",
+        "station_name": "GREEN ST. STATION",
+        "station_id": "44",
+        "bar_name": "Costello's Tavern",
+        "bar_website": "No website",
+        "bar_lat": 42.311192,
+        "bar_lon": -71.114668,
+        "bar_distance_miles": 0.37
+    },
+    {
+        "bar_id": "102",
+        "station_name": "GREEN ST. STATION",
+        "station_id": "44",
+        "bar_name": "Drawdown Brewing",
+        "bar_website": "https://www.drawdownbrewing.com/main",
+        "bar_lat": 42.3125279,
+        "bar_lon": -71.1013924,
+        "bar_distance_miles": 0.35
+    },
+    {
+        "bar_id": "103",
+        "station_name": "GREEN ST. STATION",
+        "station_id": "44",
+        "bar_name": "Midway Cafe",
+        "bar_website": "https://midwaycafe.com/",
+        "bar_lat": 42.3061915,
+        "bar_lon": -71.1074781,
+        "bar_distance_miles": 0.29
+    },
+    {
+        "bar_id": "104",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "bar_name": "Hopewell Bar + Kitchen",
+        "bar_website": "https://www.hopewellboston.com/",
+        "bar_lat": 42.3496646,
+        "bar_lon": -71.1332775,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "105",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "bar_name": "The Avenue",
+        "bar_website": "https://www.avenuebar.com/",
+        "bar_lat": 42.3501476,
+        "bar_lon": -71.132104,
+        "bar_distance_miles": 0.04
+    },
+    {
+        "bar_id": "106",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "bar_name": "The Silhouette Lounge",
+        "bar_website": "https://www.silhouetteallston.com/",
+        "bar_lat": 42.3531162,
+        "bar_lon": -71.1343879,
+        "bar_distance_miles": 0.26
+    },
+    {
+        "bar_id": "107",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "bar_name": "Sheesha Lounge",
+        "bar_website": "https://www.hookahbarboston.com/",
+        "bar_lat": 42.3551174,
+        "bar_lon": -71.134013,
+        "bar_distance_miles": 0.37
+    },
+    {
+        "bar_id": "108",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "bar_name": "O'Brien's Pub",
+        "bar_website": "https://obrienspubboston.com/",
+        "bar_lat": 42.3552418,
+        "bar_lon": -71.1328691,
+        "bar_distance_miles": 0.36
+    },
+    {
+        "bar_id": "109",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "bar_name": "The Draft",
+        "bar_website": "https://thedraftbarandgrille.com/",
+        "bar_lat": 42.354868,
+        "bar_lon": -71.132402,
+        "bar_distance_miles": 0.33
+    },
+    {
+        "bar_id": "110",
+        "station_name": "HARVARD AVE STATION",
+        "station_id": "46",
+        "bar_name": "Garage Boston",
+        "bar_website": "No website",
+        "bar_lat": 42.3557354,
+        "bar_lon": -71.1306944,
+        "bar_distance_miles": 0.38
+    },
+    {
+        "bar_id": "111",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "bar_name": "Club Passim",
+        "bar_website": "No website",
+        "bar_lat": 42.3742245,
+        "bar_lon": -71.1200134,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "112",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "bar_name": "Regattabar",
+        "bar_website": "No website",
+        "bar_lat": 42.372203,
+        "bar_lon": -71.1228944,
+        "bar_distance_miles": 0.22
+    },
+    {
+        "bar_id": "113",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "bar_name": "Noir",
+        "bar_website": "No website",
+        "bar_lat": 42.3723595,
+        "bar_lon": -71.1226705,
+        "bar_distance_miles": 0.2
+    },
+    {
+        "bar_id": "114",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "bar_name": "Grendel's Den",
+        "bar_website": "https://www.grendelsden.com/",
+        "bar_lat": 42.3724217,
+        "bar_lon": -71.1209044,
+        "bar_distance_miles": 0.12
+    },
+    {
+        "bar_id": "115",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "bar_name": "Shays Pub and Wine Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3717481,
+        "bar_lon": -71.1206486,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "116",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "bar_name": "Whitney's",
+        "bar_website": "No website",
+        "bar_lat": 42.3727636,
+        "bar_lon": -71.1201765,
+        "bar_distance_miles": 0.07
+    },
+    {
+        "bar_id": "117",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "bar_name": "Longfellow Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3736028,
+        "bar_lon": -71.1214022,
+        "bar_distance_miles": 0.13
+    },
+    {
+        "bar_id": "118",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "bar_name": "Wusong Road Tiki Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3727741,
+        "bar_lon": -71.1222731,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "119",
+        "station_name": "HARVARD STATION",
+        "station_id": "47",
+        "bar_name": "Legal Sea Foods",
+        "bar_website": "No website",
+        "bar_lat": 42.3721864,
+        "bar_lon": -71.1223193,
+        "bar_distance_miles": 0.19
+    },
+    {
+        "bar_id": "120",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "bar_name": "White Bull Tavern",
+        "bar_website": "No website",
+        "bar_lat": 42.3607148,
+        "bar_lon": -71.0567346,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "121",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "bar_name": "Durty Nelly's",
+        "bar_website": "http://mobile.dudasite.com/site/somerspubscom?url=http%3A%2F%2Fwww.somerspubs.com%2Fdurty-nellys.html&utm_referrer=https%3A%2F%2Fwww.google.ca%2F#2936",
+        "bar_lat": 42.3616934,
+        "bar_lon": -71.0565718,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "122",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "bar_name": "The Green Dragon Tavern",
+        "bar_website": "No website",
+        "bar_lat": 42.3615079,
+        "bar_lon": -71.0568617,
+        "bar_distance_miles": 0.07
+    },
+    {
+        "bar_id": "123",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "bar_name": "Hennessey's",
+        "bar_website": "No website",
+        "bar_lat": 42.3609935,
+        "bar_lon": -71.0568027,
+        "bar_distance_miles": 0.09
+    },
+    {
+        "bar_id": "124",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "bar_name": "The Point",
+        "bar_website": "No website",
+        "bar_lat": 42.3617656,
+        "bar_lon": -71.0569604,
+        "bar_distance_miles": 0.06
+    },
+    {
+        "bar_id": "125",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "bar_name": "Grand Canal",
+        "bar_website": "http://grandcanalboston.com",
+        "bar_lat": 42.3638369,
+        "bar_lon": -71.0591047,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "126",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "bar_name": "Stanza dei Sigari",
+        "bar_website": "https://www.stanzadeisigari.com/",
+        "bar_lat": 42.3641002,
+        "bar_lon": -71.0543402,
+        "bar_distance_miles": 0.24
+    },
+    {
+        "bar_id": "127",
+        "station_name": "HAYMARKET--GREEN LINE STATION",
+        "station_id": "49",
+        "bar_name": "City Winery",
+        "bar_website": "No website",
+        "bar_lat": 42.3640637,
+        "bar_lon": -71.0586667,
+        "bar_distance_miles": 0.15
+    },
+    {
+        "bar_id": "128",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "bar_name": "Bukowski Tavern",
+        "bar_website": "https://bukowski-tavern.com/",
+        "bar_lat": 42.3472132,
+        "bar_lon": -71.0854097,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "129",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "bar_name": "McGreevy's",
+        "bar_website": "https://www.mcgreevysboston.com",
+        "bar_lat": 42.3483721,
+        "bar_lon": -71.0843802,
+        "bar_distance_miles": 0.18
+    },
+    {
+        "bar_id": "130",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "bar_name": "Lir",
+        "bar_website": "https://www.lironboylston.com/",
+        "bar_lat": 42.3484206,
+        "bar_lon": -71.0842079,
+        "bar_distance_miles": 0.19
+    },
+    {
+        "bar_id": "131",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "bar_name": "Dani's Queer Bar",
+        "bar_website": "https://www.danisqueerbar.com",
+        "bar_lat": 42.3483854,
+        "bar_lon": -71.0843034,
+        "bar_distance_miles": 0.19
+    },
+    {
+        "bar_id": "132",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "bar_name": "The Corner Tavern",
+        "bar_website": "https://www.thecornerboston.com/",
+        "bar_lat": 42.3501216,
+        "bar_lon": -71.0893601,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "133",
+        "station_name": "HYNES STATION",
+        "station_id": "52",
+        "bar_name": "The Bebop",
+        "bar_website": "https://www.thebebopboston.com/",
+        "bar_lat": 42.346731,
+        "bar_lon": -71.088754,
+        "bar_distance_miles": 0.09
+    },
+    {
+        "bar_id": "134",
+        "station_name": "JFK/UMAS--RED LINE STATION",
+        "station_id": "54",
+        "bar_name": "The Banshee",
+        "bar_website": "No website",
+        "bar_lat": 42.3190544,
+        "bar_lon": -71.0565566,
+        "bar_distance_miles": 0.24
+    },
+    {
+        "bar_id": "135",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "bar_name": "Earnest Drinks",
+        "bar_website": "https://icecreamgracies.com/earnest",
+        "bar_lat": 42.3676165,
+        "bar_lon": -71.0901551,
+        "bar_distance_miles": 0.41
+    },
+    {
+        "bar_id": "136",
+        "station_name": "KENDALL/MIT STATION",
+        "station_id": "55",
+        "bar_name": "Locke Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3630592,
+        "bar_lon": -71.0832262,
+        "bar_distance_miles": 0.16
+    },
+    {
+        "bar_id": "137",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "Bleacher Bar",
+        "bar_website": "https://www.bleacherbarboston.com/",
+        "bar_lat": 42.3470437,
+        "bar_lon": -71.0967137,
+        "bar_distance_miles": 0.15
+    },
+    {
+        "bar_id": "138",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "The Lansdowne Pub",
+        "bar_website": "https://www.lansdownepubboston.com/",
+        "bar_lat": 42.3473454,
+        "bar_lon": -71.0951514,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "139",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "Loretta's Last Call",
+        "bar_website": "https://www.lorettaslastcall.com/",
+        "bar_lat": 42.3473311,
+        "bar_lon": -71.0945338,
+        "bar_distance_miles": 0.12
+    },
+    {
+        "bar_id": "140",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "SOJUba",
+        "bar_website": "https://www.sojubaboston.com/",
+        "bar_lat": 42.3452714,
+        "bar_lon": -71.0963611,
+        "bar_distance_miles": 0.26
+    },
+    {
+        "bar_id": "141",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "Bill's Bar",
+        "bar_website": "https://www.billsbarboston.com/",
+        "bar_lat": 42.3473233,
+        "bar_lon": -71.0949032,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "142",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "Cheeky Monkey Brewing Co.",
+        "bar_website": "https://www.luckystrikeent.com/location/cheeky-monkey-brewing-co",
+        "bar_lat": 42.3473229,
+        "bar_lon": -71.0947146,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "143",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "Foundation Room",
+        "bar_website": "https://www.houseofblues.com/boston/fr",
+        "bar_lat": 42.3474068,
+        "bar_lon": -71.0959362,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "144",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "The Deck on Lansdowne",
+        "bar_website": "https://www.houseofblues.com/boston/the-deck-on-lansdowne",
+        "bar_lat": 42.3474367,
+        "bar_lon": -71.0974877,
+        "bar_distance_miles": 0.16
+    },
+    {
+        "bar_id": "145",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "The Kenmore",
+        "bar_website": "https://www.thekenmorebar.com/",
+        "bar_lat": 42.3485631,
+        "bar_lon": -71.0938602,
+        "bar_distance_miles": 0.07
+    },
+    {
+        "bar_id": "146",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "Cornwall's",
+        "bar_website": "https://www.cornwalls.com",
+        "bar_lat": 42.3493991,
+        "bar_lon": -71.0955401,
+        "bar_distance_miles": 0.04
+    },
+    {
+        "bar_id": "147",
+        "station_name": "KENMORE STATION",
+        "station_id": "56",
+        "bar_name": "Sam Deck",
+        "bar_website": "No website",
+        "bar_lat": 42.3463329,
+        "bar_lon": -71.0960129,
+        "bar_distance_miles": 0.19
+    },
+    {
+        "bar_id": "148",
+        "station_name": "LECHMERE STATION",
+        "station_id": "58",
+        "bar_name": "Lamplighter CX",
+        "bar_website": "https://lamplighterbrewing.com",
+        "bar_lat": 42.372194,
+        "bar_lon": -71.0753297,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "149",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "bar_name": "Hugh O'Neill's",
+        "bar_website": "https://hughoneills.com/",
+        "bar_lat": 42.4268599,
+        "bar_lon": -71.0683438,
+        "bar_distance_miles": 0.3
+    },
+    {
+        "bar_id": "150",
+        "station_name": "MALDEN STATION--ORANGE LINE",
+        "station_id": "61",
+        "bar_name": "1986 KTV",
+        "bar_website": "No website",
+        "bar_lat": 42.426294,
+        "bar_lon": -71.0696963,
+        "bar_distance_miles": 0.23
+    },
+    {
+        "bar_id": "151",
+        "station_name": "MARGOUN SQUARE STATION",
+        "station_id": "136",
+        "bar_name": "Olde Magoun Saloon",
+        "bar_website": "No website",
+        "bar_lat": 42.3967102,
+        "bar_lon": -71.1040517,
+        "bar_distance_miles": 0.23
+    },
+    {
+        "bar_id": "152",
+        "station_name": "MASSACHUSETTS AVE STATION",
+        "station_id": "62",
+        "bar_name": "Five Horses Tavern - South End",
+        "bar_website": "https://www.fivehorsestavern.com/",
+        "bar_lat": 42.3418295,
+        "bar_lon": -71.0805559,
+        "bar_distance_miles": 0.23
+    },
+    {
+        "bar_id": "153",
+        "station_name": "MASSACHUSETTS AVE STATION",
+        "station_id": "62",
+        "bar_name": "Wally's Cafe Jazz Club",
+        "bar_website": "https://wallyscafe.com/index.html",
+        "bar_lat": 42.3406735,
+        "bar_lon": -71.0822887,
+        "bar_distance_miles": 0.19
+    },
+    {
+        "bar_id": "154",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "bar_name": "El Diamante Bilares",
+        "bar_website": "No website",
+        "bar_lat": 42.3719734,
+        "bar_lon": -71.0388135,
+        "bar_distance_miles": 0.2
+    },
+    {
+        "bar_id": "155",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "bar_name": "Downeast Cider",
+        "bar_website": "https://www.downeastcider.com",
+        "bar_lat": 42.3642404,
+        "bar_lon": -71.0327908,
+        "bar_distance_miles": 0.48
+    },
+    {
+        "bar_id": "156",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "bar_name": "Eddie C's",
+        "bar_website": "No website",
+        "bar_lat": 42.3699196,
+        "bar_lon": -71.0392831,
+        "bar_distance_miles": 0.06
+    },
+    {
+        "bar_id": "157",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "bar_name": "Downeast Pop-Up Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3637872,
+        "bar_lon": -71.0340141,
+        "bar_distance_miles": 0.46
+    },
+    {
+        "bar_id": "158",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "bar_name": "N Farra",
+        "bar_website": "No website",
+        "bar_lat": 42.3701816,
+        "bar_lon": -71.0393835,
+        "bar_distance_miles": 0.07
+    },
+    {
+        "bar_id": "159",
+        "station_name": "MAVERICK STATION",
+        "station_id": "110",
+        "bar_name": "The Quiet Few",
+        "bar_website": "No website",
+        "bar_lat": 42.3670714,
+        "bar_lon": -71.0360345,
+        "bar_distance_miles": 0.23
+    },
+    {
+        "bar_id": "160",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "bar_name": "Night Shift Brewing",
+        "bar_website": "https://nightshiftbrewing.com/locations/lovejoy-wharf/",
+        "bar_lat": 42.3673628,
+        "bar_lon": -71.0594069,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "161",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "bar_name": "The Harp",
+        "bar_website": "http://www.harpboston.com",
+        "bar_lat": 42.364582,
+        "bar_lon": -71.0624441,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "162",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "bar_name": "Sullivan's Tap",
+        "bar_website": "No website",
+        "bar_lat": 42.3651059,
+        "bar_lon": -71.0609947,
+        "bar_distance_miles": 0.1
+    },
+    {
+        "bar_id": "163",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "bar_name": "McGann's Irish Pub",
+        "bar_website": "https://www.mcgannsirishpub.com/",
+        "bar_lat": 42.3644568,
+        "bar_lon": -71.0617544,
+        "bar_distance_miles": 0.13
+    },
+    {
+        "bar_id": "164",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "bar_name": "Guy Fieri\u2019s Tequila Cocina",
+        "bar_website": "https://www.guyscocina.com/",
+        "bar_lat": 42.3659293,
+        "bar_lon": -71.0614468,
+        "bar_distance_miles": 0.05
+    },
+    {
+        "bar_id": "165",
+        "station_name": "NORTH STATION-GREEN LINE",
+        "station_id": "68",
+        "bar_name": "Track Zero Taproom",
+        "bar_website": "https://www.tdgarden.com/plan-your-visit/food-drink/lounges-bars",
+        "bar_lat": 42.3662838,
+        "bar_lon": -71.0618415,
+        "bar_distance_miles": 0.02
+    },
+    {
+        "bar_id": "166",
+        "station_name": "ORIENT HEIGTS STATION",
+        "station_id": "111",
+        "bar_name": "Pockets Billiard Club",
+        "bar_website": "No website",
+        "bar_lat": 42.3861415,
+        "bar_lon": -71.0075861,
+        "bar_distance_miles": 0.15
+    },
+    {
+        "bar_id": "167",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "bar_name": "jm Curley",
+        "bar_website": "http://jmcurleyboston.com/",
+        "bar_lat": 42.3552498,
+        "bar_lon": -71.0623372,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "168",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "bar_name": "Wig Shop",
+        "bar_website": "No website",
+        "bar_lat": 42.3551912,
+        "bar_lon": -71.0622169,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "169",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "bar_name": "Emmet's",
+        "bar_website": "http://www.emmetsirishpubandrestaurant.com",
+        "bar_lat": 42.358149,
+        "bar_lon": -71.0617226,
+        "bar_distance_miles": 0.13
+    },
+    {
+        "bar_id": "170",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "bar_name": "Barracuda Tavern",
+        "bar_website": "No website",
+        "bar_lat": 42.3571582,
+        "bar_lon": -71.0607809,
+        "bar_distance_miles": 0.1
+    },
+    {
+        "bar_id": "171",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "bar_name": "Roxanne's",
+        "bar_website": "No website",
+        "bar_lat": 42.3581795,
+        "bar_lon": -71.0615308,
+        "bar_distance_miles": 0.13
+    },
+    {
+        "bar_id": "172",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "bar_name": "Carrie Nation",
+        "bar_website": "http://www.carrienationcocktailclub.com/",
+        "bar_lat": 42.3583818,
+        "bar_lon": -71.061713,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "173",
+        "station_name": "PARK ST STATION--GREEN LINE",
+        "station_id": "73",
+        "bar_name": "Better Sorts Social Club",
+        "bar_website": "https://bettersortsboston.com/",
+        "bar_lat": 42.3574423,
+        "bar_lon": -71.0607367,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "174",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "bar_name": "Shine Square Pub",
+        "bar_website": "No website",
+        "bar_lat": 42.3908778,
+        "bar_lon": -71.1225907,
+        "bar_distance_miles": 0.25
+    },
+    {
+        "bar_id": "175",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "bar_name": "Lizard Lounge",
+        "bar_website": "https://lizardloungeclub.com/",
+        "bar_lat": 42.3821356,
+        "bar_lon": -71.1194853,
+        "bar_distance_miles": 0.43
+    },
+    {
+        "bar_id": "176",
+        "station_name": "PORTER SQ--RED LINE STATION",
+        "station_id": "75",
+        "bar_name": "Temple Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3827376,
+        "bar_lon": -71.1198364,
+        "bar_distance_miles": 0.39
+    },
+    {
+        "bar_id": "177",
+        "station_name": "PORTER SQUARE--COMMUTER RAIL STATION",
+        "station_id": "127",
+        "bar_name": "Cambridge Common",
+        "bar_website": "https://cambridgecommonrestaurant.com/",
+        "bar_lat": 42.3820677,
+        "bar_lon": -71.1194801,
+        "bar_distance_miles": 0.43
+    },
+    {
+        "bar_id": "178",
+        "station_name": "PRUDENTIAL STATION",
+        "station_id": "76",
+        "bar_name": "Back Bay Social",
+        "bar_website": "No website",
+        "bar_lat": 42.3486678,
+        "bar_lon": -71.0834071,
+        "bar_distance_miles": 0.23
+    },
+    {
+        "bar_id": "179",
+        "station_name": "QUINCY ADAMS STATION",
+        "station_id": "77",
+        "bar_name": "The South Side Tavern",
+        "bar_website": "No website",
+        "bar_lat": 42.2391752,
+        "bar_lon": -71.0075003,
+        "bar_distance_miles": 0.4
+    },
+    {
+        "bar_id": "180",
+        "station_name": "QUINCY CENTER STATION--RED LINE",
+        "station_id": "78",
+        "bar_name": "South Shore Music Hall",
+        "bar_website": "No website",
+        "bar_lat": 42.2473879,
+        "bar_lon": -71.0019479,
+        "bar_distance_miles": 0.35
+    },
+    {
+        "bar_id": "181",
+        "station_name": "QUINCY CENTER STATION--RED LINE",
+        "station_id": "78",
+        "bar_name": "Paddy Barrys",
+        "bar_website": "No website",
+        "bar_lat": 42.2470218,
+        "bar_lon": -71.0007853,
+        "bar_distance_miles": 0.41
+    },
+    {
+        "bar_id": "182",
+        "station_name": "QUINCY CENTER STATION--RED LINE",
+        "station_id": "78",
+        "bar_name": "Malachy's Saloon",
+        "bar_website": "No website",
+        "bar_lat": 42.2481933,
+        "bar_lon": -71.0044422,
+        "bar_distance_miles": 0.25
+    },
+    {
+        "bar_id": "183",
+        "station_name": "REVERE BEACH STATION",
+        "station_id": "112",
+        "bar_name": "Bill Ash's Lounge",
+        "bar_website": "https://www.facebook.com/billashslounge/",
+        "bar_lat": 42.4066777,
+        "bar_lon": -70.991587,
+        "bar_distance_miles": 0.09
+    },
+    {
+        "bar_id": "184",
+        "station_name": "SAVIN HILL STATION",
+        "station_id": "86",
+        "bar_name": "JJ's Irish Pub & Grill",
+        "bar_website": "No website",
+        "bar_lat": 42.3122004,
+        "bar_lon": -71.0572099,
+        "bar_distance_miles": 0.21
+    },
+    {
+        "bar_id": "185",
+        "station_name": "SOUTH ACTON STATION",
+        "station_id": "129",
+        "bar_name": "Acton Emergency Management Agency",
+        "bar_website": "No website",
+        "bar_lat": 42.4603163,
+        "bar_lon": -71.4543164,
+        "bar_distance_miles": 0.18
+    },
+    {
+        "bar_id": "186",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "bar_name": "The Corner Pub",
+        "bar_website": "https://cornerpubboston.net/",
+        "bar_lat": 42.3507726,
+        "bar_lon": -71.0583898,
+        "bar_distance_miles": 0.2
+    },
+    {
+        "bar_id": "187",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "bar_name": "Tavern In The Square",
+        "bar_website": "No website",
+        "bar_lat": 42.3518591,
+        "bar_lon": -71.0551761,
+        "bar_distance_miles": 0.05
+    },
+    {
+        "bar_id": "188",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "bar_name": "Bubble Bath",
+        "bar_website": "No website",
+        "bar_lat": 42.3543113,
+        "bar_lon": -71.0556163,
+        "bar_distance_miles": 0.12
+    },
+    {
+        "bar_id": "189",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "bar_name": "Alewives Taproom",
+        "bar_website": "No website",
+        "bar_lat": 42.3544673,
+        "bar_lon": -71.0556764,
+        "bar_distance_miles": 0.13
+    },
+    {
+        "bar_id": "190",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "bar_name": "Biddy Early's",
+        "bar_website": "No website",
+        "bar_lat": 42.3547148,
+        "bar_lon": -71.0536691,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "191",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "bar_name": "Lucky's Lounge",
+        "bar_website": "https://www.luckyslounge.com/",
+        "bar_lat": 42.350181,
+        "bar_lon": -71.04844,
+        "bar_distance_miles": 0.39
+    },
+    {
+        "bar_id": "192",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "bar_name": "Lookout Rooftop & Bar",
+        "bar_website": "https://outlookkitchenandbar.com/lookout-rooftop-and-bar/",
+        "bar_lat": 42.353879,
+        "bar_lon": -71.0482573,
+        "bar_distance_miles": 0.37
+    },
+    {
+        "bar_id": "193",
+        "station_name": "SOUTH STATION--RED LINE",
+        "station_id": "90",
+        "bar_name": "City Tap",
+        "bar_website": "No website",
+        "bar_lat": 42.3501043,
+        "bar_lon": -71.0471447,
+        "bar_distance_miles": 0.46
+    },
+    {
+        "bar_id": "194",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "bar_name": "Scholar's Bistro",
+        "bar_website": "No website",
+        "bar_lat": 42.3576641,
+        "bar_lon": -71.0590082,
+        "bar_distance_miles": 0.12
+    },
+    {
+        "bar_id": "195",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "bar_name": "The Alley Bar",
+        "bar_website": "www.thealleybar.com",
+        "bar_lat": 42.3581085,
+        "bar_lon": -71.0587158,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "196",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "bar_name": "Cheers Faneuil Hall",
+        "bar_website": "No website",
+        "bar_lat": 42.3600431,
+        "bar_lon": -71.0554328,
+        "bar_distance_miles": 0.13
+    },
+    {
+        "bar_id": "197",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "bar_name": "J.J. Donovan's Tavern",
+        "bar_website": "No website",
+        "bar_lat": 42.3604815,
+        "bar_lon": -71.054952,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "198",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "bar_name": "MIJA Cantina",
+        "bar_website": "No website",
+        "bar_lat": 42.3603045,
+        "bar_lon": -71.0554557,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "199",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "bar_name": "Samuel Adams Taproom",
+        "bar_website": "https://www.samueladams.com/taprooms#bostontaproom",
+        "bar_lat": 42.3596782,
+        "bar_lon": -71.056579,
+        "bar_distance_miles": 0.07
+    },
+    {
+        "bar_id": "200",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "bar_name": "Boston Seasons",
+        "bar_website": "No website",
+        "bar_lat": 42.359657,
+        "bar_lon": -71.0574759,
+        "bar_distance_miles": 0.05
+    },
+    {
+        "bar_id": "201",
+        "station_name": "STATE ST STATION",
+        "station_id": "113",
+        "bar_name": "The Fed",
+        "bar_website": "No website",
+        "bar_lat": 42.3565689,
+        "bar_lon": -71.0543759,
+        "bar_distance_miles": 0.23
+    },
+    {
+        "bar_id": "202",
+        "station_name": "STONEYBROOK STATION",
+        "station_id": "91",
+        "bar_name": "Sam Adams Boston Brewery",
+        "bar_website": "https://samadamsbostonbrewery.com/",
+        "bar_lat": 42.3144447,
+        "bar_lon": -71.1032234,
+        "bar_distance_miles": 0.19
+    },
+    {
+        "bar_id": "203",
+        "station_name": "STONEYBROOK STATION",
+        "station_id": "91",
+        "bar_name": "Brendan Behan Pub",
+        "bar_website": "https://www.brendanbehanjp.com/",
+        "bar_lat": 42.322003,
+        "bar_lon": -71.1093643,
+        "bar_distance_miles": 0.43
+    },
+    {
+        "bar_id": "204",
+        "station_name": "SULLIVAN STATION",
+        "station_id": "92",
+        "bar_name": "Tavern At the End of the World",
+        "bar_website": "https://www.tavernattheendoftheworld.com/",
+        "bar_lat": 42.3821725,
+        "bar_lon": -71.0793661,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "205",
+        "station_name": "SYMPHONY STATION",
+        "station_id": "95",
+        "bar_name": "Our House East",
+        "bar_website": "No website",
+        "bar_lat": 42.3418448,
+        "bar_lon": -71.0872146,
+        "bar_distance_miles": 0.12
+    },
+    {
+        "bar_id": "206",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "bar_name": "Rumor",
+        "bar_website": "http://rumorboston.com/",
+        "bar_lat": 42.3506611,
+        "bar_lon": -71.0662113,
+        "bar_distance_miles": 0.14
+    },
+    {
+        "bar_id": "207",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "bar_name": "Jacque's Cabaret",
+        "bar_website": "https://www.jacques-cabaret.com/jc/home.asp",
+        "bar_lat": 42.3499774,
+        "bar_lon": -71.0674461,
+        "bar_distance_miles": 0.18
+    },
+    {
+        "bar_id": "208",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "bar_name": "Bar Moxy",
+        "bar_website": "No website",
+        "bar_lat": 42.3509022,
+        "bar_lon": -71.0647555,
+        "bar_distance_miles": 0.11
+    },
+    {
+        "bar_id": "209",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "bar_name": "J.J. Foley's Cafe",
+        "bar_website": "https://www.jjfoleyscafe.com/",
+        "bar_lat": 42.3436416,
+        "bar_lon": -71.0652939,
+        "bar_distance_miles": 0.41
+    },
+    {
+        "bar_id": "210",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "bar_name": "Shore Leave",
+        "bar_website": "https://www.shoreleaveboston.com/",
+        "bar_lat": 42.345422,
+        "bar_lon": -71.064269,
+        "bar_distance_miles": 0.28
+    },
+    {
+        "bar_id": "211",
+        "station_name": "TUFTS MEDICAL CTR STATION",
+        "station_id": "97",
+        "bar_name": "Cathedral Station",
+        "bar_website": "No website",
+        "bar_lat": 42.3427838,
+        "bar_lon": -71.0668409,
+        "bar_distance_miles": 0.49
+    },
+    {
+        "bar_id": "212",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "bar_name": "Post Road Tavern",
+        "bar_website": "No website",
+        "bar_lat": 42.3766658,
+        "bar_lon": -71.2353486,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "213",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "bar_name": "Deep Ellum",
+        "bar_website": "https://www.deepellum-waltham.com/",
+        "bar_lat": 42.3681969,
+        "bar_lon": -71.2375755,
+        "bar_distance_miles": 0.43
+    },
+    {
+        "bar_id": "214",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "bar_name": "Brewer's Tap & Table",
+        "bar_website": "https://www.brewerstapandtable.com/",
+        "bar_lat": 42.3717896,
+        "bar_lon": -71.2365099,
+        "bar_distance_miles": 0.17
+    },
+    {
+        "bar_id": "215",
+        "station_name": "WALTHAM STATION",
+        "station_id": "131",
+        "bar_name": "Jocos Bar and Kitchen",
+        "bar_website": "No website",
+        "bar_lat": 42.3684706,
+        "bar_lon": -71.2372694,
+        "bar_distance_miles": 0.41
+    },
+    {
+        "bar_id": "216",
+        "station_name": "WASHINGTON SQ STATION",
+        "station_id": "100",
+        "bar_name": "The Publick House",
+        "bar_website": "https://publickhousebrookline.com/",
+        "bar_lat": 42.3392955,
+        "bar_lon": -71.1366991,
+        "bar_distance_miles": 0.08
+    },
+    {
+        "bar_id": "217",
+        "station_name": "WASHINGTON SQ STATION",
+        "station_id": "100",
+        "bar_name": "Washington Square Tavern",
+        "bar_website": "No website",
+        "bar_lat": 42.3390579,
+        "bar_lon": -71.1351122,
+        "bar_distance_miles": 0.02
+    },
+    {
+        "bar_id": "218",
+        "station_name": "WELLINGTON STATION",
+        "station_id": "102",
+        "bar_name": "LongCross Bar and Kitchen",
+        "bar_website": "https://longcrossbar.com/",
+        "bar_lat": 42.4035099,
+        "bar_lon": -71.0816067,
+        "bar_distance_miles": 0.26
+    },
+    {
+        "bar_id": "219",
+        "station_name": "WOOD ISLAND STATION",
+        "station_id": "116",
+        "bar_name": "Medallo Bar",
+        "bar_website": "No website",
+        "bar_lat": 42.3799005,
+        "bar_lon": -71.026807,
+        "bar_distance_miles": 0.2
+    }
+]
