@@ -783,12 +783,10 @@ document.getElementById('station-search').addEventListener('change', () => {
 });
 
 // ================================
-// Define Colleges Data
+// Define OpenstreetMap Conference HQ
 // ================================
 const colleges = [
-    { name: "Tufts University", lat: 42.4075, lon: -71.1190 },
-    { name: "Brandeis University", lat: 42.3654, lon: -71.2586 },
-    { name: "Boston College", lat: 42.3355, lon: -71.1685 }
+    { name: "Boston University", lat: 40.960117, lon: -76.884177}
 ];
 
 // ================================
