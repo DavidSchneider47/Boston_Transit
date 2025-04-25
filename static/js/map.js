@@ -358,52 +358,114 @@ function loadAllTransitLines() {
 
 // Function to load a specific transit line
 function loadTransitLine(line) {
-    fetch(`/static/data/MBTA - null ${line} Line.geojson`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`Failed to fetch ${line} Line GeoJSON data: ${response.statusText}`);
-            }
-            return response.json();
-        })
-        .then(geojsonData => {
-            console.log(`Loaded ${line} Line GeoJSON data:`, geojsonData);
-            
-            L.geoJSON(geojsonData, {
-                style: function(feature) {
-                    // Use the color code from the GeoJSON if available
-                    let routeColor = '#000000'; // Default black
-                    
-                    if (feature.properties && feature.properties.route_color) {
-                        routeColor = `#${feature.properties.route_color}`;
-                    } else {
-                        // Fallback colors if the GeoJSON doesn't specify
-                        if (line === 'Red') routeColor = '#DA291C';
-                        if (line === 'Blue') routeColor = '#003DA5';
-                        if (line === 'Orange') routeColor = '#ED8B00';
-                        if (line === 'Green') routeColor = '#00843D';
-                    }
-                    
-                    return {
-                        color: routeColor,
-                        weight: 4,
-                        opacity: 0.7
-                    };
-                },
-                onEachFeature: function(feature, layer) {
-                    if (feature.properties && feature.properties.route_long_name) {
-                        layer.bindPopup(`<strong>${feature.properties.route_long_name}</strong>`);
-                    } else if (feature.properties && feature.properties.route_short_name) {
-                        layer.bindPopup(`<strong>Route: ${feature.properties.route_short_name}</strong>`);
-                    } else {
-                        layer.bindPopup(`<strong>${line} Line</strong>`);
-                    }
+    if (line === 'Green') {
+        // For Green Line, load all branches
+        loadGreenLineBranches();
+    } else {
+        // For other lines, load normally
+        const fileName = `MBTA - null ${line} Line.geojson`;
+        
+        fetch(`/static/data/${fileName}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch ${line} Line GeoJSON data: ${response.statusText}`);
                 }
-            }).addTo(transitLayer);
-        })
-        .catch(error => console.error(`Error loading ${line} Line GeoJSON:`, error));
+                return response.json();
+            })
+            .then(geojsonData => {
+                console.log(`Loaded ${line} Line GeoJSON data:`, geojsonData);
+                
+                L.geoJSON(geojsonData, {
+                    style: function(feature) {
+                        // Use the color code from the GeoJSON if available
+                        let routeColor = '#000000'; // Default black
+                        
+                        if (feature.properties && feature.properties.route_color) {
+                            routeColor = `#${feature.properties.route_color}`;
+                        } else {
+                            // Fallback colors
+                            if (line === 'Red') routeColor = '#DA291C';
+                            if (line === 'Blue') routeColor = '#003DA5';
+                            if (line === 'Orange') routeColor = '#ED8B00';
+                        }
+                        
+                        return {
+                            color: routeColor,
+                            weight: 4,
+                            opacity: 0.7
+                        };
+                    },
+                    onEachFeature: function(feature, layer) {
+                        let popupContent = '';
+                        
+                        if (feature.properties && feature.properties.route_long_name) {
+                            popupContent = `<strong>${feature.properties.route_long_name}</strong>`;
+                        } else if (feature.properties && feature.properties.route_short_name) {
+                            popupContent = `<strong>Route: ${feature.properties.route_short_name}</strong>`;
+                        } else {
+                            popupContent = `<strong>${line} Line</strong>`;
+                        }
+                        
+                        layer.bindPopup(popupContent);
+                    }
+                }).addTo(transitLayer);
+            })
+            .catch(error => console.error(`Error loading ${line} Line GeoJSON:`, error));
+    }
 }
 
-// Update the filterTransitRoutes function
+// Function to load all Green Line branches
+function loadGreenLineBranches() {
+    // Green Line branch letters
+    const branches = ['B', 'C', 'D', 'E'];
+    
+    // Load each branch
+    branches.forEach(branch => {
+        const fileName = `MBTA - ${branch} Green Line ${branch}.geojson`;
+        
+        fetch(`/static/data/${fileName}`)
+            .then(response => {
+                if (!response.ok) {
+                    console.warn(`Failed to fetch Green Line ${branch} GeoJSON data: ${response.statusText}`);
+                    return null; // Skip this branch but continue with others
+                }
+                return response.json();
+            })
+            .then(geojsonData => {
+                if (!geojsonData) return; // Skip if this branch data couldn't be loaded
+                
+                console.log(`Loaded Green Line ${branch} GeoJSON data:`, geojsonData);
+                
+                L.geoJSON(geojsonData, {
+                    style: function(feature) {
+                        // Always use standard Green Line color
+                        let routeColor = '#00843D';
+                        
+                        if (feature.properties && feature.properties.route_color) {
+                            routeColor = `#${feature.properties.route_color}`;
+                        }
+                        
+                        return {
+                            color: routeColor,
+                            weight: 4,
+                            opacity: 0.7
+                        };
+                    },
+                    onEachFeature: function(feature, layer) {
+                        let popupContent = `<strong>Green Line - ${branch}</strong>`;
+                        
+                        if (feature.properties && feature.properties.route_long_name) {
+                            popupContent = `<strong>${feature.properties.route_long_name}</strong>`;
+                        }
+                        
+                        layer.bindPopup(popupContent);
+                    }
+                }).addTo(transitLayer);
+            })
+            .catch(error => console.error(`Error loading Green Line ${branch} GeoJSON:`, error));
+    });
+
+}// Update the filterTransitRoutes function
 function filterTransitRoutes(lineQuery) {
     // Clear the current transit routes
     transitLayer.clearLayers();
