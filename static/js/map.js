@@ -341,77 +341,48 @@ fetch('/api/restaurants')
 // ================================
 // Fetch and add transit routes GeoJSON
 // ================================
-fetch('/static/data/reduced_routes_data.geojson')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`Failed to fetch GeoJSON data: ${response.statusText}`);
-        }
-        return response.json();
-    })
-    .then(geojsonData => {
-        console.log("Fetched Transit Routes GeoJSON:", geojsonData); // Debugging
-        L.geoJSON(geojsonData, {
-            style: function(feature) {
-                let routeColor;
-                const routeId = feature.properties.route_id;
 
-                if (routeId === 'VRE') {
-                    routeColor = '#800080'; // Purple for VRE
-                } else if (routeId === 'MARC') {
-                    routeColor = '#8B4513'; // Brown for MARC
-                } else {
-                    routeColor = feature.properties.route_color || '#000000'; // Default to black if no route color
-                }
+// Define available transit lines (no Fitchburg line included)
+const availableLines = ['Red', 'Blue', 'Orange', 'Green'];
 
-                return {
-                    color: routeColor,
-                    weight: 4,
-                    opacity: 0.7
-                };
-            },
-            onEachFeature: function(feature, layer) {
-                if (feature.properties && feature.properties.route_short_name) {
-                    layer.bindPopup(`<strong>Route: ${feature.properties.route_short_name}</strong>`);
-                }
-            }
-        }).addTo(transitLayer);
-    })
-    .catch(error => console.error("Error loading transit routes GeoJSON:", error));
-
-// ================================
-// Function to filter and display only the selected line
-// ================================
-function filterTransitRoutes(lineQuery) {
-    // Normalize the lineQuery to uppercase for comparison with route_id
-    const normalizedLineQuery = lineQuery.toUpperCase();
-
+// Function to load all transit lines except Fitchburg
+function loadAllTransitLines() {
     // Clear the current transit routes
     transitLayer.clearLayers();
+    
+    // Load each line's GeoJSON file
+    availableLines.forEach(line => {
+        loadTransitLine(line);
+    });
+}
 
-    fetch('/static/data/reduced_routes_data.geojson')
-        .then(response => response.json())
+// Function to load a specific transit line
+function loadTransitLine(line) {
+    fetch(`/static/data/MBTA - null ${line} Line.geojson`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to fetch ${line} Line GeoJSON data: ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(geojsonData => {
-            const filteredData = {
-                ...geojsonData,
-                features: geojsonData.features.filter(feature => {
-                    const routeId = feature.properties.route_id;
-                    return normalizedLineQuery === '' || routeId === normalizedLineQuery; // Match selected line or show all
-                })
-            };
-
-            L.geoJSON(filteredData, {
+            console.log(`Loaded ${line} Line GeoJSON data:`, geojsonData);
+            
+            L.geoJSON(geojsonData, {
                 style: function(feature) {
-                    let routeColor;
-                    const routeId = feature.properties.route_id;
-
-                    if (routeId === 'VRE') {
-                        routeColor = '#800080'; // Purple for VRE
-                    } else if (routeId === 'MARC') {
-                        routeColor = '#8B4513'; // Brown for MARC
+                    // Use the color code from the GeoJSON if available
+                    let routeColor = '#000000'; // Default black
+                    
+                    if (feature.properties && feature.properties.route_color) {
+                        routeColor = `#${feature.properties.route_color}`;
                     } else {
-                        routeColor = feature.properties.route_color || '#000000'; // Default to black
+                        // Fallback colors if the GeoJSON doesn't specify
+                        if (line === 'Red') routeColor = '#DA291C';
+                        if (line === 'Blue') routeColor = '#003DA5';
+                        if (line === 'Orange') routeColor = '#ED8B00';
+                        if (line === 'Green') routeColor = '#00843D';
                     }
-
+                    
                     return {
                         color: routeColor,
                         weight: 4,
@@ -419,14 +390,43 @@ function filterTransitRoutes(lineQuery) {
                     };
                 },
                 onEachFeature: function(feature, layer) {
-                    if (feature.properties && feature.properties.route_short_name) {
+                    if (feature.properties && feature.properties.route_long_name) {
+                        layer.bindPopup(`<strong>${feature.properties.route_long_name}</strong>`);
+                    } else if (feature.properties && feature.properties.route_short_name) {
                         layer.bindPopup(`<strong>Route: ${feature.properties.route_short_name}</strong>`);
+                    } else {
+                        layer.bindPopup(`<strong>${line} Line</strong>`);
                     }
                 }
             }).addTo(transitLayer);
         })
-        .catch(error => console.error("Error fetching transit routes:", error));
+        .catch(error => console.error(`Error loading ${line} Line GeoJSON:`, error));
 }
+
+// Update the filterTransitRoutes function
+function filterTransitRoutes(lineQuery) {
+    // Clear the current transit routes
+    transitLayer.clearLayers();
+    
+    if (lineQuery === '') {
+        // Load all lines if no specific line is selected
+        loadAllTransitLines();
+    } else {
+        // Load only the selected line
+        loadTransitLine(lineQuery);
+    }
+}
+
+// Load all transit lines when the page loads
+window.addEventListener('load', () => {
+    loadAllTransitLines();
+    const { lineQuery } = getSearchParams();
+    
+    if (lineQuery !== '') {
+        // If a line was previously selected, filter to show only that line
+        filterTransitRoutes(lineQuery);
+    }
+});
 
 // ================================
 // Function to add station markers
