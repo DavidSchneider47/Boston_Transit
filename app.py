@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 # API route to get all stations
 @app.route('/api/stations')
 def api_stations():
-    stations = load_data('stations1.json')
+    stations = load_data('stations.json')
     if not stations:
         return jsonify({"message": "No stations found."}), 200
     return jsonify(stations)
@@ -24,7 +24,7 @@ def load_data(filename):
             data = json.load(jsonfile)
         
         # If this is hotels.json, ensure station_id remains a string
-        if filename == 'hotels1.json':
+        if filename == 'hotels.json':
             for item in data:
                 if 'station_id' in item:
                     item['station_id'] = str(item['station_id'])
@@ -45,7 +45,7 @@ def load_data(filename):
 # API route to get all hotels
 @app.route('/api/hotels')
 def api_hotels():
-    hotels = load_data('hotels1.json')
+    hotels = load_data('hotels.json')
     if not hotels:
         return jsonify({"message": "No hotels found."}), 200
     return jsonify(hotels)
@@ -53,7 +53,7 @@ def api_hotels():
 # API route to get all coffee shops
 @app.route('/api/coffee')
 def api_coffee():
-    coffee_shops = load_data('coffee1.json')
+    coffee_shops = load_data('coffee.json')
     if not coffee_shops:
         return jsonify({"message": "No coffee shops found."}), 200
     return jsonify(coffee_shops)
@@ -61,7 +61,7 @@ def api_coffee():
 # API route to get all bars
 @app.route('/api/bars')
 def api_bars():
-    bars = load_data('bars1.json')
+    bars = load_data('bars.json')
     if not bars:
         return jsonify({"message": "No bars found."}), 200
     return jsonify(bars)
@@ -69,7 +69,7 @@ def api_bars():
 # API route to get all pharmacies
 @app.route('/api/pharmacies')
 def api_pharmacies():
-    pharmacies = load_data('pharmacy1.json')
+    pharmacies = load_data('pharmacy.json')
     if not pharmacies:
         return jsonify({"message": "No pharmacies found."}), 200
     return jsonify(pharmacies)
@@ -77,7 +77,7 @@ def api_pharmacies():
 # **New API route to get all restaurants**
 @app.route('/api/restaurants')
 def api_restaurants():
-    restaurants = load_data('restaurants1.json')
+    restaurants = load_data('restaurants.json')
     if not restaurants:
         return jsonify({"message": "No restaurants found."}), 200
     return jsonify(restaurants)
