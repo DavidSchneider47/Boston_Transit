@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map and Amenities</title>
+    <!-- Favicon -->
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKPPWRVZ5R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-MKPPWRVZ5R');
+    </script>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Leaflet-EasyButton CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2.4.0/src/easy-button.css">
+
+    <!-- FontAwesome CSS for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <!-- Inline Styles for Layout Adjustments -->
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            padding-top: 50px; /* Reduced space for fixed navbar */
+        }
+
+        /* Page Title */
+        h1 {
+            margin: 10px auto;
+            text-align: center;
+            max-width: 800px;
+            font-size: 2em;
+            color: #333;
+        }
+
+        /* Search Container Styles */
+        .search-container {
+            max-width: 800px;
+            margin: 20px auto;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search-container input,
+        .search-container select,
+        .search-container button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .search-container input,
+        .search-container select {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .search-container button {
+            flex: none;
+            width: 150px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-container button:hover {
+            background-color: #d32f2f;
+        }
+
+        /* Map Container */
+        #map {
+            height: calc(100vh - 180px);
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5em;
+                margin: 15px;
+            }
+
+            .search-container {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .search-container button {
+                width: 100%;
+            }
+
+            #map {
+                height: calc(100vh - 220px);
+            }
+
+            /* Show Hamburger Icon */
+            .hamburger {
+                display: block;
+            }
+
+            /* Hide Desktop Navigation Links */
+            .nav-links {
+                display: none;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.2em;
+                margin: 10px;
+            }
+
+            .search-container input,
+            .search-container select,
+            .search-container button {
+                font-size: 14px;
+                padding: 6px;
+            }
+
+            #map {
+                height: calc(100vh - 250px);
+            }
+        }
+
+        /* Footer styling */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <h1>OpenStreetMap Conference Transit Explorer</h1>
+            <!-- Hamburger Icon for Mobile -->
+            <span class="hamburger" onclick="toggleMenu()">&#9776;</span>
+            
+            <!-- Navigation Links for Desktop and Mobile -->
+            <nav class="nav-links">
+                <a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">
+                    <i class="fas fa-map-marker-alt"></i> Home (Map)
+                </a>
+                <a href="{{ url_for('stations_page') }}" class="{% if request.endpoint == 'stations_page' %}active{% endif %}">
+                    <i class="fas fa-list"></i> Stations List
+                </a>
+                <a href="{{ url_for('itineraries_page') }}" class="{% if request.endpoint == 'itineraries_page' %}active{% endif %}">
+                    <i class="fas fa-route"></i> Itineraries
+                </a>
+                <a href="{{ url_for('about_page') }}" class="{% if request.endpoint == 'about_page' %}active{% endif %}">
+                    <i class="fas fa-info-circle"></i> About
+                </a>
+            </nav>
+        </div>
+        
+        <!-- Mobile Menu (Hidden by Default) -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">
+                <i class="fas fa-map-marker-alt"></i> Home (Map)
+            </a>
+            <a href="{{ url_for('stations_page') }}" class="{% if request.endpoint == 'stations_page' %}active{% endif %}">
+                <i class="fas fa-list"></i> Stations List
+            </a>
+            <a href="{{ url_for('itineraries_page') }}" class="{% if request.endpoint == 'itineraries_page' %}active{% endif %}">
+                <i class="fas fa-route"></i> Itineraries
+            </a>
+            <a href="{{ url_for('about_page') }}" class="{% if request.endpoint == 'about_page' %}active{% endif %}">
+                <i class="fas fa-info-circle"></i> About
+            </a>
+        </div>
+    </header>
+
+    <h1 style="text-align: center; margin-top: 20px;">State of the Map Conference Transit Explorer</h1>
+
+    <div class="text-container" style="max-width: 800px; margin: 0 auto; padding: 0 20px; text-align: center;">
+           </div>
+
+    <!-- Search Container -->
+    <div class="search-container">
+        <input type="text" id="station-search" placeholder="Search for a station..." aria-label="Search for a station" list="station-list" />
+        <datalist id="station-list"></datalist>
+        <select id="line-search" aria-label="Filter by transit line">
+            <option value="">All Lines</option>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Orange">Orange</option>
+	    <option value="Green">Green</option>
+        </select>
+        <button id="clearButton" onclick="clearSearch()">Clear Search</button>
+    </div>
+
+    <!-- Map Container -->
+    <div id="map"></div>	
+    <button id="toggleLayerControl" class="toggle-btn">☰ Layers</button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Schneider Analytics LLC. All rights reserved.</p>
+    </footer>
+
+    <!-- Include Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Include Leaflet-EasyButton JS -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2.4.0/src/easy-button.js"></script>
+
+    <!-- Include map.js -->
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+
+    <!-- Inline JavaScript for Search Functionality -->
+    <script>
+        function debounce(func, delay) {
+            let debounceTimer;
+            return function() {
+                const context = this;
+                const args = arguments;
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => func.apply(context, args), delay);
+            }
+        }
+
+        function getSearchParams() {
+            const stationQuery = localStorage.getItem('stationQuery') || '';
+            const lineQuery = localStorage.getItem('lineQuery') || '';
+            return { stationQuery, lineQuery };
+        }
+
+        function setSearchParams(stationQuery, lineQuery) {
+            localStorage.setItem('stationQuery', stationQuery);
+            localStorage.setItem('lineQuery', lineQuery);
+        }
+
+        function clearSearchParams() {
+            localStorage.removeItem('stationQuery');
+            localStorage.removeItem('lineQuery');
+        }
+
+        function initializeSearchInputs() {
+            const { stationQuery, lineQuery } = getSearchParams();
+            document.getElementById('station-search').value = stationQuery;
+            document.getElementById('line-search').value = lineQuery;
+        }
+
+        function handleSearchChange() {
+            const stationQuery = document.getElementById('station-search').value.trim();
+            const lineQuery = document.getElementById('line-search').value;
+            setSearchParams(stationQuery, lineQuery);
+            window.dispatchEvent(new Event('searchUpdated'));
+        }
+
+        function handleClearSearch() {
+            document.getElementById('station-search').value = '';
+            document.getElementById('line-search').value = '';
+            clearSearchParams();
+            window.dispatchEvent(new Event('searchUpdated'));
+        }
+
+        document.getElementById('station-search').addEventListener('input', debounce(handleSearchChange, 300));
+        document.getElementById('line-search').addEventListener('change', handleSearchChange);
+        document.getElementById('clearButton').addEventListener('click', handleClearSearch);
+
+        window.addEventListener('storage', (event) => {
+            if (event.key === 'stationQuery' || event.key === 'lineQuery') {
+                initializeSearchInputs();
+                window.dispatchEvent(new Event('searchUpdated'));
+            }
+        });
+
+        window.addEventListener('load', () => {
+            initializeSearchInputs();
+        });
+    </script>
+    <!-- JavaScript to Toggle the Mobile Menu -->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("mobileMenu");
+            menu.classList.toggle("mobile-menu-active");
+        }
+    </script>
+</body>
+</html>
