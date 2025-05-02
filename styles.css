@@ -1,0 +1,730 @@
+/* General Body and Header Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    margin-top: 45px; /* Reduced the margin-top to 45px from 50px */
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 15px;
+    text-align: center;
+    position: sticky; /* Make the header sticky */
+    top: 0;
+    z-index: 1000; /* Ensure it stays above the map */
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styling for the title */
+header h1 {
+    margin: 5px auto 0 auto; /* Reduced top margin to 5px to move the heading closer to the navbar */
+    font-size: 24px;
+}
+
+/* Styling for the description text */
+header p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* General Navigation Bar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+    padding: 0 15px;
+    justify-content: flex-start; /* Align links to the left on desktop */
+    overflow: hidden;
+}
+
+/* Navbar Links Styling */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover, .navbar a.active {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Navbar Title (Hidden on Desktop, Visible on Mobile) */
+.navbar h1 {
+    display: none; /* Hide on desktop */
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.hamburger {
+    position: absolute; /* Position relative to the navigation bar */
+    top: 10px; /* Ensure it aligns vertically */
+    right: 50px; /* Adjust this value to move it fully into the screen */
+    z-index: 1000; /* Keep it above other elements */
+    font-size: 30px; /* Ensure it's large enough for touch interaction */
+    color: white;
+    cursor: pointer;
+    display: none; /* Hide by default for desktop view */
+}
+
+/* Show the hamburger menu for mobile views */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block; /* Show the hamburger menu on smaller screens */
+    }
+}
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    width: 100%;
+}
+
+.mobile-menu a {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%; /* Full-width links */
+}
+
+.mobile-menu-active {
+    display: flex !important;
+    flex-direction: column;
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+    /* Show the Title and Hamburger Icon, Hide Regular Links */
+    .navbar h1 {
+        display: block; /* Show title on mobile */
+    }
+
+    .navbar a {
+        display: none; /* Hide desktop links */
+    }
+    
+    .hamburger {
+        display: block; /* Show hamburger icon on mobile */
+    }
+    
+    .mobile-menu {
+        display: none; /* Initially hidden; use JavaScript to toggle */
+    }
+
+    .mobile-menu a {
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        width: 100%; /* Full-width links */
+    }
+}
+
+/* Link Styling for Desktop */
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Center Main Content */
+main, .about-main, .stations-main, .itineraries-main {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 60px; /* Offset content to avoid overlap with navbar */
+    max-width: 800px; /* Limit content width */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Map container */
+#map {
+    height: 600px; /* Default height for desktop */
+    width: 100%;
+    border: 2px solid #2c3e50;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+/* Loading spinner styling */
+#loading-indicator {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2000;
+}
+
+.spinner {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid black;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#toggleLayerControl {
+    position: absolute;
+    top: 60px; /* Moves it below the hamburger menu */
+    right: 10px; /* Keep it aligned with the right edge */
+    z-index: 1000; /* Ensure it remains clickable above other elements */
+}
+
+/* Align the toggle button above the layer control box */
+.leaflet-control-layers {
+    position: relative; /* Make the layer control the reference point */
+}
+
+#toggleLayerControl {
+    right: 10px; /* Align it to the same right margin as the layer control box */
+    top: calc(10px + 50px); /* Adjust height so it appears just above the layer box */
+}
+
+.leaflet-control-layers {
+    transition: all 0.3s ease;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Styling for the text container */
+.text-container {
+    width: 95%; /* Adjusted width to reduce padding */
+    max-width: 800px; /* Limit maximum width */
+    margin: 20px auto; /* Center the container */
+    text-align: center; /* Center the text inside */
+}
+
+/* Additional Mobile Enhancements */
+@media (max-width: 768px) {
+    /* Full-screen map on smaller screens */
+    #map {
+        height: calc(100vh - 120px); /* Make map full-screen minus header */
+        width: 100%;
+        position: relative;
+        border: none; /* Remove borders for a cleaner mobile look */
+    }
+
+    header {
+        padding: 12px;
+        font-size: 16px; /* Slightly smaller header for mobile */
+    }
+
+    header h1 {
+        font-size: 22px; /* Adjust title size for mobile */
+    }
+
+    /* Increase button and icon sizes for touch interaction */
+    .leaflet-control-zoom-in, .leaflet-control-zoom-out {
+        font-size: 22px !important; /* Larger zoom buttons */
+        padding: 12px !important;
+    }
+
+    /* Increase icon sizes for better touch interaction */
+    .leaflet-marker-icon {
+        width: 40px !important;  /* Larger icons */
+        height: 40px !important;
+    }
+
+    /* Layer control adjustments for mobile */
+    .leaflet-control-layers {
+        font-size: 16px; /* Larger font size for easier reading */
+        padding: 8px; /* More padding for touchscreens */
+    }
+
+    .leaflet-control-layers-toggle {
+        width: 40px;
+        height: 40px;
+        font-size: 20px; /* Larger toggle button for easier interaction */
+    }
+
+    /* Make buttons and input fields more touch-friendly */
+    .search-container input,
+    .search-container select,
+    .search-container button {
+        font-size: 18px !important;  /* Slightly larger font size for touch */
+        padding: 10px !important;     /* More padding for easier tapping */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    #map {
+        height: calc(100vh - 100px) !important; /* Allow more space for the map */
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 20px; /* Further adjust title size for smaller devices */
+    }
+
+    /* Further increase icon sizes for very small screens */
+    .leaflet-marker-icon {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    /* Even larger zoom buttons */
+    .leaflet-control-zoom-in, .leaflet-control-zoom-out {
+        font-size: 24px !important;
+        padding: 14px !important;
+    }
+
+    /* Increase Layer control box size for small screens */
+    .leaflet-control-layers {
+        font-size: 18px !important; /* Larger font size for better usability */
+        padding: 10px !important; /* Larger padding for touch screens */
+    }
+
+    /* Larger layer control toggle button */
+    .leaflet-control-layers-toggle {
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 24px !important; /* Larger toggle button */
+    }
+
+    /* Make buttons and input fields even more touch-friendly */
+    .search-container input,
+    .search-container select,
+    .search-container button {
+        font-size: 16px !important;  /* Adjusted for very small devices */
+        padding: 8px !important;
+    }
+}
+
+
+/* Map container */
+#map {
+    height: 600px; /* Default height for desktop */
+    width: 100%;
+    border: 2px solid #2c3e50;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+/* Loading spinner styling */
+#loading-indicator {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2000;
+}
+
+.spinner {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid black;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Styling for the text container */
+.text-container {
+    width: 95%; /* Adjusted width to reduce padding */
+    max-width: 800px; /* Limit maximum width */
+    margin: 20px auto; /* Center the container */
+    text-align: center; /* Center the text inside */
+}
+
+/* Mobile Enhancements */
+@media (max-width: 768px) {
+    /* Full-screen map on smaller screens */
+    #map {
+        height: calc(100vh - 120px); /* Make map full-screen minus header */
+        width: 100%;
+        position: relative;
+        border: none; /* Remove borders for a cleaner mobile look */
+    }
+
+    header {
+        padding: 12px;
+        font-size: 16px; /* Slightly smaller header for mobile */
+    }
+
+    header h1 {
+        font-size: 22px; /* Adjust title size for mobile */
+    }
+
+    /* Increase button and icon sizes for touch interaction */
+    .leaflet-control-zoom-in, .leaflet-control-zoom-out {
+        font-size: 22px !important; /* Larger zoom buttons */
+        padding: 12px !important;
+    }
+
+    /* Increase icon sizes for better touch interaction */
+    .leaflet-marker-icon {
+        width: 40px !important;  /* Larger icons */
+        height: 40px !important;
+    }
+
+    /* Layer control adjustments for mobile */
+    .leaflet-control-layers {
+        font-size: 16px; /* Larger font size for easier reading */
+        padding: 8px; /* More padding for touchscreens */
+    }
+
+    .leaflet-control-layers-toggle {
+        width: 40px;
+        height: 40px;
+        font-size: 20px; /* Larger toggle button for easier interaction */
+    }
+
+    /* Make buttons and input fields more touch-friendly */
+    .search-container input,
+    .search-container select,
+    .search-container button {
+        font-size: 18px !important;  /* Slightly larger font size for touch */
+        padding: 10px !important;     /* More padding for easier tapping */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    #map {
+        height: calc(100vh - 100px) !important; /* Allow more space for the map */
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 20px; /* Further adjust title size for smaller devices */
+    }
+
+    /* Further increase icon sizes for very small screens */
+    .leaflet-marker-icon {
+        width: 45px !important;
+        height: 45px !important;
+    }
+
+    /* Even larger zoom buttons */
+    .leaflet-control-zoom-in, .leaflet-control-zoom-out {
+        font-size: 24px !important;
+        padding: 14px !important;
+    }
+
+    /* Increase Layer control box size for small screens */
+    .leaflet-control-layers {
+        font-size: 18px !important; /* Larger font size for better usability */
+        padding: 10px !important; /* Larger padding for touch screens */
+    }
+
+    /* Larger layer control toggle button */
+    .leaflet-control-layers-toggle {
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 24px !important; /* Larger toggle button */
+    }
+
+    /* Make buttons and input fields even more touch-friendly */
+    .search-container input,
+    .search-container select,
+    .search-container button {
+        font-size: 16px !important;  /* Adjusted for very small devices */
+        padding: 8px !important;
+    }
+}
+
+
+/* Updated Collapsible styling */
+.collapsible {
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%; /* Ensure full width to allow centering */
+    position: relative; /* Needed for the positioning of the symbol */
+}
+
+.collapsible:hover {
+    background-color: #e0e0e0;
+}
+
+.collapsible:after {
+    content: '\002B'; /* Unicode for + symbol */
+    font-size: 24px;
+    position: absolute;
+    right: 15px; /* Distance from the right edge */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.collapsible.active:after {
+    content: "\2212"; /* Minus sign when active */
+}
+
+/* Collapsible content */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Color-coded headers */
+.red-line { color: red; }
+.green-line { color: green; }
+.yellow-line { color: #DAA520; }
+.blue-line { color: blue; }
+.orange-line { color: orange; }
+.silver-line { color: silver; }
+
+/* Footer for both Itineraries and Stations pages */
+.itineraries-footer, .stations-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Mobile-specific adjustments for Itineraries */
+@media (max-width: 768px) {
+    .itineraries-main, .stations-main {
+        padding: 15px;
+    }
+
+    .itineraries-main h2, .stations-main h2 {
+        font-size: 22px;
+    }
+
+    .itineraries-main p, .stations-main p {
+        font-size: 16px;
+    }
+
+    .itineraries-main img, .stations-main img {
+        width: 100%;
+        height: auto;
+    }
+
+    
+
+/* Styles for the About page */
+.about-main {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-main h2 {
+    color: #333;
+    font-size: 22px; /* Set the desired font size for all h2 headers */
+    margin-top: 20px;
+}
+
+.about-main p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer for the About page */
+.about-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Mobile-specific adjustments for About Page */
+@media (max-width: 768px) {
+    .about-main {
+        padding: 15px;
+    }
+
+    .about-main h2 {
+        font-size: 20px;
+    }
+
+    .about-main p {
+        font-size: 16px;
+    }
+
+    .about-footer {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-main {
+        padding: 10px;
+    }
+
+    .about-main h2 {
+        font-size: 18px;
+    }
+
+    .about-main p {
+        font-size: 14px;
+    }
+
+    .about-footer {
+        padding: 10px;
+    }
+}
+
+/* Station Header Styles */
+.station-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;      /* Centers items vertically */
+    justify-content: center;  /* Centers items horizontally */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Amenities List Styles */
+.amenities-list {
+    list-style-type: none;
+    padding-left: 0;          /* Remove left padding to eliminate right-alignment */
+    margin-top: 10px;
+    display: none;            /* Hidden by default */
+    text-align: center;       /* Center-align text within the list */
+}
+
+
+/* Add margin to prevent the navbar from overlapping content */
+body {
+    margin-top: 50px; /* Ensures content starts below the navbar */
+}
+
+/* User Location Marker Styles */
+.user-location-icon {
+    border: 2px solid white; /* White border for contrast */
+    border-radius: 50%; /* Circular shape */
+    background-color: rgba(0, 122, 255, 0.7); /* Semi-transparent blue */
+    width: 24px;
+    height: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 122, 255, 0.5); /* Glow effect */
+}
+
+/* Location Accuracy Circle */
+.location-circle {
+    position: absolute;
+    border: 2px dashed rgba(0, 122, 255, 0.5);
+    border-radius: 50%;
+    background-color: rgba(0, 122, 255, 0.2); /* Transparent fill */
+    width: 100px;
+    height: 100px;
+    z-index: 100; /* Ensure it stays above the map */
+    pointer-events: none; /* Allow interactions with map beneath */
+    animation: pulse 2s infinite ease-in-out; /* Pulsing animation */
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+/* Location Tracker Toggle Button */
+.location-toggle {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.location-toggle:hover {
+    background-color: #1c2833;
+}
+
+/* Responsive Adjustments for Location Tracking */
+@media (max-width: 768px) {
+    #map {
+        height: calc(100vh - 120px); /* Full-screen map minus header */
+        border: none;
+    }
+
+    .leaflet-marker-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .location-toggle {
+        font-size: 16px; /* Larger toggle for touch devices */
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    #map {
+        height: calc(100vh - 100px);
+    }
+
+    .location-toggle {
+        font-size: 18px;
+        padding: 14px;
+    }
+}
+
