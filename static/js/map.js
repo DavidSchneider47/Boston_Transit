@@ -1,8 +1,8 @@
 // Debugging message to ensure map.js is loaded
 console.log("map.js loaded successfully");
 
-// Initialize the map, centered on Boston with zoom level 16
-const map = L.map('map').setView([42.3601, -71.0589], 16);
+// Initialize the map, centered on Boston University with zoom level 16
+const map = L.map('map').setView([42.350498, -71.105399], 16);
 
 // Add OpenStreetMap Carto tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -532,7 +532,7 @@ function addStationMarkers(filteredStations) {
         map.fitBounds(group.getBounds().pad(0.2), { maxZoom: 16 }); // Changed maxZoom to 16
     } else {
         // If no stations match, center back to default view
-        map.setView([42.3601, -71.0589], 16); // Changed zoom level to 16
+	map.setView([42.350498, -71.105399], 16); // Changed zoom level to 16
     }
 }
 
@@ -778,8 +778,8 @@ function clearSearch() {
     localStorage.removeItem('stationQuery');
     localStorage.removeItem('lineQuery');
     
-    // Reset map view to center on Washington DC with zoom level 16
-    map.setView([42.3601, -71.0589], 16);
+    // Reset map view to center on Boston University with zoom level 16
+    map.setView([42.350498, -71.105399], 16);
 
     // Call the functions to reset markers and transit routes
     filterAndDisplayMarkers();
@@ -830,7 +830,7 @@ function handleStationSelection() {
         centerMapOnStation(selectedStation.station_id);
     } else {
         // If no match found, clear the map view
-        map.setView([42.3601, -71.0589], 16);
+	map.setView([42.350498, -71.105399], 16);
     }
 }
 
@@ -845,32 +845,87 @@ document.getElementById('station-search').addEventListener('change', () => {
 });
 
 // ================================
-// Define OpenstreetMap Conference HQ
+// Function to create a university/academic building icon
 // ================================
-const colleges = [
-    { name: "Boston University", lat: 40.960117, lon: -76.884177}
+function createUniversityIcon() {
+    return L.divIcon({
+        html: `<i class="fas fa-university" style="font-size:${getIconSize()}px; color:#CC0000;"></i>`,
+        className: 'fa-icon',
+        iconSize: [getIconSize(), getIconSize()],
+        iconAnchor: [getIconSize() / 2, getIconSize() / 2]
+    });
+}
+
+// ================================
+// Function to create a university/academic building icon
+// ================================
+function createUniversityIcon() {
+    return L.divIcon({
+        html: `<i class="fas fa-university" style="font-size:${getIconSize()}px; color:#CC0000;"></i>`,
+        className: 'fa-icon',
+        iconSize: [getIconSize(), getIconSize()],
+        iconAnchor: [getIconSize() / 2, getIconSize() / 2]
+    });
+}
+
+// ================================
+// Define OSM Conference Locations
+// ================================
+const osmLocations = [
+    { name: "Boston University", lat: 42.350498, lon: -71.105399 },
+    { name: "The Foundry", lat: 42.36677258607933, lon: -71.08273673993462 },
+    { name: "Rowes Wharf", lat: 42.356437634699375, lon: -71.05028759085825 },
+    { name: "Hyatt Regency Cambridge", lat: 42.3545921983776, lon: -71.10569080250683 },
+    { name: "BU Dorms", lat: 42.35254248896386, lon: -71.11593230435305 }
 ];
 
 // ================================
-// Wait until everything is fully loaded before adding college markers
+// Create a layer for OSM conference locations
+// ================================
+const osmConferenceLayer = L.layerGroup().addTo(map);
+
+// Add OSM Conference Layer to overlay layers
+overlayLayers["OSM Conference Locations"] = osmConferenceLayer;
+
+// ================================
+// Function to determine location type description
+// ================================
+function getLocationDescription(name) {
+    if (name.includes("University") || name.includes("Dorms")) {
+        return "Academic Location";
+    } else if (name.includes("Hyatt")) {
+        return "Conference Hotel";
+    } else {
+        return "Conference Venue";
+    }
+}
+
+// ================================
+// Wait until everything is fully loaded before adding OSM conference markers
 // ================================
 window.onload = function () {
-    console.log("Window fully loaded. Adding college markers...");
-
-    colleges.forEach(college => {
-        console.log(`Attempting to add marker for ${college.name} at (${college.lat}, ${college.lon})`);
+    console.log("Window fully loaded. Adding OSM conference markers...");
+    
+    osmLocations.forEach(location => {
+        console.log(`Attempting to add marker for ${location.name} at (${location.lat}, ${location.lon})`);
         
-        let marker = L.circleMarker([college.lat, college.lon], {
-            color: 'green',
-            fillColor: 'green',
-            fillOpacity: 1.0,
-            radius: 24 // Ensure visibility with a fixed radius
+        // Get appropriate description for this location
+        const description = getLocationDescription(location.name);
+        
+        // Create marker with university icon
+        let marker = L.marker([location.lat, location.lon], {
+            icon: createUniversityIcon()
         })
-        .addTo(map) // ✅ Add directly to the map (not markerGroup)
-        .bindPopup(`<b>${college.name}</b>`);
-
-        console.log(`College marker added: ${college.name}`);
+        .addTo(osmConferenceLayer) // Add to the OSM conference layer
+        .bindPopup(`
+            <div style="text-align: center;">
+                <b>${location.name}</b><br>
+                <span style="font-size: 0.9em;">${description}</span>
+            </div>
+        `);
+        
+        console.log(`OSM conference location marker added: ${location.name}`);
     });
-
-    console.log("All college markers added.");
+    
+    console.log("All OSM conference location markers added.");
 };
